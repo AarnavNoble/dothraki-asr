@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Audio data (large files, not committed)
+data/raw/
+data/processed/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Model weights (downloaded locally)
+models/
+*.pt
+*.bin
+*.onnx
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
