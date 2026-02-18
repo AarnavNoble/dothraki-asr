@@ -1,0 +1,7547 @@
+[
+  {
+    "word": "acchakat",
+    "ipa": "attʃakat",
+    "part_of_speech": "verb.transitive",
+    "english": "to silence"
+  },
+  {
+    "word": "achra",
+    "ipa": "atʃɾa",
+    "part_of_speech": "adjective",
+    "english": "smelly"
+  },
+  {
+    "word": "achrakh",
+    "ipa": "atʃɾax",
+    "part_of_speech": "noun.inanimate",
+    "english": "stink"
+  },
+  {
+    "word": "achralat",
+    "ipa": "atʃɾalat",
+    "part_of_speech": "verb",
+    "english": "to be smelly, to give off a smell"
+  },
+  {
+    "word": "adakhat",
+    "ipa": "adaxat",
+    "part_of_speech": "verb",
+    "english": "to eat"
+  },
+  {
+    "word": "adakhilat",
+    "ipa": "adaxilat",
+    "part_of_speech": "verb",
+    "english": "to feed (speciﬁcally, to feed on or feast on)"
+  },
+  {
+    "word": "addakhat",
+    "ipa": "addaxat",
+    "part_of_speech": "verb.transitive",
+    "english": "to feed addo ajjalani: [ad\u0011d\u0011o ad> dZal\u0011an\u0011i] DP n. midnight"
+  },
+  {
+    "word": "addothralat",
+    "ipa": "addoθɾalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to convey, to transport someone"
+  },
+  {
+    "word": "addrekat",
+    "ipa": "addɾekat",
+    "part_of_speech": "verb.transitive",
+    "english": "to cause to spill, to spill addrivat: [ad\u0011d\u0011Rivat\u0011] DP vtr. to kill (chieﬂy when done intentionally by a person)"
+  },
+  {
+    "word": "ador",
+    "ipa": "ador",
+    "part_of_speech": "noun.inanimate",
+    "english": "chair"
+  },
+  {
+    "word": "adra",
+    "ipa": "adɾa",
+    "part_of_speech": "noun.animate",
+    "english": "turtle"
+  },
+  {
+    "word": "aena",
+    "ipa": "aena",
+    "part_of_speech": "noun",
+    "english": "morning"
+  },
+  {
+    "word": "afazh",
+    "ipa": "afaʒ",
+    "part_of_speech": "adjective",
+    "english": "hot"
+  },
+  {
+    "word": "afazhi",
+    "ipa": "afaʒi",
+    "part_of_speech": "adjective",
+    "english": "warm"
+  },
+  {
+    "word": "affa",
+    "ipa": "affa",
+    "part_of_speech": "interjection",
+    "english": "whoa! (horse command)",
+    "sense": 1
+  },
+  {
+    "word": "affa",
+    "ipa": "affa",
+    "part_of_speech": "interjection",
+    "english": "’shh’, sound used to calm a horse or child affazhat: [affaZat\u0011] DP vtr. to warm, to give warmth to, to make hot",
+    "sense": 2
+  },
+  {
+    "word": "affazolat",
+    "ipa": "affazolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to replace"
+  },
+  {
+    "word": "affesat",
+    "ipa": "affesat",
+    "part_of_speech": "verb.transitive",
+    "english": "to make someone itch afﬁn: [affin\u0011] DP adv. when afﬁsat: [affisat\u0011] DP vtr. to clean, to wash aﬁs: [afis] DP n. ﬂy"
+  },
+  {
+    "word": "aggendat",
+    "ipa": "aggendat",
+    "part_of_speech": "verb.transitive",
+    "english": "to rip something, to tear something"
+  },
+  {
+    "word": "ahesh",
+    "ipa": "aheʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "snow"
+  },
+  {
+    "word": "aheshke",
+    "ipa": "aheʃke",
+    "part_of_speech": "noun.inanimate",
+    "english": "winter"
+  },
+  {
+    "word": "ahhaqat",
+    "ipa": "ahhaqAt",
+    "part_of_speech": "verb.transitive",
+    "english": "to frustrate"
+  },
+  {
+    "word": "ahhasat",
+    "ipa": "ahhasat",
+    "part_of_speech": "verb.transitive",
+    "english": "to sharpen"
+  },
+  {
+    "word": "ahhaz",
+    "ipa": "ahhaz",
+    "part_of_speech": "adverb",
+    "english": "then (in close or immediate future) cf. arrek"
+  },
+  {
+    "word": "ai",
+    "ipa": "ai",
+    "part_of_speech": "interjection",
+    "english": "yes, obedient response ajjalan: [ad> dZal\u0011an\u0011] DP adv. tonight ajjin: [ad> dZin\u0011] DP adv. now"
+  },
+  {
+    "word": "akat",
+    "ipa": "akat",
+    "part_of_speech": "numeral",
+    "english": "two"
+  },
+  {
+    "word": "akatak",
+    "ipa": "akatak",
+    "part_of_speech": "noun.animate",
+    "english": "second (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "akataki",
+    "ipa": "akataki",
+    "part_of_speech": "adjective",
+    "english": "second"
+  },
+  {
+    "word": "akatken",
+    "ipa": "akatken",
+    "part_of_speech": "numeral",
+    "english": "two hundred"
+  },
+  {
+    "word": "akatthi",
+    "ipa": "akatθi",
+    "part_of_speech": "numeral",
+    "english": "twelve"
+  },
+  {
+    "word": "akka",
+    "ipa": "akka",
+    "part_of_speech": "adverb",
+    "english": "also, too, as well, even, even so, re-"
+  },
+  {
+    "word": "akkate",
+    "ipa": "akkate",
+    "part_of_speech": "adverb",
+    "english": "both, alike, the same way"
+  },
+  {
+    "word": "akkelenak",
+    "ipa": "akkelenak",
+    "part_of_speech": "noun.animate",
+    "english": "leader"
+  },
+  {
+    "word": "akkelenat",
+    "ipa": "akkelenat",
+    "part_of_speech": "verb",
+    "english": "to decide, to judge akko!: [akko] DP intj. stand up! (short for akkovaras, for commanding animals)"
+  },
+  {
+    "word": "akkovarat",
+    "ipa": "akkovaɾat",
+    "part_of_speech": "verb",
+    "english": "to stand (something) up"
+  },
+  {
+    "word": "ale",
+    "ipa": "ale",
+    "part_of_speech": "adjective",
+    "english": "some"
+  },
+  {
+    "word": "alegra",
+    "ipa": "alegɾa",
+    "part_of_speech": "noun.inanimate",
+    "english": "duck",
+    "type_b": true
+  },
+  {
+    "word": "alikh",
+    "ipa": "alix",
+    "part_of_speech": "noun.inanimate",
+    "english": "more"
+  },
+  {
+    "word": "allayafat",
+    "ipa": "allajafat",
+    "part_of_speech": "verb.transitive",
+    "english": "to please"
+  },
+  {
+    "word": "alle",
+    "ipa": "alle",
+    "part_of_speech": "adverb",
+    "english": "farther, further"
+  },
+  {
+    "word": "alloshat",
+    "ipa": "alloʃat",
+    "part_of_speech": "verb.transitive",
+    "english": "to pledge"
+  },
+  {
+    "word": "ammasat",
+    "ipa": "ammasat",
+    "part_of_speech": "verb",
+    "english": "to decorate"
+  },
+  {
+    "word": "ammattelat",
+    "ipa": "ammattelat",
+    "part_of_speech": "verb",
+    "english": "to hobble a person"
+  },
+  {
+    "word": "ammemat",
+    "ipa": "ammemat",
+    "part_of_speech": "verb",
+    "english": "to play a musical instrument"
+  },
+  {
+    "word": "ammenat",
+    "ipa": "ammenat",
+    "part_of_speech": "verb.transitive",
+    "english": "to empty something"
+  },
+  {
+    "word": "ammithrat",
+    "ipa": "ammiθɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to rest"
+  },
+  {
+    "word": "anat",
+    "ipa": "anat",
+    "part_of_speech": "verb",
+    "english": "to jog",
+    "sense": 1
+  },
+  {
+    "word": "anat",
+    "ipa": "anat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to jog beside",
+    "sense": 2
+  },
+  {
+    "word": "anha",
+    "ipa": "anha",
+    "part_of_speech": "pronoun",
+    "english": "I"
+  },
+  {
+    "word": "anna",
+    "ipa": "anna",
+    "part_of_speech": "pronoun",
+    "english": "me"
+  },
+  {
+    "word": "annakhat",
+    "ipa": "annaxat",
+    "part_of_speech": "verb",
+    "english": "to stop (someone or something)"
+  },
+  {
+    "word": "annakholat",
+    "ipa": "annaxolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to put an end to, to ﬁnish"
+  },
+  {
+    "word": "annese",
+    "ipa": "annese",
+    "part_of_speech": "noun.inanimate",
+    "english": "announcement"
+  },
+  {
+    "word": "annevalat",
+    "ipa": "annevalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to sit something, to leave something alone"
+  },
+  {
+    "word": "anni",
+    "ipa": "anni",
+    "part_of_speech": "pronoun",
+    "english": "of mine"
+  },
+  {
+    "word": "annithat",
+    "ipa": "anniθat",
+    "part_of_speech": "verb",
+    "english": "to cause pain, to hurt"
+  },
+  {
+    "word": "annithilat",
+    "ipa": "anniθilat",
+    "part_of_speech": "verb",
+    "english": "to encourage, to invigorate, to entice"
+  },
+  {
+    "word": "ao",
+    "ipa": "ao",
+    "part_of_speech": "adjective",
+    "english": "deep",
+    "sense": 1
+  },
+  {
+    "word": "ao",
+    "ipa": "ao",
+    "part_of_speech": "adverb",
+    "english": "dark (of color)",
+    "sense": 2
+  },
+  {
+    "word": "aqqisat",
+    "ipa": "aqqesat",
+    "part_of_speech": "verb.transitive",
+    "english": "to keep near"
+  },
+  {
+    "word": "arakh",
+    "ipa": "aɾax",
+    "part_of_speech": "noun.inanimate",
+    "english": "curved sword"
+  },
+  {
+    "word": "aranat",
+    "ipa": "aɾanat",
+    "part_of_speech": "verb.transitive",
+    "english": "to drop (something)"
+  },
+  {
+    "word": "aranikh",
+    "ipa": "aɾanix",
+    "part_of_speech": "noun.inanimate",
+    "english": "subject, topic, theme"
+  },
+  {
+    "word": "arannat",
+    "ipa": "aɾannat",
+    "part_of_speech": "verb",
+    "english": "to be neglected"
+  },
+  {
+    "word": "aranne",
+    "ipa": "aɾanne",
+    "part_of_speech": "adverb",
+    "english": "carelessly"
+  },
+  {
+    "word": "aresak",
+    "ipa": "aɾesak",
+    "part_of_speech": "noun.animate",
+    "english": "coward"
+  },
+  {
+    "word": "arraggat",
+    "ipa": "araggat",
+    "part_of_speech": "verb",
+    "english": "to choke"
+  },
+  {
+    "word": "arranat",
+    "ipa": "aranat",
+    "part_of_speech": "verb.transitive",
+    "english": "to shame, to cause to be merciful"
+  },
+  {
+    "word": "arrane",
+    "ipa": "arane",
+    "part_of_speech": "noun",
+    "english": "shaming, a public dressing down"
+  },
+  {
+    "word": "arrek",
+    "ipa": "arek",
+    "part_of_speech": "adverb",
+    "english": "then (not in the immediate future) cf. ahhaz",
+    "sense": 1
+  },
+  {
+    "word": "arrek",
+    "ipa": "arek",
+    "part_of_speech": "conjunction",
+    "english": "when",
+    "sense": 2
+  },
+  {
+    "word": "arrekaan",
+    "ipa": "arekaan",
+    "part_of_speech": "conjunction",
+    "english": "until"
+  },
+  {
+    "word": "arrekoon",
+    "ipa": "arekoon",
+    "part_of_speech": "conjunction",
+    "english": "from since"
+  },
+  {
+    "word": "arrissat",
+    "ipa": "arissat",
+    "part_of_speech": "verb",
+    "english": "to ﬁx"
+  },
+  {
+    "word": "arrokhat",
+    "ipa": "aroxat",
+    "part_of_speech": "verb.transitive",
+    "english": "to frighten"
+  },
+  {
+    "word": "arthasat",
+    "ipa": "aɾθasat",
+    "part_of_speech": "verb",
+    "english": "to fall"
+  },
+  {
+    "word": "arthasolat",
+    "ipa": "aɾθasolat",
+    "part_of_speech": "verb",
+    "english": "to fall"
+  },
+  {
+    "word": "asavva",
+    "ipa": "asavva",
+    "part_of_speech": "noun.animate",
+    "english": "sky"
+  },
+  {
+    "word": "ase",
+    "ipa": "ase",
+    "part_of_speech": "noun.inanimate",
+    "english": "word, command"
+  },
+  {
+    "word": "asfavirzeth",
+    "ipa": "asfaviɾzeθ",
+    "part_of_speech": "noun.inanimate",
+    "english": "cranberry"
+  },
+  {
+    "word": "ashefa",
+    "ipa": "aʃefa",
+    "part_of_speech": "noun.animate",
+    "english": "river"
+  },
+  {
+    "word": "asqoyi",
+    "ipa": "asqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "oath, vow"
+  },
+  {
+    "word": "assamvat",
+    "ipa": "assamvat",
+    "part_of_speech": "verb.transitive",
+    "english": "to break (something)"
+  },
+  {
+    "word": "asshekh",
+    "ipa": "aʃʃex",
+    "part_of_speech": "adverb",
+    "english": "today",
+    "sense": 1
+  },
+  {
+    "word": "asshekh",
+    "ipa": "aʃʃex",
+    "part_of_speech": "noun.inanimate",
+    "english": "today",
+    "sense": 2
+  },
+  {
+    "word": "asshekh",
+    "ipa": "aʃʃex",
+    "part_of_speech": "noun.animate",
+    "english": "day",
+    "sense": 3
+  },
+  {
+    "word": "asshekhqoyi",
+    "ipa": "aʃʃexqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "birthday"
+  },
+  {
+    "word": "asshie",
+    "ipa": "aʃʃie",
+    "part_of_speech": "noun",
+    "english": "introduction"
+  },
+  {
+    "word": "asshilat",
+    "ipa": "aʃʃilat",
+    "part_of_speech": "verb",
+    "english": "to introduce, to present"
+  },
+  {
+    "word": "assikhqoyi",
+    "ipa": "assixqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "sign, omen"
+  },
+  {
+    "word": "assikhqoyisir",
+    "ipa": "assixqɔjisir",
+    "part_of_speech": "noun.animate",
+    "english": "prophecy"
+  },
+  {
+    "word": "assilat",
+    "ipa": "assilat",
+    "part_of_speech": "verb",
+    "english": "to signal",
+    "sense": 1
+  },
+  {
+    "word": "assilat",
+    "ipa": "assilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to defeat",
+    "sense": 2
+  },
+  {
+    "word": "assilat",
+    "ipa": "assilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to signal to",
+    "sense": 3
+  },
+  {
+    "word": "assokh",
+    "ipa": "assox",
+    "part_of_speech": "noun.inanimate",
+    "english": "mesage, instructions"
+  },
+  {
+    "word": "assolat",
+    "ipa": "assolat",
+    "part_of_speech": "verb",
+    "english": "to command"
+  },
+  {
+    "word": "astat",
+    "ipa": "astat",
+    "part_of_speech": "verb",
+    "english": "to say"
+  },
+  {
+    "word": "astilat",
+    "ipa": "astilat",
+    "part_of_speech": "verb",
+    "english": "to joke",
+    "sense": 1
+  },
+  {
+    "word": "astilat",
+    "ipa": "astilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to joke about",
+    "sense": 2
+  },
+  {
+    "word": "asto",
+    "ipa": "asto",
+    "part_of_speech": "noun",
+    "english": "saying, prayer"
+  },
+  {
+    "word": "astolat",
+    "ipa": "astolat",
+    "part_of_speech": "verb",
+    "english": "to speak",
+    "sense": 1
+  },
+  {
+    "word": "astolat",
+    "ipa": "astolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to speak of",
+    "sense": 2
+  },
+  {
+    "word": "at",
+    "ipa": "at",
+    "part_of_speech": "numeral",
+    "english": "one"
+  },
+  {
+    "word": "atak",
+    "ipa": "atak",
+    "part_of_speech": "noun.animate",
+    "english": "ﬁrst (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "ataki",
+    "ipa": "ataki",
+    "part_of_speech": "adjective",
+    "english": "ﬁrst"
+  },
+  {
+    "word": "ate",
+    "ipa": "ate",
+    "part_of_speech": "adverb",
+    "english": "ﬁrst"
+  },
+  {
+    "word": "ath",
+    "ipa": "aθ",
+    "part_of_speech": "adjective",
+    "english": "dry"
+  },
+  {
+    "word": "athaddrivar",
+    "ipa": "aθaddɾivar",
+    "part_of_speech": "noun.inanimate",
+    "english": "fatality"
+  },
+  {
+    "word": "athahhaqar",
+    "ipa": "aθahhaqAr",
+    "part_of_speech": "noun.inanimate",
+    "english": "frustration"
+  },
+  {
+    "word": "athaozar",
+    "ipa": "aθaozar",
+    "part_of_speech": "noun.inanimate",
+    "english": "depths, deep"
+  },
+  {
+    "word": "athasar",
+    "ipa": "aθasar",
+    "part_of_speech": "noun.animate",
+    "english": "wasteland athastokhdeveshizar: [aTast\u0011oxd\u0011eveSizar] DP ni. nonsense"
+  },
+  {
+    "word": "athayozar",
+    "ipa": "aθhajozar",
+    "part_of_speech": "noun.inanimate",
+    "english": "waiting"
+  },
+  {
+    "word": "athchilar",
+    "ipa": "aθtʃilar",
+    "part_of_speech": "noun.inanimate",
+    "english": "limit, lay, extreme"
+  },
+  {
+    "word": "athchomar",
+    "ipa": "aθtʃomar",
+    "part_of_speech": "noun.inanimate",
+    "english": "respect, reverence athchomar chomakea: [aT>tSomar >tSomakea] DP phrase respect to those that are respectful (A greeting said to a group)"
+  },
+  {
+    "word": "athdarinar",
+    "ipa": "aθdaɾinar",
+    "part_of_speech": "noun.inanimate",
+    "english": "lameness"
+  },
+  {
+    "word": "athdavrazar",
+    "ipa": "aθdavɾazar",
+    "part_of_speech": "noun.inanimate",
+    "english": "usefullness (also means good or excellent when used as an exclamation.)"
+  },
+  {
+    "word": "athdikar",
+    "ipa": "aθdikar",
+    "part_of_speech": "noun.inanimate",
+    "english": "speed"
+  },
+  {
+    "word": "athdisizar",
+    "ipa": "aθdisizar",
+    "part_of_speech": "noun.inanimate",
+    "english": "comfort, simplicity"
+  },
+  {
+    "word": "athdrivar",
+    "ipa": "aθdɾivar",
+    "part_of_speech": "noun.inanimate",
+    "english": "death"
+  },
+  {
+    "word": "athdrivar shekhi",
+    "ipa": "aθHdɾivar ʃexi",
+    "part_of_speech": "noun.inanimate",
+    "english": "sunset"
+  },
+  {
+    "word": "athdrivarido",
+    "ipa": "aθdɾivaɾido",
+    "part_of_speech": "noun.inanimate",
+    "english": "nightmare"
+  },
+  {
+    "word": "athessazar",
+    "ipa": "aθessazar",
+    "part_of_speech": "noun.inanimate",
+    "english": "return"
+  },
+  {
+    "word": "athezar",
+    "ipa": "aθezar",
+    "part_of_speech": "noun.inanimate",
+    "english": "departure"
+  },
+  {
+    "word": "athezhirar",
+    "ipa": "aθeʒiɾar",
+    "part_of_speech": "noun.inanimate",
+    "english": "dancing athﬁezar: [aTfiezar] DP ni. love (between siblings or friends)"
+  },
+  {
+    "word": "athgoshar",
+    "ipa": "aθgoʃar",
+    "part_of_speech": "noun.inanimate",
+    "english": "certainty"
+  },
+  {
+    "word": "athhajar",
+    "ipa": "aθhajar",
+    "part_of_speech": "noun.inanimate",
+    "english": "strength"
+  },
+  {
+    "word": "athhilezar",
+    "ipa": "aθhilezar",
+    "part_of_speech": "noun.inanimate",
+    "english": "sex athijezar: [aTi> dZezar] DP ni. woman-on-top sex athjahakar: [aT> dZahakar] DP ni. pride, prowess athjerizar: [aT> dZeRizar] DP ni discussion athjilar: [aT> dZil\u0011ar] DP ni. correctness, rightness"
+  },
+  {
+    "word": "athkemar",
+    "ipa": "aθkemar",
+    "part_of_speech": "noun.inanimate",
+    "english": "marrige"
+  },
+  {
+    "word": "athlanar",
+    "ipa": "aθlanar",
+    "part_of_speech": "noun.inanimate",
+    "english": "running"
+  },
+  {
+    "word": "athlaqar",
+    "ipa": "aθlaqAr",
+    "part_of_speech": "noun.inanimate",
+    "english": "wailing"
+  },
+  {
+    "word": "athlavakhar",
+    "ipa": "aθlavaxar",
+    "part_of_speech": "noun.inanimate",
+    "english": "loudness"
+  },
+  {
+    "word": "athmanimvenar",
+    "ipa": "aθmanimvenar",
+    "part_of_speech": "noun.inanimate",
+    "english": "anxiousness"
+  },
+  {
+    "word": "athmharar",
+    "ipa": "aθmhaɾar",
+    "part_of_speech": "noun.inanimate",
+    "english": "ache, soreness"
+  },
+  {
+    "word": "athmithrar",
+    "ipa": "aθmiθɾar",
+    "part_of_speech": "noun.inanimate",
+    "english": "rest"
+  },
+  {
+    "word": "athmovezar",
+    "ipa": "aθmovezar",
+    "part_of_speech": "noun.inanimate",
+    "english": "magic"
+  },
+  {
+    "word": "athniqar",
+    "ipa": "aθniqAr",
+    "part_of_speech": "noun.inanimate",
+    "english": "rigidity"
+  },
+  {
+    "word": "athnithar",
+    "ipa": "aθniθar",
+    "part_of_speech": "noun.inanimate",
+    "english": "pain athnithmenar: [aTn\u0011iTmen\u0011ar] DP ni. painlessness"
+  },
+  {
+    "word": "athohharar",
+    "ipa": "aθohhaɾar",
+    "part_of_speech": "noun.inanimate",
+    "english": "collapse, defeat"
+  },
+  {
+    "word": "atholat",
+    "ipa": "aθolat",
+    "part_of_speech": "verb",
+    "english": "to dry"
+  },
+  {
+    "word": "athostar",
+    "ipa": "aθostar",
+    "part_of_speech": "noun.inanimate",
+    "english": "fury"
+  },
+  {
+    "word": "athrokhar",
+    "ipa": "aθɾoxar",
+    "part_of_speech": "noun.inanimate",
+    "english": "fear"
+  },
+  {
+    "word": "athtihar",
+    "ipa": "aθtihar",
+    "part_of_speech": "noun.inanimate",
+    "english": "vision, look"
+  },
+  {
+    "word": "athvezhvenar",
+    "ipa": "aθveʒvenar",
+    "part_of_speech": "noun.inanimate",
+    "english": "greatness, excellent (when used as an exclamation) athvilajerar: [aTvil\u0011a> dZeRar] DP ni. war"
+  },
+  {
+    "word": "athvillar",
+    "ipa": "aθvillar",
+    "part_of_speech": "noun.inanimate",
+    "english": "wisdom (gained from experience or learned)"
+  },
+  {
+    "word": "athyolar",
+    "ipa": "aθjolar",
+    "part_of_speech": "noun.inanimate",
+    "english": "birth"
+  },
+  {
+    "word": "athzalar",
+    "ipa": "aθzalar",
+    "part_of_speech": "noun.inanimate",
+    "english": "hope"
+  },
+  {
+    "word": "athzhikhar",
+    "ipa": "aθʒixar",
+    "part_of_speech": "noun.inanimate",
+    "english": "sickness"
+  },
+  {
+    "word": "athzhilar",
+    "ipa": "aθʒilar",
+    "part_of_speech": "noun.inanimate",
+    "english": "love (romantic or sexual love; a private word)"
+  },
+  {
+    "word": "athzhokwazar",
+    "ipa": "aθʒokwazar",
+    "part_of_speech": "noun.inanimate",
+    "english": "size"
+  },
+  {
+    "word": "athzhowakar",
+    "ipa": "aθʒowakar",
+    "part_of_speech": "noun.inanimate",
+    "english": "danger"
+  },
+  {
+    "word": "ato",
+    "ipa": "ato",
+    "part_of_speech": "noun.inanimate",
+    "english": "one, something"
+  },
+  {
+    "word": "atte",
+    "ipa": "atte",
+    "part_of_speech": "adverb",
+    "english": "ﬁrst, ﬁrstly"
+  },
+  {
+    "word": "atthar",
+    "ipa": "aθθar",
+    "part_of_speech": "noun.inanimate",
+    "english": "duty atthasat: [aTTasat\u0011] DP v. to make someone/something fall, to defeat, to destroy (insulting)"
+  },
+  {
+    "word": "atthi",
+    "ipa": "aθθi",
+    "part_of_speech": "numeral",
+    "english": "eleven"
+  },
+  {
+    "word": "atthirar",
+    "ipa": "aθθiɾar",
+    "part_of_speech": "noun.inanimate",
+    "english": "life"
+  },
+  {
+    "word": "atthirarido",
+    "ipa": "aθθhiɾaɾido",
+    "part_of_speech": "noun.inanimate",
+    "english": "dream"
+  },
+  {
+    "word": "attihat",
+    "ipa": "attihat",
+    "part_of_speech": "verb.transitive",
+    "english": "to show"
+  },
+  {
+    "word": "ave",
+    "ipa": "ave",
+    "part_of_speech": "noun.animate",
+    "english": "father"
+  },
+  {
+    "word": "avvemolat",
+    "ipa": "avvemolat",
+    "part_of_speech": "verb",
+    "english": "to make something to kneel"
+  },
+  {
+    "word": "avvirsalat",
+    "ipa": "avviɾsalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to burn something"
+  },
+  {
+    "word": "avvitisherat",
+    "ipa": "avvitiʃeɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to grow something"
+  },
+  {
+    "word": "avvos",
+    "ipa": "avvos",
+    "part_of_speech": "adverb",
+    "english": "never"
+  },
+  {
+    "word": "awazak",
+    "ipa": "awazak",
+    "part_of_speech": "noun.animate",
+    "english": "screamer"
+  },
+  {
+    "word": "awazat",
+    "ipa": "awazat",
+    "part_of_speech": "verb",
+    "english": "to scream"
+  },
+  {
+    "word": "ayena",
+    "ipa": "ajena",
+    "part_of_speech": "noun.inanimate",
+    "english": "bell"
+  },
+  {
+    "word": "ayolat",
+    "ipa": "ajolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to wait"
+  },
+  {
+    "word": "ayyathat",
+    "ipa": "ajjaθat",
+    "part_of_speech": "verb",
+    "english": "to lift"
+  },
+  {
+    "word": "ayyey",
+    "ipa": "ajjej",
+    "part_of_speech": "adverb",
+    "english": "always"
+  },
+  {
+    "word": "az",
+    "ipa": "az",
+    "part_of_speech": "noun.inanimate",
+    "english": "blade"
+  },
+  {
+    "word": "azhasavva",
+    "ipa": "aʒasavva",
+    "part_of_speech": "noun.inanimate",
+    "english": "blessing"
+  },
+  {
+    "word": "azhat",
+    "ipa": "aʒat",
+    "part_of_speech": "verb.transitive",
+    "english": "to give (something to someone) Recipient is in allative case"
+  },
+  {
+    "word": "azho",
+    "ipa": "aʒo",
+    "part_of_speech": "noun.inanimate",
+    "english": "gift"
+  },
+  {
+    "word": "azzafrok",
+    "ipa": "azzafɾok",
+    "part_of_speech": "noun.animate",
+    "english": "slaver"
+  },
+  {
+    "word": "azzafrolat",
+    "ipa": "azzafɾolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to enslave"
+  },
+  {
+    "word": "azzisat",
+    "ipa": "azzisat",
+    "part_of_speech": "verb.transitive",
+    "english": "to harm someone"
+  },
+  {
+    "word": "azzohat",
+    "ipa": "azzohat",
+    "part_of_speech": "verb.transitive",
+    "english": "to put something down"
+  },
+  {
+    "word": "chaf",
+    "ipa": "tʃaf",
+    "part_of_speech": "noun.animate",
+    "english": "wind"
+  },
+  {
+    "word": "chafak",
+    "ipa": "tʃafak",
+    "part_of_speech": "noun.animate",
+    "english": "mercenary, turncloak, traitor"
+  },
+  {
+    "word": "chafasar",
+    "ipa": "tʃafasar",
+    "part_of_speech": "noun.animate",
+    "english": "climate"
+  },
+  {
+    "word": "chafka",
+    "ipa": "tsafka",
+    "part_of_speech": "noun.inanimate",
+    "english": "autumn"
+  },
+  {
+    "word": "chak",
+    "ipa": "tʃak",
+    "part_of_speech": "adjective",
+    "english": "silent"
+  },
+  {
+    "word": "chakat",
+    "ipa": "tʃakat",
+    "part_of_speech": "numeral",
+    "english": "twenty",
+    "sense": 1
+  },
+  {
+    "word": "chakat",
+    "ipa": "tʃakat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be silent",
+    "sense": 2
+  },
+  {
+    "word": "chal",
+    "ipa": "tʃal",
+    "part_of_speech": "noun.inanimate",
+    "english": "bean (general use)"
+  },
+  {
+    "word": "challeya",
+    "ipa": "tʃalleja",
+    "part_of_speech": "noun.inanimate",
+    "english": "bean (when used as food)"
+  },
+  {
+    "word": "charat",
+    "ipa": "tʃaɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to hear",
+    "sense": 1
+  },
+  {
+    "word": "charat",
+    "ipa": "tʃaɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to hear some of",
+    "sense": 2
+  },
+  {
+    "word": "charat",
+    "ipa": "tʃaɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to hear about",
+    "sense": 3
+  },
+  {
+    "word": "chare",
+    "ipa": "tʃaɾe",
+    "part_of_speech": "noun.inanimate",
+    "english": "ear"
+  },
+  {
+    "word": "charolat",
+    "ipa": "tʃaɾolat",
+    "part_of_speech": "verb",
+    "english": "to listen"
+  },
+  {
+    "word": "che",
+    "ipa": "tʃe",
+    "part_of_speech": "conjunction",
+    "english": "either, or"
+  },
+  {
+    "word": "chek",
+    "ipa": "tʃek",
+    "part_of_speech": "adverb",
+    "english": "well"
+  },
+  {
+    "word": "chekosshi",
+    "ipa": "tʃekoʃʃi",
+    "part_of_speech": "adverb",
+    "english": "very well, excellently"
+  },
+  {
+    "word": "chelsian",
+    "ipa": "tʃelsian",
+    "part_of_speech": "noun.animate",
+    "english": "locust"
+  },
+  {
+    "word": "cheno",
+    "ipa": "tʃeno",
+    "part_of_speech": "noun.inanimate",
+    "english": "liver"
+  },
+  {
+    "word": "chetira",
+    "ipa": "tʃetiɾa",
+    "part_of_speech": "noun.inanimate",
+    "english": "a distance of about a half mile which can be cantered in one leshitof"
+  },
+  {
+    "word": "chetirat",
+    "ipa": "tʃetiɾat",
+    "part_of_speech": "verb",
+    "english": "to canter",
+    "sense": 1
+  },
+  {
+    "word": "chetirat",
+    "ipa": "tʃetiɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to canter beside",
+    "sense": 2
+  },
+  {
+    "word": "cheyao",
+    "ipa": "tʃejao",
+    "part_of_speech": "noun.animate",
+    "english": "dark bay horse"
+  },
+  {
+    "word": "cheyaoven",
+    "ipa": "tʃejaoven",
+    "part_of_speech": "adjective",
+    "english": "dark brown skinned"
+  },
+  {
+    "word": "chifekh",
+    "ipa": "tʃifex",
+    "part_of_speech": "numeral",
+    "english": "seventy"
+  },
+  {
+    "word": "chifti",
+    "ipa": "tʃifji",
+    "part_of_speech": "noun.animate",
+    "english": "cricket"
+  },
+  {
+    "word": "chiftik",
+    "ipa": "tʃiftik",
+    "part_of_speech": "noun.animate",
+    "english": "cricket man (used as an insult)"
+  },
+  {
+    "word": "chiftikh",
+    "ipa": "tʃiftix",
+    "part_of_speech": "noun.inanimate",
+    "english": "weak hit, glancing blow (with sword)"
+  },
+  {
+    "word": "chilat",
+    "ipa": "tʃilat",
+    "part_of_speech": "verb",
+    "english": "to lie down"
+  },
+  {
+    "word": "chilay",
+    "ipa": "tʃilaj",
+    "part_of_speech": "adjective",
+    "english": "lying, supine"
+  },
+  {
+    "word": "chimek",
+    "ipa": "tʃimek",
+    "part_of_speech": "numeral",
+    "english": "ﬁfty"
+  },
+  {
+    "word": "chiori",
+    "ipa": "tʃioɾi",
+    "part_of_speech": "noun.animate",
+    "english": "woman, short form of chiorikem for ’wife’"
+  },
+  {
+    "word": "chiorikem",
+    "ipa": "tʃioɾikem",
+    "part_of_speech": "noun.inanimate",
+    "english": "wife"
+  },
+  {
+    "word": "chiqazat",
+    "ipa": "tʃiqAzat",
+    "part_of_speech": "numeral",
+    "english": "ninety"
+  },
+  {
+    "word": "chir",
+    "ipa": "tʃir",
+    "part_of_speech": "verb.auxiliary",
+    "english": "almost, nearly"
+  },
+  {
+    "word": "chisen",
+    "ipa": "tʃisen",
+    "part_of_speech": "numeral",
+    "english": "thirty"
+  },
+  {
+    "word": "chitor",
+    "ipa": "tʃitor",
+    "part_of_speech": "numeral",
+    "english": "forty"
+  },
+  {
+    "word": "chiva",
+    "ipa": "tʃiva",
+    "part_of_speech": "noun.inanimate",
+    "english": "horn"
+  },
+  {
+    "word": "chizhinda",
+    "ipa": "tʃiʒinda",
+    "part_of_speech": "numeral",
+    "english": "sixty"
+  },
+  {
+    "word": "choakat",
+    "ipa": "tʃoakat",
+    "part_of_speech": "verb",
+    "english": "to be bitter"
+  },
+  {
+    "word": "chomak",
+    "ipa": "tʃomak",
+    "part_of_speech": "noun.animate",
+    "english": "one who is respectful (insulting when used for a fellow Dothraki)"
+  },
+  {
+    "word": "chomat",
+    "ipa": "tʃomat",
+    "part_of_speech": "verb",
+    "english": "to be respectul",
+    "sense": 1
+  },
+  {
+    "word": "chomat",
+    "ipa": "tʃomat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to respect",
+    "sense": 2
+  },
+  {
+    "word": "chomokh",
+    "ipa": "tʃomox",
+    "part_of_speech": "noun.inanimate",
+    "english": "honor"
+  },
+  {
+    "word": "chomolat",
+    "ipa": "tʃomolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to grow respectful",
+    "sense": 1
+  },
+  {
+    "word": "chomolat",
+    "ipa": "tʃomolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to give respect to, to honor",
+    "sense": 2
+  },
+  {
+    "word": "chongat",
+    "ipa": "tʃongat",
+    "part_of_speech": "verb",
+    "english": "to be hard"
+  },
+  {
+    "word": "chongolat",
+    "ipa": "tʃongolat",
+    "part_of_speech": "verb",
+    "english": "to solidify"
+  },
+  {
+    "word": "choo",
+    "ipa": "tʃoo",
+    "part_of_speech": "noun.animate",
+    "english": "pika"
+  },
+  {
+    "word": "chori",
+    "ipa": "tʃoɾi",
+    "part_of_speech": "numeral",
+    "english": "eighty"
+  },
+  {
+    "word": "chorkat",
+    "ipa": "tʃoɾkat",
+    "part_of_speech": "verb",
+    "english": "to roll"
+  },
+  {
+    "word": "chosh",
+    "ipa": "tʃoʃ",
+    "part_of_speech": "adjective",
+    "english": "fresh"
+  },
+  {
+    "word": "chot",
+    "ipa": "tʃot",
+    "part_of_speech": "noun.inanimate",
+    "english": "beet"
+  },
+  {
+    "word": "chotteya",
+    "ipa": "tʃotteja",
+    "part_of_speech": "noun.inanimate",
+    "english": "beet paste"
+  },
+  {
+    "word": "choyo",
+    "ipa": "tʃojo",
+    "part_of_speech": "noun.inanimate",
+    "english": "joke word for someones behind"
+  },
+  {
+    "word": "daeni",
+    "ipa": "daeni",
+    "part_of_speech": "noun.inanimate",
+    "english": "leaf"
+  },
+  {
+    "word": "dahaan",
+    "ipa": "dahaan",
+    "part_of_speech": "adjective",
+    "english": "green"
+  },
+  {
+    "word": "dahana",
+    "ipa": "dahana",
+    "part_of_speech": "noun.inanimate",
+    "english": "type of grass"
+  },
+  {
+    "word": "daki",
+    "ipa": "daki",
+    "part_of_speech": "noun.inanimate",
+    "english": "pomegranate"
+  },
+  {
+    "word": "dalen",
+    "ipa": "dalen",
+    "part_of_speech": "numeral",
+    "english": "thousand"
+  },
+  {
+    "word": "dalfe",
+    "ipa": "dalfe",
+    "part_of_speech": "noun.inanimate",
+    "english": "cow, beef"
+  },
+  {
+    "word": "dan",
+    "ipa": "dan",
+    "part_of_speech": "noun.inanimate",
+    "english": "ford (of a river)",
+    "sense": 1
+  },
+  {
+    "word": "dan",
+    "ipa": "dan",
+    "part_of_speech": "noun.inanimate",
+    "english": "gem",
+    "sense": 2
+  },
+  {
+    "word": "dana",
+    "ipa": "dana",
+    "part_of_speech": "noun.inanimate",
+    "english": "clearing in a forest"
+  },
+  {
+    "word": "darif",
+    "ipa": "daɾif",
+    "part_of_speech": "noun.inanimate",
+    "english": "saddle"
+  },
+  {
+    "word": "darin",
+    "ipa": "daɾin",
+    "part_of_speech": "adjective",
+    "english": "lame, limp"
+  },
+  {
+    "word": "dave",
+    "ipa": "dave",
+    "part_of_speech": "noun.animate",
+    "english": "rosemary bush",
+    "sense": 1
+  },
+  {
+    "word": "dave",
+    "ipa": "dave",
+    "part_of_speech": "adjective",
+    "english": "pungent",
+    "sense": 2
+  },
+  {
+    "word": "davra",
+    "ipa": "davɾa",
+    "part_of_speech": "adjective",
+    "english": "good, useful"
+  },
+  {
+    "word": "davrakh",
+    "ipa": "davɾax",
+    "part_of_speech": "noun.inanimate",
+    "english": "useful thing, app"
+  },
+  {
+    "word": "davralat",
+    "ipa": "davɾalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be useful",
+    "sense": 1
+  },
+  {
+    "word": "davralat",
+    "ipa": "davɾalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to be useful to",
+    "sense": 2
+  },
+  {
+    "word": "davveya",
+    "ipa": "davveja",
+    "part_of_speech": "noun.inanimate",
+    "english": "rosemary"
+  },
+  {
+    "word": "dech",
+    "ipa": "detʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "cheek (on the face)"
+  },
+  {
+    "word": "dei",
+    "ipa": "dei",
+    "part_of_speech": "adjective",
+    "english": "shallow",
+    "sense": 1
+  },
+  {
+    "word": "dei",
+    "ipa": "dei",
+    "part_of_speech": "adverb",
+    "english": "light (of color)",
+    "sense": 2
+  },
+  {
+    "word": "devesh",
+    "ipa": "deveʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "fog"
+  },
+  {
+    "word": "devolat",
+    "ipa": "devolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to know how, to be able to"
+  },
+  {
+    "word": "diaf",
+    "ipa": "daif",
+    "part_of_speech": "noun.inanimate",
+    "english": "skull"
+  },
+  {
+    "word": "dik",
+    "ipa": "dik",
+    "part_of_speech": "adjective",
+    "english": "fast"
+  },
+  {
+    "word": "dili",
+    "ipa": "dili",
+    "part_of_speech": "noun.inanimate",
+    "english": "ﬂash, sparkle"
+  },
+  {
+    "word": "dinat",
+    "ipa": "dinat",
+    "part_of_speech": "verb",
+    "english": "to pass"
+  },
+  {
+    "word": "dirge",
+    "ipa": "diɾge",
+    "part_of_speech": "noun.inanimate",
+    "english": "thought, idea"
+  },
+  {
+    "word": "dis",
+    "ipa": "dis",
+    "part_of_speech": "adjective",
+    "english": "simple, plain"
+  },
+  {
+    "word": "dishah",
+    "ipa": "diʃah",
+    "part_of_speech": "noun.inanimate",
+    "english": "bark"
+  },
+  {
+    "word": "disisse",
+    "ipa": "disisse",
+    "part_of_speech": "adjective",
+    "english": "very simple"
+  },
+  {
+    "word": "disse",
+    "ipa": "disse",
+    "part_of_speech": "adverb",
+    "english": "only, simply, exclusively, just"
+  },
+  {
+    "word": "diwe",
+    "ipa": "diwe",
+    "part_of_speech": "adjective",
+    "english": "wet"
+  },
+  {
+    "word": "diwelat",
+    "ipa": "diwelat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be wet"
+  },
+  {
+    "word": "dogat",
+    "ipa": "dogat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to suffer",
+    "sense": 1
+  },
+  {
+    "word": "dogat",
+    "ipa": "dogat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to suffer from",
+    "sense": 2
+  },
+  {
+    "word": "donat",
+    "ipa": "donat",
+    "part_of_speech": "verb",
+    "english": "to shout",
+    "sense": 1
+  },
+  {
+    "word": "donat",
+    "ipa": "donat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to shout about",
+    "sense": 2
+  },
+  {
+    "word": "dorvi",
+    "ipa": "doɾvi",
+    "part_of_speech": "noun.inanimate",
+    "english": "goat"
+  },
+  {
+    "word": "dorvof",
+    "ipa": "doɾvof",
+    "part_of_speech": "noun.inanimate",
+    "english": "ibex"
+  },
+  {
+    "word": "dosh",
+    "ipa": "doʃ",
+    "part_of_speech": "noun",
+    "english": "council"
+  },
+  {
+    "word": "dothrak",
+    "ipa": "doθɾak",
+    "part_of_speech": "noun.animate",
+    "english": "rider"
+  },
+  {
+    "word": "dothrakh",
+    "ipa": "doθɾax",
+    "part_of_speech": "noun.inanimate",
+    "english": "ride"
+  },
+  {
+    "word": "dothrakhqoyi",
+    "ipa": "doθɾaxqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "bloodrider"
+  },
+  {
+    "word": "dothralat",
+    "ipa": "doθɾalat",
+    "part_of_speech": "verb",
+    "english": "to ride (With horse, steed, or my horse, my steed as the subject)",
+    "sense": 1
+  },
+  {
+    "word": "dothralat",
+    "ipa": "doθɾalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to ride alongside",
+    "sense": 2
+  },
+  {
+    "word": "dothralat",
+    "ipa": "doθɾalat",
+    "part_of_speech": "verb",
+    "english": "to have an erection",
+    "sense": 3
+  },
+  {
+    "word": "Dovoeddi",
+    "ipa": "dovoeddi",
+    "part_of_speech": "noun",
+    "english": "Unsullied (From Astapori Valyrian Dovoghedhy)"
+  },
+  {
+    "word": "dozgikh",
+    "ipa": "dozgix",
+    "part_of_speech": "noun.inanimate",
+    "english": "animal carcass"
+  },
+  {
+    "word": "dozgosor",
+    "ipa": "dozgosor",
+    "part_of_speech": "noun.animate",
+    "english": "enemy horde, slang for one’s own khalasar"
+  },
+  {
+    "word": "drane",
+    "ipa": "dɾane",
+    "part_of_speech": "noun.animate",
+    "english": "mother who is breastfeeding her child"
+  },
+  {
+    "word": "dranekh",
+    "ipa": "dɾanex",
+    "part_of_speech": "noun.inanimate",
+    "english": "mother’s milk (human milk)"
+  },
+  {
+    "word": "drekat",
+    "ipa": "dɾekat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to spill (non volitional e.g. the milk spilled)"
+  },
+  {
+    "word": "drekolat",
+    "ipa": "dɾekolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to come to spill, to tip over and spill"
+  },
+  {
+    "word": "driv",
+    "ipa": "dɾiv",
+    "part_of_speech": "adjective",
+    "english": "dead"
+  },
+  {
+    "word": "drivat",
+    "ipa": "dɾivat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be dead"
+  },
+  {
+    "word": "drivolat",
+    "ipa": "dɾivolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to die",
+    "sense": 1
+  },
+  {
+    "word": "drivolat",
+    "ipa": "dɾivolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to die from",
+    "sense": 2
+  },
+  {
+    "word": "drogikh",
+    "ipa": "dɾogix",
+    "part_of_speech": "noun.inanimate",
+    "english": "herd"
+  },
+  {
+    "word": "drozhat",
+    "ipa": "dɾoʒat",
+    "part_of_speech": "verb.transitive",
+    "english": "to slay, to kill (done by inanimate object, animals, or unawares)"
+  },
+  {
+    "word": "edavrasa",
+    "ipa": "edavɾasa",
+    "part_of_speech": "adjective",
+    "english": "useless, of poor quality"
+  },
+  {
+    "word": "efat",
+    "ipa": "efat",
+    "part_of_speech": "verb",
+    "english": "to squeeze"
+  },
+  {
+    "word": "efe",
+    "ipa": "efe",
+    "part_of_speech": "noun.inanimate",
+    "english": "shackle"
+  },
+  {
+    "word": "efesalat",
+    "ipa": "efesalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to uproot, to scratch eﬁchisalat: [efi>tSisal\u0011at\u0011] DP v. to disagree"
+  },
+  {
+    "word": "ekhogaralat",
+    "ipa": "exogaɾalat",
+    "part_of_speech": "verb",
+    "english": "to undress"
+  },
+  {
+    "word": "elain",
+    "ipa": "elain",
+    "part_of_speech": "noun",
+    "english": "seed, sperm"
+  },
+  {
+    "word": "elainat",
+    "ipa": "elainat",
+    "part_of_speech": "verb",
+    "english": "to plant"
+  },
+  {
+    "word": "elat",
+    "ipa": "elat",
+    "part_of_speech": "verb",
+    "english": "to go",
+    "sense": 1
+  },
+  {
+    "word": "elat",
+    "ipa": "elat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to go along with",
+    "sense": 2
+  },
+  {
+    "word": "eleisosakh",
+    "ipa": "eleisosax",
+    "part_of_speech": "noun.inanimate",
+    "english": "point on a route, ’via point’"
+  },
+  {
+    "word": "elme",
+    "ipa": "elme",
+    "part_of_speech": "noun.inanimate",
+    "english": "shoulder"
+  },
+  {
+    "word": "elzat",
+    "ipa": "elzat",
+    "part_of_speech": "verb",
+    "english": "to respond"
+  },
+  {
+    "word": "elzikh",
+    "ipa": "elzix",
+    "part_of_speech": "noun.inanimate",
+    "english": "response"
+  },
+  {
+    "word": "emat",
+    "ipa": "emat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to smile",
+    "sense": 1
+  },
+  {
+    "word": "emat",
+    "ipa": "emat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to smile at, to approve of",
+    "sense": 2
+  },
+  {
+    "word": "eme",
+    "ipa": "eme",
+    "part_of_speech": "noun.inanimate",
+    "english": "smile"
+  },
+  {
+    "word": "emesh",
+    "ipa": "emeʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "smiley"
+  },
+  {
+    "word": "emmalat",
+    "ipa": "emmalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to make something enter (from emralat)"
+  },
+  {
+    "word": "emmat",
+    "ipa": "emmat",
+    "part_of_speech": "verb.transitive",
+    "english": "to amuse"
+  },
+  {
+    "word": "emrakh",
+    "ipa": "emɾax",
+    "part_of_speech": "noun.inanimate",
+    "english": "gate"
+  },
+  {
+    "word": "emralat",
+    "ipa": "emɾalat",
+    "part_of_speech": "verb",
+    "english": "to enter"
+  },
+  {
+    "word": "enossho",
+    "ipa": "enoʃʃo",
+    "part_of_speech": "noun.inanimate",
+    "english": "mule"
+  },
+  {
+    "word": "enta",
+    "ipa": "enta",
+    "part_of_speech": "noun",
+    "english": "baby, infant"
+  },
+  {
+    "word": "eqorasalat",
+    "ipa": "eqɔɾasalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to let go of"
+  },
+  {
+    "word": "erin",
+    "ipa": "eɾin",
+    "part_of_speech": "adjective",
+    "english": "kind, good"
+  },
+  {
+    "word": "erinak",
+    "ipa": "eɾinak",
+    "part_of_speech": "noun.animate",
+    "english": "lady, kind one"
+  },
+  {
+    "word": "erinat",
+    "ipa": "eɾinat",
+    "part_of_speech": "verb",
+    "english": "to be kind, to be good"
+  },
+  {
+    "word": "ershe",
+    "ipa": "eɾʃe",
+    "part_of_speech": "adjective",
+    "english": "old"
+  },
+  {
+    "word": "es",
+    "ipa": "es",
+    "part_of_speech": "adjective",
+    "english": "smooth"
+  },
+  {
+    "word": "esazhalat",
+    "ipa": "esaʒalat",
+    "part_of_speech": "verb",
+    "english": "to take something back"
+  },
+  {
+    "word": "esemrasakh",
+    "ipa": "esemɾasax",
+    "part_of_speech": "noun.inanimate",
+    "english": "exit"
+  },
+  {
+    "word": "esemrasalat",
+    "ipa": "esemɾasalat",
+    "part_of_speech": "verb",
+    "english": "to exit, to leave"
+  },
+  {
+    "word": "eshat",
+    "ipa": "eʃat",
+    "part_of_speech": "verb",
+    "english": "to get up"
+  },
+  {
+    "word": "eshina",
+    "ipa": "esʃina",
+    "part_of_speech": "noun",
+    "english": "ﬁsh"
+  },
+  {
+    "word": "eshna",
+    "ipa": "eʃna",
+    "part_of_speech": "adverb",
+    "english": "another, other"
+  },
+  {
+    "word": "esina",
+    "ipa": "esina",
+    "part_of_speech": "adjective",
+    "english": "different"
+  },
+  {
+    "word": "esinakh",
+    "ipa": "esinax",
+    "part_of_speech": "noun.inanimate",
+    "english": "a different thing"
+  },
+  {
+    "word": "esinalat",
+    "ipa": "esinalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be different"
+  },
+  {
+    "word": "esinasolat",
+    "ipa": "esinasolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to change"
+  },
+  {
+    "word": "esittesak",
+    "ipa": "esittesak",
+    "part_of_speech": "noun.animate",
+    "english": "braggart, blowhard"
+  },
+  {
+    "word": "esittesalat",
+    "ipa": "esittesalat",
+    "part_of_speech": "verb",
+    "english": "to brag, to exaggerate"
+  },
+  {
+    "word": "essalat",
+    "ipa": "essalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to return"
+  },
+  {
+    "word": "essheya",
+    "ipa": "eʃʃeja",
+    "part_of_speech": "noun.inanimate",
+    "english": "roof, top part, top"
+  },
+  {
+    "word": "eth",
+    "ipa": "eθ",
+    "part_of_speech": "verb.auxiliary",
+    "english": "must, have to"
+  },
+  {
+    "word": "evat",
+    "ipa": "evat",
+    "part_of_speech": "verb.transitive",
+    "english": "to start doing something (used with a verb)"
+  },
+  {
+    "word": "eve",
+    "ipa": "eve",
+    "part_of_speech": "noun.inanimate",
+    "english": "tail"
+  },
+  {
+    "word": "eveth",
+    "ipa": "eveθ",
+    "part_of_speech": "noun.inanimate",
+    "english": "water"
+  },
+  {
+    "word": "evethiz",
+    "ipa": "eveθiz",
+    "part_of_speech": "noun.inanimate",
+    "english": "poison water"
+  },
+  {
+    "word": "evolat",
+    "ipa": "evolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to start"
+  },
+  {
+    "word": "evoon",
+    "ipa": "evoon",
+    "part_of_speech": "adverb",
+    "english": "all along, the whole time, from the beginning"
+  },
+  {
+    "word": "evvat",
+    "ipa": "evvat",
+    "part_of_speech": "verb.transitive",
+    "english": "to start something"
+  },
+  {
+    "word": "ewe",
+    "ipa": "ewe",
+    "part_of_speech": "noun",
+    "english": "olive"
+  },
+  {
+    "word": "ewekh",
+    "ipa": "ewex",
+    "part_of_speech": "noun.inanimate",
+    "english": "olive oil"
+  },
+  {
+    "word": "ewweya",
+    "ipa": "ewweja",
+    "part_of_speech": "noun.inanimate",
+    "english": "olive pit"
+  },
+  {
+    "word": "eyak",
+    "ipa": "ejak",
+    "part_of_speech": "pronoun",
+    "english": "everyone"
+  },
+  {
+    "word": "eyel",
+    "ipa": "ejel",
+    "part_of_speech": "noun.inanimate",
+    "english": "rain"
+  },
+  {
+    "word": "eyelat",
+    "ipa": "ejelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to move something"
+  },
+  {
+    "word": "eyeli",
+    "ipa": "ejeli",
+    "part_of_speech": "adjective",
+    "english": "spotted (e.g. the status of having spots)"
+  },
+  {
+    "word": "eyelilat",
+    "ipa": "ejelilat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be spotted (e.g. the state or status of having spots)"
+  },
+  {
+    "word": "eyelke",
+    "ipa": "ejelke",
+    "part_of_speech": "noun.inanimate",
+    "english": "spring"
+  },
+  {
+    "word": "ezat",
+    "ipa": "ezat",
+    "part_of_speech": "verb",
+    "english": "to ﬁnd"
+  },
+  {
+    "word": "ezhirat",
+    "ipa": "eʒiɾat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to dance"
+  },
+  {
+    "word": "ezhiray",
+    "ipa": "eʒiɾaj",
+    "part_of_speech": "adjective",
+    "english": "dancing"
+  },
+  {
+    "word": "ezok",
+    "ipa": "ezok",
+    "part_of_speech": "noun.animate",
+    "english": "learner"
+  },
+  {
+    "word": "ezolat",
+    "ipa": "ezolat",
+    "part_of_speech": "verb",
+    "english": "to learn"
+  },
+  {
+    "word": "ezzolat",
+    "ipa": "ezzolat",
+    "part_of_speech": "verb",
+    "english": "to teach"
+  },
+  {
+    "word": "fakat",
+    "ipa": "fakat",
+    "part_of_speech": "verb.transitive",
+    "english": "to kick",
+    "sense": 1
+  },
+  {
+    "word": "fakat",
+    "ipa": "fakat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to kick at",
+    "sense": 2
+  },
+  {
+    "word": "fansa",
+    "ipa": "fansa",
+    "part_of_speech": "noun",
+    "english": "dappled horse"
+  },
+  {
+    "word": "faqqi",
+    "ipa": "faqqe",
+    "part_of_speech": "noun.animate",
+    "english": "corn bunting (a bird)"
+  },
+  {
+    "word": "fas",
+    "ipa": "fas",
+    "part_of_speech": "noun",
+    "english": "cloud"
+  },
+  {
+    "word": "fasqoyi",
+    "ipa": "fasqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "destiny"
+  },
+  {
+    "word": "fatat",
+    "ipa": "fatat",
+    "part_of_speech": "verb.transitive",
+    "english": "to slap",
+    "sense": 1
+  },
+  {
+    "word": "fatat",
+    "ipa": "fatat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to slap at",
+    "sense": 2
+  },
+  {
+    "word": "fatilat",
+    "ipa": "fatilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to insult",
+    "sense": 1
+  },
+  {
+    "word": "fatilat",
+    "ipa": "fatilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to throw an insult at fejat: [fe> dZat\u0011] DP v. to hate",
+    "sense": 2
+  },
+  {
+    "word": "fekh",
+    "ipa": "fex",
+    "part_of_speech": "numeral",
+    "english": "seven"
+  },
+  {
+    "word": "fekhak",
+    "ipa": "fexak",
+    "part_of_speech": "noun.animate",
+    "english": "seventh (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "fekhken",
+    "ipa": "fexken",
+    "part_of_speech": "numeral",
+    "english": "seven hundred"
+  },
+  {
+    "word": "fekhthi",
+    "ipa": "fexθi",
+    "part_of_speech": "numeral",
+    "english": "seventeen"
+  },
+  {
+    "word": "felde",
+    "ipa": "felde",
+    "part_of_speech": "noun.inanimate",
+    "english": "wing"
+  },
+  {
+    "word": "feldekh",
+    "ipa": "feldex",
+    "part_of_speech": "noun.inanimate",
+    "english": "feather"
+  },
+  {
+    "word": "fenat",
+    "ipa": "fenat",
+    "part_of_speech": "verb.transitive",
+    "english": "to attach"
+  },
+  {
+    "word": "ferri",
+    "ipa": "feri",
+    "part_of_speech": "noun.inanimate",
+    "english": "hemp"
+  },
+  {
+    "word": "feshith",
+    "ipa": "feʃiθ",
+    "part_of_speech": "noun.animate",
+    "english": "tree"
+  },
+  {
+    "word": "feso",
+    "ipa": "feso",
+    "part_of_speech": "noun.inanimate",
+    "english": "carrot"
+  },
+  {
+    "word": "fevelat",
+    "ipa": "fevelat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to thirst",
+    "sense": 1
+  },
+  {
+    "word": "fevelat",
+    "ipa": "fevelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to thirst for ﬁchat: [fi>tSat\u0011] DP vtr. to take, to bring, to fetch ﬁez: [fiez] DP n. rope ﬁh: [fih] DP ni. smoke ﬁlkak: [fil\u0011kak] DP na. coward ﬁlkat: [fil\u0011kat\u0011] DP vin. to move like a caterpillar ﬁlki: [fil\u0011ki] DP ni. caterpillar ﬁlla: [fil\u0011l\u0011a] DP ni. dried plum ﬁn (1): [fin\u0011] DP pn. who (question word, when speaking of an animate object) ﬁn (2): [fin\u0011] DP pn. relative pronoun that introduces relative clause, when speaking of an animalte object ﬁni (1): [fin\u0011i] DP pn. what (question word, when speaking of an inanimate object) ﬁni (2): [fin\u0011i] DP pn. relative pronoun that introduces relative clause, when speaking of an inanimate object ﬁnne (1): [fin\u0011n\u0011e] DP pn. where ﬁnne (2): [fin\u0011n\u0011e] DP adv. where ﬁr: [fir] DP adj. round ﬁre: [fiRe] DP ni. ring, circle ﬁresof: [fiResof] DP ni. year ﬁri: [fiRi] DP n. ball ﬁrikh: [fiRix] DP ni. ring ﬁrikhnharen: [fiRixn\u0011haRen\u0011] DP ni. crown ﬁsh: [fiS] DP adj. cold ﬁtte: [fit\u0011t\u0011e] DP adj. short ﬁtteya: [fit\u0011t\u0011eja] DP ni. an unnoticed and uncalled-for erection ﬂas: [fl\u0011as] DP ni. a ﬁlm on top of a soup, cream ﬂasikh: [fl\u0011asix] DP ni. update ﬂech: [fl\u0011e>tS] DP adj. dull",
+    "sense": 2
+  },
+  {
+    "word": "fonak",
+    "ipa": "fonak",
+    "part_of_speech": "noun.animate",
+    "english": "hunter"
+  },
+  {
+    "word": "fonakasar",
+    "ipa": "fonakasar",
+    "part_of_speech": "noun.animate",
+    "english": "hunting party"
+  },
+  {
+    "word": "fonas chek",
+    "ipa": "fonas tʃek",
+    "part_of_speech": "phrase",
+    "english": "said at parting lit. hunt well"
+  },
+  {
+    "word": "fonat",
+    "ipa": "fonat",
+    "part_of_speech": "verb",
+    "english": "to hunt"
+  },
+  {
+    "word": "fonnoya",
+    "ipa": "fonnoja",
+    "part_of_speech": "noun.inanimate",
+    "english": "advice"
+  },
+  {
+    "word": "fonolat",
+    "ipa": "fonolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to track, to seek"
+  },
+  {
+    "word": "fotha",
+    "ipa": "foθa",
+    "part_of_speech": "noun.inanimate",
+    "english": "throat"
+  },
+  {
+    "word": "foz",
+    "ipa": "foz",
+    "part_of_speech": "adjective",
+    "english": "old"
+  },
+  {
+    "word": "fozak",
+    "ipa": "fozak",
+    "part_of_speech": "noun.animate",
+    "english": "elder"
+  },
+  {
+    "word": "frakhat",
+    "ipa": "fɾaxat",
+    "part_of_speech": "verb.transitive",
+    "english": "to touch",
+    "sense": 1
+  },
+  {
+    "word": "frakhat",
+    "ipa": "fɾaxat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to reach to touch",
+    "sense": 2
+  },
+  {
+    "word": "frakholat",
+    "ipa": "fɾaxolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to feel"
+  },
+  {
+    "word": "fredri",
+    "ipa": "fɾedɾi",
+    "part_of_speech": "noun",
+    "english": "sound of horse’s hooves on dirt"
+  },
+  {
+    "word": "fredrik",
+    "ipa": "fɾedɾik",
+    "part_of_speech": "noun.animate",
+    "english": "chatterbox, one who sounds like horse’s hooves"
+  },
+  {
+    "word": "fredrilat",
+    "ipa": "fɾedɾilat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to run (with horses as subject)"
+  },
+  {
+    "word": "gachat",
+    "ipa": "gatʃat",
+    "part_of_speech": "verb",
+    "english": "to ﬁgure out, to solve"
+  },
+  {
+    "word": "gache",
+    "ipa": "gatʃe",
+    "part_of_speech": "noun.inanimate",
+    "english": "place, environs"
+  },
+  {
+    "word": "gadim",
+    "ipa": "gadim",
+    "part_of_speech": "noun.inanimate",
+    "english": "lungs"
+  },
+  {
+    "word": "gaezo",
+    "ipa": "gaezo",
+    "part_of_speech": "noun",
+    "english": "brother"
+  },
+  {
+    "word": "gale",
+    "ipa": "gale",
+    "part_of_speech": "noun",
+    "english": "egg"
+  },
+  {
+    "word": "gamiz",
+    "ipa": "gamiz",
+    "part_of_speech": "noun.inanimate",
+    "english": "rice"
+  },
+  {
+    "word": "ganat",
+    "ipa": "ganat",
+    "part_of_speech": "verb",
+    "english": "to lean"
+  },
+  {
+    "word": "gango",
+    "ipa": "gango",
+    "part_of_speech": "noun.inanimate",
+    "english": "belly"
+  },
+  {
+    "word": "gango awazat",
+    "ipa": "gango awazat",
+    "part_of_speech": "verb",
+    "english": "to feel anxious/excited"
+  },
+  {
+    "word": "gaoli",
+    "ipa": "gaoli",
+    "part_of_speech": "noun",
+    "english": "intestines"
+  },
+  {
+    "word": "garfoth",
+    "ipa": "gaɾfoθ",
+    "part_of_speech": "noun",
+    "english": "root"
+  },
+  {
+    "word": "garvolat",
+    "ipa": "gaɾvolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to grow hungry",
+    "sense": 1
+  },
+  {
+    "word": "garvolat",
+    "ipa": "gaɾvolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to hunger for",
+    "sense": 2
+  },
+  {
+    "word": "gavat",
+    "ipa": "gavat",
+    "part_of_speech": "noun.inanimate",
+    "english": "meat"
+  },
+  {
+    "word": "gehqoyi",
+    "ipa": "gehqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "bolas"
+  },
+  {
+    "word": "gendat",
+    "ipa": "gendat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be ripped, to be torn"
+  },
+  {
+    "word": "gende",
+    "ipa": "gende",
+    "part_of_speech": "noun",
+    "english": "rip",
+    "sense": 1
+  },
+  {
+    "word": "gende",
+    "ipa": "gende",
+    "part_of_speech": "adjective",
+    "english": "ripped",
+    "sense": 2
+  },
+  {
+    "word": "gendolat",
+    "ipa": "gendolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to become ripped, to rip"
+  },
+  {
+    "word": "gerat",
+    "ipa": "geɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to lack"
+  },
+  {
+    "word": "gerikh",
+    "ipa": "geɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "lack"
+  },
+  {
+    "word": "geve",
+    "ipa": "geve",
+    "part_of_speech": "noun.animate",
+    "english": "mole"
+  },
+  {
+    "word": "gezri",
+    "ipa": "gezɾi",
+    "part_of_speech": "noun.animate",
+    "english": "snake"
+  },
+  {
+    "word": "gezrikh",
+    "ipa": "gezɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "a feint or decoy strike (with sword)"
+  },
+  {
+    "word": "gidat",
+    "ipa": "gidat",
+    "part_of_speech": "verb",
+    "english": "to push"
+  },
+  {
+    "word": "gillo",
+    "ipa": "gillo",
+    "part_of_speech": "noun",
+    "english": "breeze"
+  },
+  {
+    "word": "gillosor",
+    "ipa": "gillosor",
+    "part_of_speech": "noun.animate",
+    "english": "weather"
+  },
+  {
+    "word": "gimi",
+    "ipa": "gimi",
+    "part_of_speech": "noun",
+    "english": "mouse"
+  },
+  {
+    "word": "giz",
+    "ipa": "giz",
+    "part_of_speech": "noun",
+    "english": "bee"
+  },
+  {
+    "word": "gizikh",
+    "ipa": "gizix",
+    "part_of_speech": "noun.inanimate",
+    "english": "honey"
+  },
+  {
+    "word": "gizikhven",
+    "ipa": "gizixven",
+    "part_of_speech": "adjective",
+    "english": "sweet"
+  },
+  {
+    "word": "glas",
+    "ipa": "glas",
+    "part_of_speech": "noun",
+    "english": "onion"
+  },
+  {
+    "word": "glen",
+    "ipa": "glen",
+    "part_of_speech": "noun",
+    "english": "louse"
+  },
+  {
+    "word": "gomma",
+    "ipa": "gomma",
+    "part_of_speech": "noun",
+    "english": "mouth of a human"
+  },
+  {
+    "word": "gorat",
+    "ipa": "goɾat",
+    "part_of_speech": "verb",
+    "english": "to charge a horse"
+  },
+  {
+    "word": "goshat",
+    "ipa": "goʃat",
+    "part_of_speech": "verb",
+    "english": "to be certain, to be sure"
+  },
+  {
+    "word": "govak",
+    "ipa": "govak",
+    "part_of_speech": "noun.animate",
+    "english": "fucker (insult)"
+  },
+  {
+    "word": "govat",
+    "ipa": "govat",
+    "part_of_speech": "verb.transitive",
+    "english": "to mate (animals); to breed"
+  },
+  {
+    "word": "graddakh",
+    "ipa": "gɾaddax",
+    "part_of_speech": "noun.inanimate",
+    "english": "waste, refuse",
+    "sense": 1
+  },
+  {
+    "word": "graddakh",
+    "ipa": "gɾaddax",
+    "part_of_speech": "interjection",
+    "english": "shit (generic undirected profanity)",
+    "sense": 2
+  },
+  {
+    "word": "gref",
+    "ipa": "gɾef",
+    "part_of_speech": "noun",
+    "english": "wall"
+  },
+  {
+    "word": "gwe",
+    "ipa": "gwe",
+    "part_of_speech": "interjection",
+    "english": "Here!, Let’s go!, Go! h’: [h] DP prep. elided version of ha"
+  },
+  {
+    "word": "ha",
+    "ipa": "ha",
+    "part_of_speech": "preposition",
+    "english": "to abl. from",
+    "sense": 1
+  },
+  {
+    "word": "ha",
+    "ipa": "ha",
+    "part_of_speech": "preposition",
+    "english": "to all. for",
+    "sense": 2
+  },
+  {
+    "word": "ha nakhaan",
+    "ipa": "ha naxaan",
+    "part_of_speech": "adverb",
+    "english": "ﬁnally, last, ultimately"
+  },
+  {
+    "word": "hadaen",
+    "ipa": "hadaen",
+    "part_of_speech": "noun.inanimate",
+    "english": "food"
+  },
+  {
+    "word": "hador",
+    "ipa": "hador",
+    "part_of_speech": "noun",
+    "english": "gust of wind"
+  },
+  {
+    "word": "haesh",
+    "ipa": "haeʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "spawn"
+  },
+  {
+    "word": "haf",
+    "ipa": "haf",
+    "part_of_speech": "adjective",
+    "english": "soft, quiet haj: [ha> dZ] M adj. strong haje: [ha> dZe] DP adj. right (direction) hajekh: [ha> dZex] DP ni. right side haji (1): [ha> dZi] DP prep. to abl. because of, on account of haji (2): [ha> dZi] DP prep. Default preposition for foreign words thet do not decline hajinaan: [ha> dZin\u0011aan\u0011] DP conj. because (followed by preﬁx me-) hajolat: [ha> dZol\u0011at\u0011] DP v. to grow strong"
+  },
+  {
+    "word": "hake",
+    "ipa": "hake",
+    "part_of_speech": "noun.animate",
+    "english": "name"
+  },
+  {
+    "word": "hakelat",
+    "ipa": "hakelat",
+    "part_of_speech": "verb",
+    "english": "to name something"
+  },
+  {
+    "word": "hakeso",
+    "ipa": "hakeso",
+    "part_of_speech": "adjective",
+    "english": "famous"
+  },
+  {
+    "word": "halah",
+    "ipa": "halah",
+    "part_of_speech": "noun.animate",
+    "english": "ﬂower"
+  },
+  {
+    "word": "halahi",
+    "ipa": "halahi",
+    "part_of_speech": "noun.inanimate",
+    "english": "tree that can blossom"
+  },
+  {
+    "word": "hale",
+    "ipa": "hale",
+    "part_of_speech": "interjection",
+    "english": "hey! (exclamation)"
+  },
+  {
+    "word": "hammi",
+    "ipa": "hammi",
+    "part_of_speech": "noun",
+    "english": "yak"
+  },
+  {
+    "word": "hanna",
+    "ipa": "hanna",
+    "part_of_speech": "noun.inanimate",
+    "english": "rose"
+  },
+  {
+    "word": "haqat",
+    "ipa": "haqAt",
+    "part_of_speech": "verb",
+    "english": "to be tired"
+  },
+  {
+    "word": "haqe",
+    "ipa": "haqɛ",
+    "part_of_speech": "adjective",
+    "english": "tired"
+  },
+  {
+    "word": "haqeqqe",
+    "ipa": "haqɛqqɛ",
+    "part_of_speech": "adjective",
+    "english": "exhausted"
+  },
+  {
+    "word": "haqolat",
+    "ipa": "haqɔlat",
+    "part_of_speech": "verb",
+    "english": "to grow tired"
+  },
+  {
+    "word": "has",
+    "ipa": "has",
+    "part_of_speech": "adjective",
+    "english": "sharp"
+  },
+  {
+    "word": "hash",
+    "ipa": "haʃ",
+    "part_of_speech": "conjunction",
+    "english": "if...then, when...then",
+    "sense": 1
+  },
+  {
+    "word": "hash yer ray nesi",
+    "ipa": "haʃ jer raj nesi",
+    "part_of_speech": "phrase",
+    "english": "did you know?"
+  },
+  {
+    "word": "hatif",
+    "ipa": "hatif",
+    "part_of_speech": "noun",
+    "english": "face",
+    "sense": 1
+  },
+  {
+    "word": "hatif",
+    "ipa": "hatif",
+    "part_of_speech": "preposition",
+    "english": "to gen. in front of, before",
+    "sense": 2
+  },
+  {
+    "word": "hatif",
+    "ipa": "hatif",
+    "part_of_speech": "preposition",
+    "english": "to all. to front of, to before",
+    "sense": 3
+  },
+  {
+    "word": "hatif",
+    "ipa": "hatif",
+    "part_of_speech": "preposition",
+    "english": "to abl. from front of, from before",
+    "sense": 4
+  },
+  {
+    "word": "havazh",
+    "ipa": "havaʒ",
+    "part_of_speech": "noun.inanimate",
+    "english": "sea"
+  },
+  {
+    "word": "havolat",
+    "ipa": "havolat",
+    "part_of_speech": "verb",
+    "english": "to move weakly"
+  },
+  {
+    "word": "havon",
+    "ipa": "havon",
+    "part_of_speech": "noun",
+    "english": "bread From Valyrian havon"
+  },
+  {
+    "word": "havzi",
+    "ipa": "havzi",
+    "part_of_speech": "noun",
+    "english": "cat"
+  },
+  {
+    "word": "havziven",
+    "ipa": "havziven",
+    "part_of_speech": "adjective",
+    "english": "lazy"
+  },
+  {
+    "word": "haz",
+    "ipa": "haz",
+    "part_of_speech": "pronoun",
+    "english": "that (when speaking of an animate object present and directly indicated)",
+    "sense": 2
+  },
+  {
+    "word": "hazi",
+    "ipa": "hazi",
+    "part_of_speech": "pronoun",
+    "english": "that (when speaking of an inanimate object present and directly indicated)"
+  },
+  {
+    "word": "heffof",
+    "ipa": "heffof",
+    "part_of_speech": "noun.inanimate",
+    "english": "jug"
+  },
+  {
+    "word": "hem",
+    "ipa": "hem",
+    "part_of_speech": "noun.inanimate",
+    "english": "fur"
+  },
+  {
+    "word": "heme",
+    "ipa": "heme",
+    "part_of_speech": "adjective",
+    "english": "furry"
+  },
+  {
+    "word": "hemelat",
+    "ipa": "hemelat",
+    "part_of_speech": "verb",
+    "english": "to have fur"
+  },
+  {
+    "word": "hemikh",
+    "ipa": "hemix",
+    "part_of_speech": "noun.inanimate",
+    "english": "pelt"
+  },
+  {
+    "word": "hesk",
+    "ipa": "hesk",
+    "part_of_speech": "adjective",
+    "english": "southern"
+  },
+  {
+    "word": "heske",
+    "ipa": "heske",
+    "part_of_speech": "noun.inanimate",
+    "english": "south"
+  },
+  {
+    "word": "heth",
+    "ipa": "heθ",
+    "part_of_speech": "noun.inanimate",
+    "english": "rim, lips (of a person)"
+  },
+  {
+    "word": "hethkat",
+    "ipa": "heθkat",
+    "part_of_speech": "verb",
+    "english": "tight; ready, prepared"
+  },
+  {
+    "word": "hethke",
+    "ipa": "heθke",
+    "part_of_speech": "adjective",
+    "english": "tight; ready, prepared"
+  },
+  {
+    "word": "hezhah",
+    "ipa": "heʒah",
+    "part_of_speech": "adverb",
+    "english": "far, off, hence"
+  },
+  {
+    "word": "hezhahat",
+    "ipa": "heʒahat",
+    "part_of_speech": "verb",
+    "english": "to make distance, to travel, to navigate"
+  },
+  {
+    "word": "hilelat",
+    "ipa": "hilelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to dig, to have sex, to hit (score with someone sexually)"
+  },
+  {
+    "word": "himat",
+    "ipa": "himat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to clench"
+  },
+  {
+    "word": "himo",
+    "ipa": "himo",
+    "part_of_speech": "noun",
+    "english": "ﬁst, clenched thing hiri!: [hiRi] DP intj. watch! (short for vitihiras, for commanding animals)"
+  },
+  {
+    "word": "hlaka",
+    "ipa": "hlaka",
+    "part_of_speech": "noun.inanimate",
+    "english": "glove"
+  },
+  {
+    "word": "hlizif",
+    "ipa": "hlizif",
+    "part_of_speech": "noun.animate",
+    "english": "bear hliziﬁkh: [hl\u0011izifix] DP ni. a wild but powerful sword strike"
+  },
+  {
+    "word": "hlofa",
+    "ipa": "hlofa",
+    "part_of_speech": "noun.inanimate",
+    "english": "wrist, ankle"
+  },
+  {
+    "word": "holat",
+    "ipa": "holat",
+    "part_of_speech": "verb",
+    "english": "to blow"
+  },
+  {
+    "word": "hosh",
+    "ipa": "hoʃ",
+    "part_of_speech": "interjection",
+    "english": "giddyup! (horse command)"
+  },
+  {
+    "word": "hoshor",
+    "ipa": "hoʃor",
+    "part_of_speech": "adjective",
+    "english": "golden"
+  },
+  {
+    "word": "hoska",
+    "ipa": "hoska",
+    "part_of_speech": "noun.animate",
+    "english": "mouth of an animal"
+  },
+  {
+    "word": "hoyalat",
+    "ipa": "hojalat",
+    "part_of_speech": "verb",
+    "english": "to sing"
+  },
+  {
+    "word": "hoyali",
+    "ipa": "hojali",
+    "part_of_speech": "noun.inanimate",
+    "english": "song"
+  },
+  {
+    "word": "hrakkar",
+    "ipa": "hɾakkar",
+    "part_of_speech": "noun.animate",
+    "english": "white lion"
+  },
+  {
+    "word": "hrakkarikh",
+    "ipa": "hɾakkaɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "a quick, powerful, accurate sword strike"
+  },
+  {
+    "word": "hranna",
+    "ipa": "hɾanna",
+    "part_of_speech": "noun.inanimate",
+    "english": "a type of grass, any grasslike ground cover (Accusative form is hran)"
+  },
+  {
+    "word": "hrazef",
+    "ipa": "hɾazef",
+    "part_of_speech": "noun.inanimate",
+    "english": "horse hrazef chaﬁ: [hRazef >tSafi] DP ni. mustang, a horse that used to be tame"
+  },
+  {
+    "word": "hrazefeser",
+    "ipa": "hɾazefeser",
+    "part_of_speech": "noun.animate",
+    "english": "herd of wild horses, ’trafﬁc’"
+  },
+  {
+    "word": "iddelat",
+    "ipa": "iddelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to welcome, to make someone drink"
+  },
+  {
+    "word": "idiro",
+    "ipa": "idiɾo",
+    "part_of_speech": "noun.animate",
+    "english": "owl"
+  },
+  {
+    "word": "idirolat",
+    "ipa": "idiɾolat",
+    "part_of_speech": "verb",
+    "english": "to suddenly turn completely around (as if by surprise), make a \"Uturn\""
+  },
+  {
+    "word": "ido",
+    "ipa": "ido",
+    "part_of_speech": "adjective",
+    "english": "wooden, fake"
+  },
+  {
+    "word": "idrik",
+    "ipa": "idɾik",
+    "part_of_speech": "noun.animate",
+    "english": "leader of the hunt, host"
+  },
+  {
+    "word": "idrilat",
+    "ipa": "idɾilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to guide"
+  },
+  {
+    "word": "ifak",
+    "ipa": "ifak",
+    "part_of_speech": "noun.animate",
+    "english": "foreigner"
+  },
+  {
+    "word": "ifat",
+    "ipa": "ifat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to walk",
+    "sense": 1
+  },
+  {
+    "word": "ifat",
+    "ipa": "ifat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to walk beside",
+    "sense": 2
+  },
+  {
+    "word": "ifeqevron",
+    "ipa": "ifeqɛvɾon",
+    "part_of_speech": "noun",
+    "english": "species of forest spider"
+  },
+  {
+    "word": "iffat",
+    "ipa": "iffat",
+    "part_of_speech": "verb.transitive",
+    "english": "to make someone walk ifﬁ: [iffi] DP n. victory"
+  },
+  {
+    "word": "igge",
+    "ipa": "igge",
+    "part_of_speech": "noun",
+    "english": "bucket ijelat: [i> dZel\u0011at\u0011] DP v. to swallow, to practice woman-on-top sex"
+  },
+  {
+    "word": "ikh",
+    "ipa": "ix",
+    "part_of_speech": "noun.inanimate",
+    "english": "ashes"
+  },
+  {
+    "word": "ildat",
+    "ipa": "ildat",
+    "part_of_speech": "verb",
+    "english": "to strike"
+  },
+  {
+    "word": "ildo",
+    "ipa": "ildo",
+    "part_of_speech": "noun.inanimate",
+    "english": "sword strike"
+  },
+  {
+    "word": "ilek",
+    "ipa": "ilek",
+    "part_of_speech": "noun",
+    "english": "skin"
+  },
+  {
+    "word": "ilme",
+    "ipa": "ilme",
+    "part_of_speech": "noun.inanimate",
+    "english": "vegetable",
+    "type_b": true
+  },
+  {
+    "word": "ilmeser",
+    "ipa": "ilmeser",
+    "part_of_speech": "noun",
+    "english": "salad, greens, vegetables"
+  },
+  {
+    "word": "imesh",
+    "ipa": "imeʃ",
+    "part_of_speech": "adjective",
+    "english": "young"
+  },
+  {
+    "word": "imeshat",
+    "ipa": "imeʃat",
+    "part_of_speech": "verb",
+    "english": "to be young"
+  },
+  {
+    "word": "imo",
+    "ipa": "imo",
+    "part_of_speech": "noun.inanimate",
+    "english": "belt"
+  },
+  {
+    "word": "inavva",
+    "ipa": "inavva",
+    "part_of_speech": "noun",
+    "english": "sister"
+  },
+  {
+    "word": "indelat",
+    "ipa": "indelat",
+    "part_of_speech": "verb",
+    "english": "to drink"
+  },
+  {
+    "word": "inte",
+    "ipa": "inte",
+    "part_of_speech": "noun.inanimate",
+    "english": "beetle"
+  },
+  {
+    "word": "irge",
+    "ipa": "iɾge",
+    "part_of_speech": "noun",
+    "english": "back",
+    "sense": 1
+  },
+  {
+    "word": "irge",
+    "ipa": "iɾge",
+    "part_of_speech": "preposition",
+    "english": "to gen. after",
+    "sense": 2
+  },
+  {
+    "word": "irge",
+    "ipa": "iɾge",
+    "part_of_speech": "preposition",
+    "english": "to all. to behind",
+    "sense": 3
+  },
+  {
+    "word": "irge",
+    "ipa": "iɾge",
+    "part_of_speech": "preposition",
+    "english": "to abl. from behind",
+    "sense": 4
+  },
+  {
+    "word": "irra",
+    "ipa": "ira",
+    "part_of_speech": "noun",
+    "english": "trout"
+  },
+  {
+    "word": "irvosa",
+    "ipa": "iɾvosa",
+    "part_of_speech": "noun.inanimate",
+    "english": "a distance of approximately one fourth mile"
+  },
+  {
+    "word": "irvosat",
+    "ipa": "iɾvosat",
+    "part_of_speech": "verb",
+    "english": "to trot"
+  },
+  {
+    "word": "ish",
+    "ipa": "iʃ",
+    "part_of_speech": "verb.auxiliary",
+    "english": "might"
+  },
+  {
+    "word": "ishish",
+    "ipa": "iʃiʃ",
+    "part_of_speech": "adverb",
+    "english": "maybe"
+  },
+  {
+    "word": "iste",
+    "ipa": "iste",
+    "part_of_speech": "adjective",
+    "english": "well proven, well tested"
+  },
+  {
+    "word": "ita",
+    "ipa": "ita",
+    "part_of_speech": "adjective",
+    "english": "suitably warm"
+  },
+  {
+    "word": "ithkoil",
+    "ipa": "iθkoil",
+    "part_of_speech": "adjective",
+    "english": "brittle"
+  },
+  {
+    "word": "ittelat",
+    "ipa": "ittelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to make something wellproven, to test in action"
+  },
+  {
+    "word": "ivezh",
+    "ipa": "iveʒ",
+    "part_of_speech": "adjective",
+    "english": "wild"
+  },
+  {
+    "word": "ivezho",
+    "ipa": "iveʒo",
+    "part_of_speech": "noun.inanimate",
+    "english": "beast",
+    "type_b": true
+  },
+  {
+    "word": "ivezholat",
+    "ipa": "iveʒolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to grow ﬁerce"
+  },
+  {
+    "word": "ivisat",
+    "ipa": "ivisat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to melt"
+  },
+  {
+    "word": "ivvisat",
+    "ipa": "ivvisat",
+    "part_of_speech": "verb",
+    "english": "to melt something"
+  },
+  {
+    "word": "izat",
+    "ipa": "izat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be poisonous, to be venomous"
+  },
+  {
+    "word": "ize",
+    "ipa": "ize",
+    "part_of_speech": "noun.inanimate",
+    "english": "poison"
+  },
+  {
+    "word": "izven",
+    "ipa": "izven",
+    "part_of_speech": "adjective",
+    "english": "forbidden"
+  },
+  {
+    "word": "izzat",
+    "ipa": "izzat",
+    "part_of_speech": "verb.transitive",
+    "english": "to poison jadat: [> dZad\u0011at\u0011] DP v. to come jadilat: [> dZad\u0011il\u0011at\u0011] DP vtr. to approach, to come up to jadolat: [> dZad\u0011ol\u0011at\u0011] DP v. to arrive jadro: [> dZad\u0011Ro] DP ni. vulture jahak: [> dZahak] DP na. Dothraki hair-braid, lion’s mane, hairstyle jahakmen: [> dZahakmen\u0011] DP adj. braidless jalan: [> dZal\u0011an\u0011] DP na. moon jalan qoyi: [> dZal\u0011an\u0011 qOji] DP n. harvest moon jalanqoyi: [> dZal\u0011an\u0011qOji] DP ni. total lunar eclipse janha: [> dZan\u0011ha] DP n. blanket janise: [> dZan\u0011ise] DP na. niece jano: [> dZan\u0011o] DP ni. dog jaqqa: [> dZaqqA] DP n. executioner, someone responsible for someone’s death jaqqa rhan: [> dZaqqA Rhan\u0011] M n. mercy men (not literal translation) jasat: [> dZasat\u0011] DP v. to laugh javrath: [> dZavRaT] DP ni reins javrathat: [> dZaRaTat\u0011] DP vtr. to rein, to check or guide a horse with the reins jazat: [> dZazat\u0011] DP v. to block jazo: [> dZazo] DP ni. block, an instance of blocking jedda: [> dZed\u0011d\u0011a] DP ni. pony jekhtat (1): [> dZext\u0011at\u0011] DP vin. to bounce, to ricochet jekhtat (2): [> dZext\u0011at\u0011] DP vtr. to abl. to bounce off of jela: [> dZel\u0011a] DP ni. lemon jelaven: [> dZel\u0011aven\u0011] DP adj. sour jelli: [> dZel\u0011l\u0011i] DP ni. cheese jerak: [> dZeRak] DP na. trader, merchant jerak sewaﬁkhaan: [> dZeRak sewafixaan\u0011] DP na. wine merchant jerakasar: [> dZeRakasar] DP na. trader’s guild, \"company\" jerat: [> dZeRat\u0011] DP v. to trade jerriya: [> dZeriya] DP ni. discussion jervat: [> dZeRvat\u0011] DP v. to imprison jesat: [> dZesat\u0011] DP v. to pull jeser: [> dZeser] DP n. market jesh: [> dZeS] DP ni. ice jesho: [> dZeSo] DP adj. frozen jesholat: [> dZeSol\u0011at\u0011] DP v. freeze jeshoy: [> dZeSoj] DP adj. freezing jeshven: [> dZeSven\u0011] DP adj. icy jezat: [> dZezat\u0011] DP v. to block (a strike) jif: [> dZif] DP v.aux. should jil: [> dZil\u0011] DP adj. right, rightful jilat: [> dZil\u0011at\u0011] DP v. to be right, to be correct jim: [> dZim] DP adj. western jimma: [> dZimma] DP ni. west jin (1): [> dZin\u0011] DP dem adj. this jin (2): [> dZin\u0011] DP na. female goat jin (3): [> dZin\u0011] DP pn. this (when speaking of an animate object) jinak: [> dZin\u0011ak] DP dem. pn. this (when speaking of person(s) ) jini: [> dZin\u0011i] DP pn. this (when speaking of an inanimate object) jinne: [> dZin\u0011n\u0011e] DP loc. adv. here jith: [> dZiT] DP na. fox jiz: [> dZiz] DP na. chicken jolinat: [> dZol\u0011in\u0011at\u0011] DP v. to cook jolinikh: [> dZol\u0011in\u0011ix] DP ni. prepared food jolino: [> dZol\u0011in\u0011o] DP ni. cooking pot joma: [> dZoma] DP ni. salmon jon: [> dZon\u0011] DP adj. closed, shut, sealed joro: [> dZoRo] DP ni. idol, icon jorok: [> dZoRok] DP ni/na. corn k’: [k] DP prep. elided version of ki"
+  },
+  {
+    "word": "kadat",
+    "ipa": "kadat",
+    "part_of_speech": "verb",
+    "english": "to capture, to wrangle, to corral"
+  },
+  {
+    "word": "kade",
+    "ipa": "kade",
+    "part_of_speech": "noun.inanimate",
+    "english": "net"
+  },
+  {
+    "word": "kadikh",
+    "ipa": "kadix",
+    "part_of_speech": "noun.inanimate",
+    "english": "untamed captured animal"
+  },
+  {
+    "word": "kafat",
+    "ipa": "kafat",
+    "part_of_speech": "verb",
+    "english": "to smash"
+  },
+  {
+    "word": "kafe",
+    "ipa": "kafe",
+    "part_of_speech": "noun",
+    "english": "pestle"
+  },
+  {
+    "word": "kaffat",
+    "ipa": "kaffat",
+    "part_of_speech": "verb",
+    "english": "to crush"
+  },
+  {
+    "word": "kane",
+    "ipa": "kane",
+    "part_of_speech": "noun.animate",
+    "english": "lark"
+  },
+  {
+    "word": "karlina",
+    "ipa": "kaɾlina",
+    "part_of_speech": "noun.inanimate",
+    "english": "mile, distance traveled in one leshitof"
+  },
+  {
+    "word": "karlina Valeri",
+    "ipa": "kaɾlina valeɾi",
+    "part_of_speech": "noun.inanimate",
+    "english": "kilometer (measure)"
+  },
+  {
+    "word": "karlinat",
+    "ipa": "kaɾlinat",
+    "part_of_speech": "verb",
+    "english": "to gallop",
+    "sense": 1
+  },
+  {
+    "word": "karlinat",
+    "ipa": "kaɾlinat",
+    "part_of_speech": "verb.transitive",
+    "english": "to gen. to gallop beside",
+    "sense": 2
+  },
+  {
+    "word": "karlinqoyi",
+    "ipa": "kaɾlinqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "to gallop fast enough to kill a horse, if prolonged"
+  },
+  {
+    "word": "kartat",
+    "ipa": "kaɾtat",
+    "part_of_speech": "verb.transitive",
+    "english": "to pull with both hands"
+  },
+  {
+    "word": "kartolat",
+    "ipa": "kaɾtolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to pull with other means than with arms (can be used of inanimate subjects)"
+  },
+  {
+    "word": "kash",
+    "ipa": "kaʃ",
+    "part_of_speech": "conjunction",
+    "english": ", adv. while, when, until, during, then"
+  },
+  {
+    "word": "kashat",
+    "ipa": "kaʃat",
+    "part_of_speech": "verb",
+    "english": "to last"
+  },
+  {
+    "word": "kashi",
+    "ipa": "kaʃi",
+    "part_of_speech": "noun.inanimate",
+    "english": "time kathjilari: [kaT> dZil\u0011aRi] DP adv. rightfully, right"
+  },
+  {
+    "word": "kathqoyi",
+    "ipa": "kaθqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "weighted net"
+  },
+  {
+    "word": "kazga",
+    "ipa": "kazga",
+    "part_of_speech": "adjective",
+    "english": "black"
+  },
+  {
+    "word": "kelen",
+    "ipa": "kelen",
+    "part_of_speech": "adjective",
+    "english": "patterned, orderly"
+  },
+  {
+    "word": "kem",
+    "ipa": "kem",
+    "part_of_speech": "adjective",
+    "english": "conjoined, married"
+  },
+  {
+    "word": "kemak",
+    "ipa": "kemak",
+    "part_of_speech": "noun.animate",
+    "english": "spouse"
+  },
+  {
+    "word": "kemat",
+    "ipa": "kemat",
+    "part_of_speech": "verb.transitive",
+    "english": "to conjoin, to marry (someone to someone else) (the latter is preceeded by the preposition ma)"
+  },
+  {
+    "word": "kemik",
+    "ipa": "kemik",
+    "part_of_speech": "noun.animate",
+    "english": "ally"
+  },
+  {
+    "word": "kemis",
+    "ipa": "kemis",
+    "part_of_speech": "noun",
+    "english": "dried ﬁg"
+  },
+  {
+    "word": "kemisolat",
+    "ipa": "kemisolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to ally with someone (Use with the preposition ma.)"
+  },
+  {
+    "word": "kemolat",
+    "ipa": "kemolat",
+    "part_of_speech": "verb",
+    "english": "to marry (someone) precede that someone with the preposition ma"
+  },
+  {
+    "word": "ken",
+    "ipa": "ken",
+    "part_of_speech": "numeral",
+    "english": "hundred"
+  },
+  {
+    "word": "kenak",
+    "ipa": "kenak",
+    "part_of_speech": "numeral",
+    "english": "hundredth"
+  },
+  {
+    "word": "kendra",
+    "ipa": "kendɾa",
+    "part_of_speech": "noun.inanimate",
+    "english": "opal"
+  },
+  {
+    "word": "kerikh",
+    "ipa": "keɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "stick"
+  },
+  {
+    "word": "kesselat",
+    "ipa": "kesselat",
+    "part_of_speech": "verb",
+    "english": "to carry"
+  },
+  {
+    "word": "kha",
+    "ipa": "xha",
+    "part_of_speech": "noun.animate",
+    "english": "a personal bodyguard"
+  },
+  {
+    "word": "khado",
+    "ipa": "xado",
+    "part_of_speech": "noun.animate",
+    "english": "body"
+  },
+  {
+    "word": "khadokh",
+    "ipa": "xadox",
+    "part_of_speech": "noun.inanimate",
+    "english": "corpse"
+  },
+  {
+    "word": "khal",
+    "ipa": "xal",
+    "part_of_speech": "noun.animate",
+    "english": "Title used for the leader of a Dothraki horde, king"
+  },
+  {
+    "word": "khalakka",
+    "ipa": "xalakka",
+    "part_of_speech": "noun.animate",
+    "english": "prince, son of a khal"
+  },
+  {
+    "word": "khalakki",
+    "ipa": "xalakki",
+    "part_of_speech": "noun.animate",
+    "english": "princess, daughter of a khal"
+  },
+  {
+    "word": "khalasar",
+    "ipa": "xalasar",
+    "part_of_speech": "noun.animate",
+    "english": "a horde loyal to a single khal"
+  },
+  {
+    "word": "khaleesi",
+    "ipa": "xaleesi",
+    "part_of_speech": "noun.animate",
+    "english": "queen, wife of a khal"
+  },
+  {
+    "word": "khaleessiya",
+    "ipa": "xaleessija",
+    "part_of_speech": "noun.inanimate",
+    "english": "handmaid"
+  },
+  {
+    "word": "khaor",
+    "ipa": "xaor",
+    "part_of_speech": "noun.inanimate",
+    "english": "waist"
+  },
+  {
+    "word": "khas",
+    "ipa": "xas",
+    "part_of_speech": "noun.animate",
+    "english": "short for khasar"
+  },
+  {
+    "word": "khasar",
+    "ipa": "xasar",
+    "part_of_speech": "noun.animate",
+    "english": "small group of protectors, bloodriders, generals"
+  },
+  {
+    "word": "khefat",
+    "ipa": "xefat",
+    "part_of_speech": "verb",
+    "english": "to sneeze"
+  },
+  {
+    "word": "kher",
+    "ipa": "xer",
+    "part_of_speech": "noun.inanimate",
+    "english": "ﬂesh, skin of an animal"
+  },
+  {
+    "word": "kherikh",
+    "ipa": "xeɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "leather"
+  },
+  {
+    "word": "khewo",
+    "ipa": "xewo",
+    "part_of_speech": "noun.inanimate",
+    "english": "worm"
+  },
+  {
+    "word": "khezhat",
+    "ipa": "xeʒat",
+    "part_of_speech": "verb",
+    "english": "to be sad"
+  },
+  {
+    "word": "khiro",
+    "ipa": "xiɾo",
+    "part_of_speech": "noun.inanimate",
+    "english": "ﬂag"
+  },
+  {
+    "word": "khizra",
+    "ipa": "xizɾa",
+    "part_of_speech": "noun.inanimate",
+    "english": "marsh"
+  },
+  {
+    "word": "khogar",
+    "ipa": "xogar",
+    "part_of_speech": "noun.inanimate",
+    "english": "word for one’s apparel, clothes"
+  },
+  {
+    "word": "khogarat",
+    "ipa": "xogaɾat",
+    "part_of_speech": "verb",
+    "english": "to dress"
+  },
+  {
+    "word": "khogari",
+    "ipa": "xogaɾi",
+    "part_of_speech": "noun.inanimate",
+    "english": "box, trunk, chest, cask"
+  },
+  {
+    "word": "ki",
+    "ipa": "ki",
+    "part_of_speech": "preposition",
+    "english": "to gen. by, because of, of",
+    "sense": 1
+  },
+  {
+    "word": "ki",
+    "ipa": "ki",
+    "part_of_speech": "preposition",
+    "english": "thus, that (when preceeding quoted speech) kiﬁndirgi: [kifin\u0011d\u0011iRgi] DP adv. why kiﬁnosi: [kifin\u0011osi] DP adv. how kijinosi: [ki> dZin\u0011osi] DP adv. thus, in this way",
+    "sense": 2
+  },
+  {
+    "word": "kim",
+    "ipa": "kim",
+    "part_of_speech": "noun.animate",
+    "english": "ancestor",
+    "sense": 1
+  },
+  {
+    "word": "kim",
+    "ipa": "kim",
+    "part_of_speech": "adjective",
+    "english": "original",
+    "sense": 2
+  },
+  {
+    "word": "kimikh",
+    "ipa": "kimix",
+    "part_of_speech": "noun.inanimate",
+    "english": "date (fruit of a date palm)"
+  },
+  {
+    "word": "kimisir",
+    "ipa": "kimisir",
+    "part_of_speech": "noun.animate",
+    "english": "ancestry"
+  },
+  {
+    "word": "kirekhdirgi",
+    "ipa": "kiɾexdiɾgi",
+    "part_of_speech": "conjunction",
+    "english": "why"
+  },
+  {
+    "word": "kirekosi",
+    "ipa": "kiɾekosi",
+    "part_of_speech": "conjunction",
+    "english": "how"
+  },
+  {
+    "word": "kis",
+    "ipa": "kis",
+    "part_of_speech": "verb.auxiliary",
+    "english": "to try to"
+  },
+  {
+    "word": "kisha",
+    "ipa": "kiʃa",
+    "part_of_speech": "pronoun",
+    "english": "we"
+  },
+  {
+    "word": "kishi",
+    "ipa": "kiʃi",
+    "part_of_speech": "pronoun",
+    "english": "our"
+  },
+  {
+    "word": "ko",
+    "ipa": "ko",
+    "part_of_speech": "noun.animate",
+    "english": "bodyguard"
+  },
+  {
+    "word": "koalak",
+    "ipa": "koalak",
+    "part_of_speech": "noun.animate",
+    "english": "healer (chieﬂy a male healer)"
+  },
+  {
+    "word": "koalakeesi",
+    "ipa": "koalakeesi",
+    "part_of_speech": "noun.animate",
+    "english": "female healer"
+  },
+  {
+    "word": "koalakhtihan",
+    "ipa": "koalaxtihan",
+    "part_of_speech": "noun.inanimate",
+    "english": "eye healer"
+  },
+  {
+    "word": "koalat",
+    "ipa": "koalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be of help"
+  },
+  {
+    "word": "koge",
+    "ipa": "koge",
+    "part_of_speech": "noun.inanimate",
+    "english": "nick, blemish, imperfection, ﬂaw"
+  },
+  {
+    "word": "kogmen",
+    "ipa": "kogmen",
+    "part_of_speech": "adjective",
+    "english": "ﬂawless"
+  },
+  {
+    "word": "kohol",
+    "ipa": "kohol",
+    "part_of_speech": "noun.inanimate",
+    "english": "bow"
+  },
+  {
+    "word": "kolat",
+    "ipa": "kolat",
+    "part_of_speech": "verb",
+    "english": "to cure, to heal"
+  },
+  {
+    "word": "kolver",
+    "ipa": "kolver",
+    "part_of_speech": "noun.animate",
+    "english": "eagle"
+  },
+  {
+    "word": "kolverikh",
+    "ipa": "kolveɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "a straight sword thrust"
+  },
+  {
+    "word": "kovarat",
+    "ipa": "kovaɾat",
+    "part_of_speech": "verb",
+    "english": "to stand krazaaj: [kRazaa> dZ] DP ni. mountain"
+  },
+  {
+    "word": "krista",
+    "ipa": "kɾista",
+    "part_of_speech": "noun.animate",
+    "english": "female relative"
+  },
+  {
+    "word": "kristasof",
+    "ipa": "kɾistasof",
+    "part_of_speech": "noun.inanimate",
+    "english": "grandmother"
+  },
+  {
+    "word": "krol",
+    "ipa": "kɾol",
+    "part_of_speech": "noun",
+    "english": "ﬂea"
+  },
+  {
+    "word": "lain",
+    "ipa": "lain",
+    "part_of_speech": "adjective",
+    "english": "beautiful (used for inanimate nouns)"
+  },
+  {
+    "word": "lainat",
+    "ipa": "lainat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be beautiful (used for inanimate nouns) lajak: [l\u0011a> dZak] DP na. ﬁghter, warrior lajasar: [l\u0011a> dZasar] DP na. army lajat: [l\u0011a> dZat\u0011] DP v. to ﬁght lajilat: [l\u0011a> dZil\u0011at\u0011] DP v. to spar, to train, to play, to compete (introduce the game to play with ki )"
+  },
+  {
+    "word": "lakkhat",
+    "ipa": "laxxat",
+    "part_of_speech": "verb",
+    "english": "to chew"
+  },
+  {
+    "word": "lame",
+    "ipa": "lame",
+    "part_of_speech": "noun.inanimate",
+    "english": "mare"
+  },
+  {
+    "word": "lamekh",
+    "ipa": "lamex",
+    "part_of_speech": "noun.inanimate",
+    "english": "mare’s milk (plain or fermented)"
+  },
+  {
+    "word": "lamekh ohazho",
+    "ipa": "lamex ohaʒo",
+    "part_of_speech": "noun.inanimate",
+    "english": "fermented mare’s milk"
+  },
+  {
+    "word": "lanat",
+    "ipa": "lanat",
+    "part_of_speech": "verb",
+    "english": "to run",
+    "sense": 1
+  },
+  {
+    "word": "lanat",
+    "ipa": "lanat",
+    "part_of_speech": "verb",
+    "english": "to gen. to run beside",
+    "sense": 2
+  },
+  {
+    "word": "lanlekhi",
+    "ipa": "lanlexi",
+    "part_of_speech": "noun.inanimate",
+    "english": "eating spree for a special taste"
+  },
+  {
+    "word": "lanqoyi",
+    "ipa": "lanqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "killing spree"
+  },
+  {
+    "word": "laqat",
+    "ipa": "laqAt",
+    "part_of_speech": "verb",
+    "english": "to cry, to weep"
+  },
+  {
+    "word": "laqikh",
+    "ipa": "laqex",
+    "part_of_speech": "noun",
+    "english": "tear, tears"
+  },
+  {
+    "word": "lashfak",
+    "ipa": "laʃfak",
+    "part_of_speech": "noun.inanimate",
+    "english": "stew"
+  },
+  {
+    "word": "lavakh",
+    "ipa": "lavax",
+    "part_of_speech": "adjective",
+    "english": "loud"
+  },
+  {
+    "word": "lavakhat",
+    "ipa": "lavaxat",
+    "part_of_speech": "verb",
+    "english": "to be loud"
+  },
+  {
+    "word": "layafat",
+    "ipa": "lajafat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be happy"
+  },
+  {
+    "word": "laz",
+    "ipa": "laz",
+    "part_of_speech": "verb.auxiliary",
+    "english": "could (assigns past tense)",
+    "sense": 1
+  },
+  {
+    "word": "laz",
+    "ipa": "laz",
+    "part_of_speech": "verb.auxiliary",
+    "english": "can (assigns present tense)",
+    "sense": 2
+  },
+  {
+    "word": "lei",
+    "ipa": "lei",
+    "part_of_speech": "noun.animate",
+    "english": "ghost, adult whose body was not burned",
+    "sense": 1
+  },
+  {
+    "word": "lei",
+    "ipa": "lei",
+    "part_of_speech": "adjective",
+    "english": "lost",
+    "sense": 2
+  },
+  {
+    "word": "leishak",
+    "ipa": "leiʃak",
+    "part_of_speech": "noun.animate",
+    "english": "orphan"
+  },
+  {
+    "word": "lekh",
+    "ipa": "lex",
+    "part_of_speech": "noun.animate",
+    "english": "language",
+    "sense": 1
+  },
+  {
+    "word": "lekh",
+    "ipa": "lex",
+    "part_of_speech": "noun.inanimate",
+    "english": "tongue",
+    "sense": 2
+  },
+  {
+    "word": "lekhaan",
+    "ipa": "lexaan",
+    "part_of_speech": "noun",
+    "english": "enough, sufﬁciently"
+  },
+  {
+    "word": "lekhi",
+    "ipa": "lexi",
+    "part_of_speech": "noun.inanimate",
+    "english": "taste"
+  },
+  {
+    "word": "lekhilat",
+    "ipa": "lexilat",
+    "part_of_speech": "verb",
+    "english": "to taste"
+  },
+  {
+    "word": "lekhmove",
+    "ipa": "lexmove",
+    "part_of_speech": "noun.inanimate",
+    "english": "constructed language"
+  },
+  {
+    "word": "lenta",
+    "ipa": "lenta",
+    "part_of_speech": "noun",
+    "english": "neck, stem"
+  },
+  {
+    "word": "leqse",
+    "ipa": "leqse",
+    "part_of_speech": "noun.inanimate",
+    "english": "rat"
+  },
+  {
+    "word": "leshitat",
+    "ipa": "leʃitat",
+    "part_of_speech": "verb",
+    "english": "to breathe"
+  },
+  {
+    "word": "leshitof",
+    "ipa": "leʃitof",
+    "part_of_speech": "noun.inanimate",
+    "english": "time period of approximately 2 minutes"
+  },
+  {
+    "word": "lir",
+    "ipa": "lir",
+    "part_of_speech": "noun.inanimate",
+    "english": "tattoo"
+  },
+  {
+    "word": "lirak",
+    "ipa": "liɾak",
+    "part_of_speech": "noun.animate",
+    "english": "tattoo artist"
+  },
+  {
+    "word": "lirat",
+    "ipa": "liɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to tattoo"
+  },
+  {
+    "word": "lirikh",
+    "ipa": "liɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "An image or symbol depicted on a tattoo"
+  },
+  {
+    "word": "lirisir",
+    "ipa": "liɾisir",
+    "part_of_speech": "noun.inanimate",
+    "english": "tattoos (irregular plural)"
+  },
+  {
+    "word": "lirisirazo",
+    "ipa": "liɾisiɾazo",
+    "part_of_speech": "noun.inanimate",
+    "english": "bladed writing"
+  },
+  {
+    "word": "liwalat",
+    "ipa": "liwalat",
+    "part_of_speech": "verb",
+    "english": "to tie lojat (1): [l\u0011o> dZat\u0011] DP vtr. to hit, to run off lojat (2): [l\u0011o> dZat\u0011] DP vtr. to all. to hit at"
+  },
+  {
+    "word": "lommat",
+    "ipa": "lommat",
+    "part_of_speech": "verb",
+    "english": "to bathe"
+  },
+  {
+    "word": "loqam",
+    "ipa": "loqAm",
+    "part_of_speech": "noun",
+    "english": "arrow"
+  },
+  {
+    "word": "lorat",
+    "ipa": "loɾat",
+    "part_of_speech": "verb",
+    "english": "to wink"
+  },
+  {
+    "word": "lorrat",
+    "ipa": "lorat",
+    "part_of_speech": "verb",
+    "english": "to blink"
+  },
+  {
+    "word": "loshak",
+    "ipa": "loʃak",
+    "part_of_speech": "noun.animate",
+    "english": "guard"
+  },
+  {
+    "word": "loshat",
+    "ipa": "loʃat",
+    "part_of_speech": "verb",
+    "english": "to carry (in a cart, sack, child in the womb), to contain"
+  },
+  {
+    "word": "lost",
+    "ipa": "lost",
+    "part_of_speech": "adjective",
+    "english": "disappointed"
+  },
+  {
+    "word": "lostat",
+    "ipa": "lostat",
+    "part_of_speech": "verb",
+    "english": "to disappoint, to miss (fail to see or recognize)"
+  },
+  {
+    "word": "loy",
+    "ipa": "loj",
+    "part_of_speech": "noun.inanimate",
+    "english": "puddle",
+    "sense": 1
+  },
+  {
+    "word": "ma",
+    "ipa": "ma",
+    "part_of_speech": "conjunction",
+    "english": "and",
+    "sense": 1
+  },
+  {
+    "word": "ma",
+    "ipa": "ma",
+    "part_of_speech": "preposition",
+    "english": "to abl. with",
+    "sense": 2
+  },
+  {
+    "word": "madat",
+    "ipa": "madat",
+    "part_of_speech": "verb",
+    "english": "to sew"
+  },
+  {
+    "word": "mae",
+    "ipa": "mae",
+    "part_of_speech": "pronoun",
+    "english": "him, her, it, his, her/hers, its (both third person and possessive forms)"
+  },
+  {
+    "word": "maegi",
+    "ipa": "maegi",
+    "part_of_speech": "noun.inanimate",
+    "english": "sorceress, witch"
+  },
+  {
+    "word": "mafo",
+    "ipa": "mafo",
+    "part_of_speech": "noun.animate",
+    "english": "young goat, kid"
+  },
+  {
+    "word": "mahrazh",
+    "ipa": "mahɾaʒ",
+    "part_of_speech": "noun.animate",
+    "english": "man, short form of mahrazhkem for ’husband’"
+  },
+  {
+    "word": "mahrazhkem",
+    "ipa": "mahɾaʒkem",
+    "part_of_speech": "noun.inanimate",
+    "english": "husband"
+  },
+  {
+    "word": "mai",
+    "ipa": "mai",
+    "part_of_speech": "noun.animate",
+    "english": "mother majin: [ma> dZin\u0011] DP conj. and then, then, so, and so, consequently"
+  },
+  {
+    "word": "malilat",
+    "ipa": "malilat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be ﬁnished"
+  },
+  {
+    "word": "manimven",
+    "ipa": "manimven",
+    "part_of_speech": "adjective",
+    "english": "anxious"
+  },
+  {
+    "word": "manin",
+    "ipa": "manin",
+    "part_of_speech": "noun.inanimate",
+    "english": "young male horse"
+  },
+  {
+    "word": "marilat",
+    "ipa": "maɾilat",
+    "part_of_speech": "verb",
+    "english": "to construct"
+  },
+  {
+    "word": "mas",
+    "ipa": "mas",
+    "part_of_speech": "noun",
+    "english": "valuable"
+  },
+  {
+    "word": "mattek",
+    "ipa": "mattek",
+    "part_of_speech": "noun.animate",
+    "english": "limper (insult)"
+  },
+  {
+    "word": "mattelat",
+    "ipa": "mattelat",
+    "part_of_speech": "verb",
+    "english": "to limp"
+  },
+  {
+    "word": "mawizzi",
+    "ipa": "mawizzi",
+    "part_of_speech": "noun.inanimate",
+    "english": "rabbit"
+  },
+  {
+    "word": "me",
+    "ipa": "me",
+    "part_of_speech": "pronoun",
+    "english": "he, she, it me orzo!: [me oRzo] DP phrase it’s a trap!"
+  },
+  {
+    "word": "mehas",
+    "ipa": "mehas",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition ha"
+  },
+  {
+    "word": "mek",
+    "ipa": "mek",
+    "part_of_speech": "numeral",
+    "english": "ﬁve"
+  },
+  {
+    "word": "mekak",
+    "ipa": "mekak",
+    "part_of_speech": "noun.animate",
+    "english": "ﬁfth (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "mekis",
+    "ipa": "mehis",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition ki"
+  },
+  {
+    "word": "mekken",
+    "ipa": "mekken",
+    "part_of_speech": "numeral",
+    "english": "ﬁve hundred"
+  },
+  {
+    "word": "mekthi",
+    "ipa": "mekθi",
+    "part_of_speech": "numeral",
+    "english": "ﬁfteen"
+  },
+  {
+    "word": "mel",
+    "ipa": "mel",
+    "part_of_speech": "adjective",
+    "english": "bad, evil"
+  },
+  {
+    "word": "melat",
+    "ipa": "melat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be evil"
+  },
+  {
+    "word": "melikh",
+    "ipa": "melix",
+    "part_of_speech": "noun.inanimate",
+    "english": "occurrence"
+  },
+  {
+    "word": "melikheya",
+    "ipa": "melixeja",
+    "part_of_speech": "noun.inanimate",
+    "english": "the patient’s half of the act (grammatical, not medical meaning) cf. tikkheya"
+  },
+  {
+    "word": "mem",
+    "ipa": "mem",
+    "part_of_speech": "noun",
+    "english": "sound"
+  },
+  {
+    "word": "memas",
+    "ipa": "memas",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition ma"
+  },
+  {
+    "word": "memat",
+    "ipa": "memat",
+    "part_of_speech": "verb",
+    "english": "to make a sound"
+  },
+  {
+    "word": "memras",
+    "ipa": "memɾas",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition mra"
+  },
+  {
+    "word": "memziri",
+    "ipa": "memziɾi",
+    "part_of_speech": "noun.inanimate",
+    "english": "bird call, tweet"
+  },
+  {
+    "word": "menat",
+    "ipa": "menat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be empty",
+    "sense": 1
+  },
+  {
+    "word": "menat",
+    "ipa": "menat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to be empty (of something)",
+    "sense": 2
+  },
+  {
+    "word": "mesat",
+    "ipa": "mesat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be swollen"
+  },
+  {
+    "word": "meshat",
+    "ipa": "meʃat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be new"
+  },
+  {
+    "word": "meshes",
+    "ipa": "meʃes",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition she"
+  },
+  {
+    "word": "mesilat",
+    "ipa": "mesilat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be pregnant"
+  },
+  {
+    "word": "mesina",
+    "ipa": "mesina",
+    "part_of_speech": "noun.inanimate",
+    "english": "soup",
+    "type_b": true
+  },
+  {
+    "word": "meso",
+    "ipa": "meso",
+    "part_of_speech": "noun",
+    "english": "muscle"
+  },
+  {
+    "word": "mesolat",
+    "ipa": "mesolat",
+    "part_of_speech": "verb",
+    "english": "to swell"
+  },
+  {
+    "word": "messhih",
+    "ipa": "meʃʃih",
+    "part_of_speech": "noun.inanimate",
+    "english": "perlino horse"
+  },
+  {
+    "word": "messhihven",
+    "ipa": "meʃʃihven",
+    "part_of_speech": "adjective",
+    "english": "pale skinned"
+  },
+  {
+    "word": "metorgas",
+    "ipa": "metoɾgas",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition torga"
+  },
+  {
+    "word": "mevis",
+    "ipa": "mevis",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition vi"
+  },
+  {
+    "word": "mezahe",
+    "ipa": "mezahe",
+    "part_of_speech": "adjective",
+    "english": "sexy"
+  },
+  {
+    "word": "mezahhe",
+    "ipa": "mezahhe",
+    "part_of_speech": "adjective",
+    "english": "’hot’, really sexy"
+  },
+  {
+    "word": "mezhah",
+    "ipa": "mezhah",
+    "part_of_speech": "noun",
+    "english": "whore"
+  },
+  {
+    "word": "mhar",
+    "ipa": "mhar",
+    "part_of_speech": "adjective",
+    "english": "sore"
+  },
+  {
+    "word": "mhari",
+    "ipa": "mhaɾi",
+    "part_of_speech": "noun.inanimate",
+    "english": "headache"
+  },
+  {
+    "word": "mihe",
+    "ipa": "mihe",
+    "part_of_speech": "noun.inanimate",
+    "english": "thorn"
+  },
+  {
+    "word": "mihesof",
+    "ipa": "mihesof",
+    "part_of_speech": "noun.inanimate",
+    "english": "dagger"
+  },
+  {
+    "word": "mirges",
+    "ipa": "miɾges",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition irge"
+  },
+  {
+    "word": "mithrat",
+    "ipa": "miθɾat",
+    "part_of_speech": "verb",
+    "english": "to rest"
+  },
+  {
+    "word": "mithri",
+    "ipa": "miθɾi",
+    "part_of_speech": "noun",
+    "english": "rest"
+  },
+  {
+    "word": "molethas",
+    "ipa": "moleθas",
+    "part_of_speech": "pronoun",
+    "english": "pronominal version of preposition oleth"
+  },
+  {
+    "word": "mori",
+    "ipa": "moɾi",
+    "part_of_speech": "pronoun",
+    "english": "they"
+  },
+  {
+    "word": "moska",
+    "ipa": "moska",
+    "part_of_speech": "noun",
+    "english": "sack, pack"
+  },
+  {
+    "word": "moskat",
+    "ipa": "moskat",
+    "part_of_speech": "verb",
+    "english": "to load, to pack"
+  },
+  {
+    "word": "movek",
+    "ipa": "movek",
+    "part_of_speech": "noun.animate",
+    "english": "warlock, magician"
+  },
+  {
+    "word": "movekkhat",
+    "ipa": "movexxat",
+    "part_of_speech": "verb.transitive",
+    "english": "to be intended for, to be for"
+  },
+  {
+    "word": "movelat",
+    "ipa": "movelat",
+    "part_of_speech": "verb",
+    "english": "to make by hand, to create mr’: [mR] DP prep. elided version of mra"
+  },
+  {
+    "word": "mra",
+    "ipa": "mɾa",
+    "part_of_speech": "preposition",
+    "english": "to nom. within",
+    "sense": 1
+  },
+  {
+    "word": "mra",
+    "ipa": "mɾa",
+    "part_of_speech": "preposition",
+    "english": "to all. into",
+    "sense": 2
+  },
+  {
+    "word": "mra",
+    "ipa": "mɾa",
+    "part_of_speech": "preposition",
+    "english": "to abl. out of",
+    "sense": 3
+  },
+  {
+    "word": "mredi",
+    "ipa": "mɾedi",
+    "part_of_speech": "noun",
+    "english": "garlic najah: [n\u0011a> dZah] DP adj. victorious najahak: [n\u0011a> dZahak] DP na. winner najahat: [n\u0011a> dZahat\u0011] DP vin. to be victorious najaheya: [n\u0011a> dZaheja] DP ni. victory (in battle)"
+  },
+  {
+    "word": "nakhaan",
+    "ipa": "naxaan",
+    "part_of_speech": "adverb",
+    "english": "completely, totally, fully (lit. to stopping)"
+  },
+  {
+    "word": "nakhat",
+    "ipa": "naxat",
+    "part_of_speech": "verb",
+    "english": "to stop"
+  },
+  {
+    "word": "nakho",
+    "ipa": "naxo",
+    "part_of_speech": "noun.inanimate",
+    "english": "end, stop"
+  },
+  {
+    "word": "nakhok",
+    "ipa": "naxok",
+    "part_of_speech": "adjective",
+    "english": "the last (functions like an ordinal number)"
+  },
+  {
+    "word": "nakholat",
+    "ipa": "naxolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to end"
+  },
+  {
+    "word": "naqis",
+    "ipa": "naqes",
+    "part_of_speech": "adjective",
+    "english": "small"
+  },
+  {
+    "word": "naqisat",
+    "ipa": "naqesat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be small"
+  },
+  {
+    "word": "navat",
+    "ipa": "navat",
+    "part_of_speech": "verb",
+    "english": "to urinate"
+  },
+  {
+    "word": "navik",
+    "ipa": "navik",
+    "part_of_speech": "noun.animate",
+    "english": "beginner"
+  },
+  {
+    "word": "navilat",
+    "ipa": "navilat",
+    "part_of_speech": "verb",
+    "english": "to take a little pee"
+  },
+  {
+    "word": "navvirzethay",
+    "ipa": "navviɾzeθaj",
+    "part_of_speech": "adjective",
+    "english": "ashamed"
+  },
+  {
+    "word": "nayat",
+    "ipa": "najat",
+    "part_of_speech": "noun.inanimate",
+    "english": "girl"
+  },
+  {
+    "word": "neak",
+    "ipa": "neak",
+    "part_of_speech": "adjective",
+    "english": "long"
+  },
+  {
+    "word": "negwin",
+    "ipa": "negwin",
+    "part_of_speech": "adjective",
+    "english": "stone"
+  },
+  {
+    "word": "nem",
+    "ipa": "nem",
+    "part_of_speech": "verb.auxiliary",
+    "english": "passive particle"
+  },
+  {
+    "word": "nemo",
+    "ipa": "nemo",
+    "part_of_speech": "verb.auxiliary",
+    "english": "reﬂexive particle"
+  },
+  {
+    "word": "nerro",
+    "ipa": "nero",
+    "part_of_speech": "noun.inanimate",
+    "english": "foal"
+  },
+  {
+    "word": "nesat",
+    "ipa": "nesat",
+    "part_of_speech": "verb",
+    "english": "to know (information)"
+  },
+  {
+    "word": "nesikh",
+    "ipa": "nesix",
+    "part_of_speech": "noun.inanimate",
+    "english": "information"
+  },
+  {
+    "word": "nesolat",
+    "ipa": "nesolat",
+    "part_of_speech": "verb",
+    "english": "to learn"
+  },
+  {
+    "word": "nevak",
+    "ipa": "nevak",
+    "part_of_speech": "noun.animate",
+    "english": "guest"
+  },
+  {
+    "word": "nevakh",
+    "ipa": "nevax",
+    "part_of_speech": "noun.inanimate",
+    "english": "sitting-spot"
+  },
+  {
+    "word": "nevalat",
+    "ipa": "nevalat",
+    "part_of_speech": "verb",
+    "english": "to sit"
+  },
+  {
+    "word": "nevasolat",
+    "ipa": "nevasolat",
+    "part_of_speech": "verb",
+    "english": "to sit down"
+  },
+  {
+    "word": "nhare",
+    "ipa": "nhaɾe",
+    "part_of_speech": "noun.animate",
+    "english": "head (of a human)"
+  },
+  {
+    "word": "nhizo",
+    "ipa": "nhizo",
+    "part_of_speech": "noun.animate",
+    "english": "raven"
+  },
+  {
+    "word": "nhomi",
+    "ipa": "nhomi",
+    "part_of_speech": "noun.animate",
+    "english": "female dog"
+  },
+  {
+    "word": "nindi",
+    "ipa": "nindi",
+    "part_of_speech": "noun.inanimate",
+    "english": "sausage"
+  },
+  {
+    "word": "ninthqoyi",
+    "ipa": "ninθqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "blood sausage"
+  },
+  {
+    "word": "niqe",
+    "ipa": "niqɛ",
+    "part_of_speech": "adjective",
+    "english": "rigid"
+  },
+  {
+    "word": "niqikkheya",
+    "ipa": "niqexxeja",
+    "part_of_speech": "noun.inanimate",
+    "english": "orgasm"
+  },
+  {
+    "word": "nirat",
+    "ipa": "niɾat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be full",
+    "sense": 1
+  },
+  {
+    "word": "nirat",
+    "ipa": "niɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to be full of (something)",
+    "sense": 2
+  },
+  {
+    "word": "nirrat",
+    "ipa": "nirat",
+    "part_of_speech": "verb.transitive",
+    "english": "to ﬁll"
+  },
+  {
+    "word": "nith",
+    "ipa": "niθ",
+    "part_of_speech": "adjective",
+    "english": "painful"
+  },
+  {
+    "word": "nithat",
+    "ipa": "niθat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to feel pain",
+    "sense": 1
+  },
+  {
+    "word": "nithat",
+    "ipa": "niθat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to feel pain from a speciﬁc source",
+    "sense": 2
+  },
+  {
+    "word": "nithilat",
+    "ipa": "niθilat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to feel encouraged, to feel invigorated"
+  },
+  {
+    "word": "nithmen",
+    "ipa": "niθmen",
+    "part_of_speech": "adjective",
+    "english": "painless"
+  },
+  {
+    "word": "nivat",
+    "ipa": "nivat",
+    "part_of_speech": "verb",
+    "english": "to frown"
+  },
+  {
+    "word": "niyanqoy",
+    "ipa": "nijanqɔj",
+    "part_of_speech": "adverb",
+    "english": "together"
+  },
+  {
+    "word": "nizhat",
+    "ipa": "niʒat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be tough"
+  },
+  {
+    "word": "noah",
+    "ipa": "noah",
+    "part_of_speech": "noun.animate",
+    "english": "bull noﬁlat: [n\u0011ofil\u0011at\u0011] DP v. to wipe"
+  },
+  {
+    "word": "nokittat",
+    "ipa": "nokittat",
+    "part_of_speech": "verb",
+    "english": "to trample"
+  },
+  {
+    "word": "noreth",
+    "ipa": "noɾeθ",
+    "part_of_speech": "noun.inanimate",
+    "english": "hair"
+  },
+  {
+    "word": "norethaan",
+    "ipa": "noɾeθaan",
+    "part_of_speech": "adverb",
+    "english": "completely"
+  },
+  {
+    "word": "notat",
+    "ipa": "notat",
+    "part_of_speech": "verb",
+    "english": "to turn"
+  },
+  {
+    "word": "nozho",
+    "ipa": "noʒo",
+    "part_of_speech": "noun.inanimate",
+    "english": "chestnut horse nozhoven: [n\u0011oZoven\u0011] DP adj. brown, brown skinned"
+  },
+  {
+    "word": "nris",
+    "ipa": "nɾis",
+    "part_of_speech": "adjective",
+    "english": "straight nroj: [n\u0011Ro> dZ] DP adj. thick, complex nrojat: [n\u0011Ro> dZat\u0011] DP vin. to be thick, complex"
+  },
+  {
+    "word": "oakah",
+    "ipa": "oakah",
+    "part_of_speech": "noun.inanimate",
+    "english": "a person’s worth or ability, mettle, ’soul’"
+  },
+  {
+    "word": "ocha",
+    "ipa": "otʃa",
+    "part_of_speech": "noun.inanimate",
+    "english": "dun horse"
+  },
+  {
+    "word": "ochaven",
+    "ipa": "otʃaven",
+    "part_of_speech": "adjective",
+    "english": "light skinned"
+  },
+  {
+    "word": "odaya",
+    "ipa": "odaja",
+    "part_of_speech": "noun",
+    "english": "breast"
+  },
+  {
+    "word": "oeta",
+    "ipa": "oeta",
+    "part_of_speech": "noun.inanimate",
+    "english": "yam"
+  },
+  {
+    "word": "oggo",
+    "ipa": "oggo",
+    "part_of_speech": "noun.animate",
+    "english": "head (of an animal)"
+  },
+  {
+    "word": "ohara",
+    "ipa": "ohaɾa",
+    "part_of_speech": "noun.inanimate",
+    "english": "daughter"
+  },
+  {
+    "word": "oharat",
+    "ipa": "ohaɾat",
+    "part_of_speech": "verb",
+    "english": "to fall"
+  },
+  {
+    "word": "ohazh",
+    "ipa": "ohaʒ",
+    "part_of_speech": "adjective",
+    "english": "heavy"
+  },
+  {
+    "word": "ohazhat",
+    "ipa": "ohaʒat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be heavy"
+  },
+  {
+    "word": "ohazho",
+    "ipa": "ohaʒo",
+    "part_of_speech": "adjective",
+    "english": "fermented"
+  },
+  {
+    "word": "ohazholat",
+    "ipa": "ohaʒolat",
+    "part_of_speech": "verb",
+    "english": "to become heavy, to ferment"
+  },
+  {
+    "word": "ohharat",
+    "ipa": "ohhaɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to make something fall, to tear down"
+  },
+  {
+    "word": "oholat",
+    "ipa": "oholat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be still"
+  },
+  {
+    "word": "oiro",
+    "ipa": "oiɾo",
+    "part_of_speech": "adjective",
+    "english": "fat ojil: [o> dZil\u0011] DP adj. wrong, incorrect ojilat: [o> dZil\u0011at\u0011] DP v. to be wrong, to be incorrect"
+  },
+  {
+    "word": "okeo",
+    "ipa": "okeo",
+    "part_of_speech": "noun.animate",
+    "english": "friend, trustee"
+  },
+  {
+    "word": "okhat",
+    "ipa": "oxat",
+    "part_of_speech": "verb",
+    "english": "to ring"
+  },
+  {
+    "word": "okkat",
+    "ipa": "okkat",
+    "part_of_speech": "verb.transitive",
+    "english": "to choose"
+  },
+  {
+    "word": "okre",
+    "ipa": "okɾe",
+    "part_of_speech": "noun",
+    "english": "tent"
+  },
+  {
+    "word": "okrenegwin",
+    "ipa": "okɾenegwin",
+    "part_of_speech": "noun.inanimate",
+    "english": "stone house"
+  },
+  {
+    "word": "oldat",
+    "ipa": "oldat",
+    "part_of_speech": "verb",
+    "english": "to rub"
+  },
+  {
+    "word": "oleth",
+    "ipa": "oleθ",
+    "part_of_speech": "preposition",
+    "english": "to gen. over, above"
+  },
+  {
+    "word": "olta",
+    "ipa": "olta",
+    "part_of_speech": "noun.inanimate",
+    "english": "hill"
+  },
+  {
+    "word": "oma",
+    "ipa": "oma",
+    "part_of_speech": "preposition",
+    "english": "to abl. without"
+  },
+  {
+    "word": "ondelat",
+    "ipa": "ondelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to wear"
+  },
+  {
+    "word": "onqotha",
+    "ipa": "onqɔθa",
+    "part_of_speech": "noun.inanimate",
+    "english": "a distance of approximately 1/8 mile"
+  },
+  {
+    "word": "onqothat",
+    "ipa": "onqɔθat",
+    "part_of_speech": "verb",
+    "english": "to walk (horse gait)"
+  },
+  {
+    "word": "oqet",
+    "ipa": "oqɛt",
+    "part_of_speech": "noun.inanimate",
+    "english": "sheep (singular)"
+  },
+  {
+    "word": "oqo",
+    "ipa": "oqɔ",
+    "part_of_speech": "noun.inanimate",
+    "english": "beat, rythmic noise"
+  },
+  {
+    "word": "oqolat",
+    "ipa": "oqɔlat",
+    "part_of_speech": "verb",
+    "english": "to beat, to sound rythmically"
+  },
+  {
+    "word": "oqooqo",
+    "ipa": "oqɔoqɔ",
+    "part_of_speech": "noun.inanimate",
+    "english": "heartbeat"
+  },
+  {
+    "word": "ori",
+    "ipa": "oɾi",
+    "part_of_speech": "numeral",
+    "english": "eight"
+  },
+  {
+    "word": "orik",
+    "ipa": "oɾik",
+    "part_of_speech": "noun.animate",
+    "english": "eighth (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "oriken",
+    "ipa": "oɾiken",
+    "part_of_speech": "numeral",
+    "english": "eight hundred"
+  },
+  {
+    "word": "oritthi",
+    "ipa": "oɾitθi",
+    "part_of_speech": "numeral",
+    "english": "eighteen"
+  },
+  {
+    "word": "orvik",
+    "ipa": "oɾvik",
+    "part_of_speech": "noun",
+    "english": "whip"
+  },
+  {
+    "word": "orzi",
+    "ipa": "oɾzi",
+    "part_of_speech": "noun.inanimate",
+    "english": "shoe"
+  },
+  {
+    "word": "orzo",
+    "ipa": "oɾzo",
+    "part_of_speech": "noun.inanimate",
+    "english": "trap"
+  },
+  {
+    "word": "os",
+    "ipa": "os",
+    "part_of_speech": "noun.inanimate",
+    "english": "path, road osﬁr: [osfir] DP ni. round road, ’roundabout’"
+  },
+  {
+    "word": "oshat",
+    "ipa": "oʃat",
+    "part_of_speech": "verb",
+    "english": "to suck"
+  },
+  {
+    "word": "oskikh",
+    "ipa": "oskix",
+    "part_of_speech": "adverb",
+    "english": "yesterday"
+  },
+  {
+    "word": "osoleth",
+    "ipa": "osoleθ",
+    "part_of_speech": "noun.inanimate",
+    "english": "bridge"
+  },
+  {
+    "word": "ostat",
+    "ipa": "ostat",
+    "part_of_speech": "verb.transitive",
+    "english": "to bite"
+  },
+  {
+    "word": "osto",
+    "ipa": "osto",
+    "part_of_speech": "noun",
+    "english": "bite"
+  },
+  {
+    "word": "ovah",
+    "ipa": "ovah",
+    "part_of_speech": "adjective",
+    "english": "wide, fat"
+  },
+  {
+    "word": "ovethat",
+    "ipa": "oveθat",
+    "part_of_speech": "verb",
+    "english": "to ﬂy"
+  },
+  {
+    "word": "ovrakh",
+    "ipa": "ovɾax",
+    "part_of_speech": "noun.inanimate",
+    "english": "opening, opportunity, vulnerability"
+  },
+  {
+    "word": "ovray",
+    "ipa": "ovɾaj",
+    "part_of_speech": "adjective",
+    "english": "loose, moveable, portable"
+  },
+  {
+    "word": "ovvethat",
+    "ipa": "ovveθat",
+    "part_of_speech": "verb.transitive",
+    "english": "to throw, to shoot (with bow)"
+  },
+  {
+    "word": "ovvethikh",
+    "ipa": "ovveθix",
+    "part_of_speech": "noun.inanimate",
+    "english": "goal, destination"
+  },
+  {
+    "word": "ozzir",
+    "ipa": "ozzir",
+    "part_of_speech": "noun",
+    "english": "ruby"
+  },
+  {
+    "word": "ozzirven",
+    "ipa": "ozziɾven",
+    "part_of_speech": "adjective",
+    "english": "ﬁrey, ﬂashing"
+  },
+  {
+    "word": "qacha",
+    "ipa": "qAtʃa",
+    "part_of_speech": "noun",
+    "english": "ﬁreﬂy"
+  },
+  {
+    "word": "qaf",
+    "ipa": "qAf",
+    "part_of_speech": "noun.inanimate",
+    "english": "question"
+  },
+  {
+    "word": "qafat",
+    "ipa": "qAfat",
+    "part_of_speech": "verb.transitive",
+    "english": "to ask"
+  },
+  {
+    "word": "qahlan",
+    "ipa": "qAhlan",
+    "part_of_speech": "noun.inanimate",
+    "english": "palimino horse"
+  },
+  {
+    "word": "qahlanven",
+    "ipa": "qAhlanven",
+    "part_of_speech": "adjective",
+    "english": "light brown skinned"
+  },
+  {
+    "word": "qamay",
+    "ipa": "qAmaj",
+    "part_of_speech": "adjective",
+    "english": "wailing"
+  },
+  {
+    "word": "qana",
+    "ipa": "qAna",
+    "part_of_speech": "noun",
+    "english": "black stork, stork (of any kind)"
+  },
+  {
+    "word": "qayelat",
+    "ipa": "qAjelat",
+    "part_of_speech": "verb",
+    "english": "to ﬂoat"
+  },
+  {
+    "word": "qazat",
+    "ipa": "qAzat",
+    "part_of_speech": "numeral",
+    "english": "nine"
+  },
+  {
+    "word": "qazatak",
+    "ipa": "qAzatak",
+    "part_of_speech": "noun.animate",
+    "english": "ninth (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "qazathi",
+    "ipa": "qAzaθi",
+    "part_of_speech": "numeral",
+    "english": "nineteen"
+  },
+  {
+    "word": "qazatken",
+    "ipa": "qAzatken",
+    "part_of_speech": "numeral",
+    "english": "nine hundred"
+  },
+  {
+    "word": "qazer",
+    "ipa": "qAzer",
+    "part_of_speech": "noun.inanimate",
+    "english": "apple"
+  },
+  {
+    "word": "qemmemmo",
+    "ipa": "qɛmmemmo",
+    "part_of_speech": "adjective",
+    "english": "mysterions, strange"
+  },
+  {
+    "word": "qemmo",
+    "ipa": "qɛmmo",
+    "part_of_speech": "noun.animate",
+    "english": "cover"
+  },
+  {
+    "word": "qemmolat",
+    "ipa": "qɛmmolat",
+    "part_of_speech": "verb",
+    "english": "to cover"
+  },
+  {
+    "word": "qemmosor",
+    "ipa": "qɛmmosor",
+    "part_of_speech": "noun.animate",
+    "english": "clothes"
+  },
+  {
+    "word": "qemmotihan",
+    "ipa": "qɛmmotihan",
+    "part_of_speech": "noun.inanimate",
+    "english": "eyelid"
+  },
+  {
+    "word": "qeshah",
+    "ipa": "qɛʃah",
+    "part_of_speech": "noun.inanimate",
+    "english": "sand"
+  },
+  {
+    "word": "qevir",
+    "ipa": "qɛvir",
+    "part_of_speech": "noun",
+    "english": "forest"
+  },
+  {
+    "word": "qifo",
+    "ipa": "qefo",
+    "part_of_speech": "noun.inanimate",
+    "english": "boar, pig, pork"
+  },
+  {
+    "word": "qile",
+    "ipa": "qele",
+    "part_of_speech": "noun",
+    "english": "island"
+  },
+  {
+    "word": "qisi",
+    "ipa": "qesi",
+    "part_of_speech": "preposition",
+    "english": "to nom. about, concerning",
+    "sense": 1
+  },
+  {
+    "word": "qisi",
+    "ipa": "qesi",
+    "part_of_speech": "adverb",
+    "english": "near, nearby, close; soon",
+    "sense": 2
+  },
+  {
+    "word": "qiya",
+    "ipa": "qeja",
+    "part_of_speech": "adjective",
+    "english": "bleeding"
+  },
+  {
+    "word": "qiyalat",
+    "ipa": "qejalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to bleed"
+  },
+  {
+    "word": "qlaseh",
+    "ipa": "qlaseh",
+    "part_of_speech": "noun.animate",
+    "english": "deer (archaic)"
+  },
+  {
+    "word": "qora",
+    "ipa": "qɔɾa",
+    "part_of_speech": "noun.animate",
+    "english": "hand, arm"
+  },
+  {
+    "word": "qoralat",
+    "ipa": "qɔɾalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to seize, to hold"
+  },
+  {
+    "word": "qorasokh",
+    "ipa": "qɔɾasox",
+    "part_of_speech": "noun.inanimate",
+    "english": "prize, spoils"
+  },
+  {
+    "word": "qorasolat",
+    "ipa": "qɔɾasolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to rape, to take"
+  },
+  {
+    "word": "qorraya",
+    "ipa": "qɔraja",
+    "part_of_speech": "noun.inanimate",
+    "english": "forearm, ’foot’ (measure)"
+  },
+  {
+    "word": "qosar",
+    "ipa": "qɔsar",
+    "part_of_speech": "noun",
+    "english": "spider"
+  },
+  {
+    "word": "qosarven",
+    "ipa": "qɔsaɾven",
+    "part_of_speech": "adjective",
+    "english": "deceptive"
+  },
+  {
+    "word": "qosarvenikh",
+    "ipa": "qɔsaɾvenix",
+    "part_of_speech": "noun.inanimate",
+    "english": "lie, trap, deception"
+  },
+  {
+    "word": "qoth",
+    "ipa": "qɔθ",
+    "part_of_speech": "adjective",
+    "english": "repetitive"
+  },
+  {
+    "word": "qothat",
+    "ipa": "qɔθat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be loyal, to be repetitive"
+  },
+  {
+    "word": "qov",
+    "ipa": "qɔv",
+    "part_of_speech": "adjective",
+    "english": "trembling"
+  },
+  {
+    "word": "qovat",
+    "ipa": "qɔvat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to tremble"
+  },
+  {
+    "word": "qovvolat",
+    "ipa": "qɔvvolat",
+    "part_of_speech": "verb",
+    "english": "to shed"
+  },
+  {
+    "word": "qoy",
+    "ipa": "qɔj",
+    "part_of_speech": "noun.inanimate",
+    "english": "blood"
+  },
+  {
+    "word": "qoy qoyi",
+    "ipa": "qɔj qɔji",
+    "part_of_speech": "phrase",
+    "english": "blood of my blood"
+  },
+  {
+    "word": "qwehat",
+    "ipa": "qwehat",
+    "part_of_speech": "verb",
+    "english": "to vomit"
+  },
+  {
+    "word": "rachel",
+    "ipa": "ratʃel",
+    "part_of_speech": "noun.animate",
+    "english": "tiger"
+  },
+  {
+    "word": "raggat",
+    "ipa": "raggat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to choke (on something)"
+  },
+  {
+    "word": "rahsan",
+    "ipa": "rahsan",
+    "part_of_speech": "adjective",
+    "english": "bright"
+  },
+  {
+    "word": "rai",
+    "ipa": "rai",
+    "part_of_speech": "interjection",
+    "english": "a yell of encouragement, a cheer, ’hurrah’"
+  },
+  {
+    "word": "rakh",
+    "ipa": "rax",
+    "part_of_speech": "noun",
+    "english": "boy, lamb (male)"
+  },
+  {
+    "word": "rakhi",
+    "ipa": "raxi",
+    "part_of_speech": "noun",
+    "english": "boy (insult) ramasar: [ramasar] DP na. land, country, plain(s)"
+  },
+  {
+    "word": "ray",
+    "ipa": "raj",
+    "part_of_speech": "adverb",
+    "english": "already",
+    "sense": 1
+  },
+  {
+    "word": "ray",
+    "ipa": "raj",
+    "part_of_speech": "verb.auxiliary",
+    "english": "to have (perfect tense introduction)",
+    "sense": 2
+  },
+  {
+    "word": "rayan",
+    "ipa": "rajan",
+    "part_of_speech": "noun.inanimate",
+    "english": "summit, top, plateau"
+  },
+  {
+    "word": "rea",
+    "ipa": "rea",
+    "part_of_speech": "noun.animate",
+    "english": "organ (internal body part)"
+  },
+  {
+    "word": "reaven",
+    "ipa": "reaven",
+    "part_of_speech": "adjective",
+    "english": "purple"
+  },
+  {
+    "word": "redda",
+    "ipa": "redda",
+    "part_of_speech": "adjective",
+    "english": "thin, sleek"
+  },
+  {
+    "word": "reddi",
+    "ipa": "reddi",
+    "part_of_speech": "adjective",
+    "english": "skinny (perjorative)"
+  },
+  {
+    "word": "rek",
+    "ipa": "rek",
+    "part_of_speech": "pronoun",
+    "english": "that (when speaking of an animate object not present or indirectly indicated)",
+    "sense": 2
+  },
+  {
+    "word": "reki",
+    "ipa": "reki",
+    "part_of_speech": "pronoun",
+    "english": "that (when speaking of an inanimate object not present or indirectly indicated)"
+  },
+  {
+    "word": "rekkaan",
+    "ipa": "rekkaan",
+    "part_of_speech": "conjunction",
+    "english": "to where"
+  },
+  {
+    "word": "rekke",
+    "ipa": "rekke",
+    "part_of_speech": "conjunction",
+    "english": "where",
+    "sense": 2
+  },
+  {
+    "word": "rekkoon",
+    "ipa": "rekkoon",
+    "part_of_speech": "conjunction",
+    "english": "from where"
+  },
+  {
+    "word": "remek",
+    "ipa": "remek",
+    "part_of_speech": "adjective",
+    "english": "asleep"
+  },
+  {
+    "word": "remekat",
+    "ipa": "remekat",
+    "part_of_speech": "verb",
+    "english": "to sleep"
+  },
+  {
+    "word": "renrenoh",
+    "ipa": "renɾenoh",
+    "part_of_speech": "adjective",
+    "english": "hollow reri!: [reRi] DP intj. stay! (short for vikoveras, for commanding animals)"
+  },
+  {
+    "word": "rhae",
+    "ipa": "ɾhae",
+    "part_of_speech": "noun",
+    "english": "foot, leg"
+  },
+  {
+    "word": "rhae mhar",
+    "ipa": "ɾhae mhar",
+    "part_of_speech": "noun",
+    "english": "sore-foot"
+  },
+  {
+    "word": "rhaek",
+    "ipa": "ɾhaek",
+    "part_of_speech": "noun.animate",
+    "english": "athlete, stud"
+  },
+  {
+    "word": "rhaesh",
+    "ipa": "ɾhaeʃ",
+    "part_of_speech": "noun.animate",
+    "english": "land, country"
+  },
+  {
+    "word": "rhaesheser",
+    "ipa": "ɾhaeʃeser",
+    "part_of_speech": "noun.animate",
+    "english": "world"
+  },
+  {
+    "word": "rhaesof",
+    "ipa": "ɾhaesof",
+    "part_of_speech": "noun.inanimate",
+    "english": "stride, ’yard’ (measure)"
+  },
+  {
+    "word": "rhaesof Valiri",
+    "ipa": "ɾhaesof valiɾi",
+    "part_of_speech": "noun.inanimate",
+    "english": "’meter’ (measure)"
+  },
+  {
+    "word": "rhaggat",
+    "ipa": "ɾhaggat",
+    "part_of_speech": "noun.inanimate",
+    "english": "cart"
+  },
+  {
+    "word": "rhaggat eveth",
+    "ipa": "ɾhaggat eveθ",
+    "part_of_speech": "noun",
+    "english": "ship"
+  },
+  {
+    "word": "rhanat",
+    "ipa": "ɾhanat",
+    "part_of_speech": "verb",
+    "english": "to be merciful"
+  },
+  {
+    "word": "rhelalat",
+    "ipa": "ɾhelalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to help"
+  },
+  {
+    "word": "rhellaya",
+    "ipa": "ɾhellaja",
+    "part_of_speech": "noun.inanimate",
+    "english": "help"
+  },
+  {
+    "word": "rhiko",
+    "ipa": "ɾhiko",
+    "part_of_speech": "noun.inanimate",
+    "english": "stirrup"
+  },
+  {
+    "word": "rhoa",
+    "ipa": "ɾhoa",
+    "part_of_speech": "noun",
+    "english": "animal, beast rhojosor: [Rho> dZosor] DP na. family"
+  },
+  {
+    "word": "rich",
+    "ipa": "ritʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "bubble, swelling"
+  },
+  {
+    "word": "rigwa",
+    "ipa": "rigwa",
+    "part_of_speech": "noun",
+    "english": "raisin"
+  },
+  {
+    "word": "rikh",
+    "ipa": "rix",
+    "part_of_speech": "adjective",
+    "english": "rotten"
+  },
+  {
+    "word": "rikholat",
+    "ipa": "rixolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to rot"
+  },
+  {
+    "word": "rissat",
+    "ipa": "rissat",
+    "part_of_speech": "verb.transitive",
+    "english": "to cut (slice)",
+    "sense": 1
+  },
+  {
+    "word": "rissat",
+    "ipa": "rissat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to cut into",
+    "sense": 2
+  },
+  {
+    "word": "riv",
+    "ipa": "riv",
+    "part_of_speech": "noun",
+    "english": "nose, tip"
+  },
+  {
+    "word": "rivve",
+    "ipa": "rivve",
+    "part_of_speech": "noun.inanimate",
+    "english": "sniff"
+  },
+  {
+    "word": "rizh",
+    "ipa": "riʒ",
+    "part_of_speech": "noun.animate",
+    "english": "son"
+  },
+  {
+    "word": "rochat",
+    "ipa": "rotʃat",
+    "part_of_speech": "verb.transitive",
+    "english": "to scrape"
+  },
+  {
+    "word": "rof",
+    "ipa": "rof",
+    "part_of_speech": "adjective",
+    "english": "shriveled"
+  },
+  {
+    "word": "rokhat",
+    "ipa": "roxat",
+    "part_of_speech": "verb",
+    "english": "to fear ’sh: [S] DP v.aux. elided version of ish"
+  },
+  {
+    "word": "saccheya",
+    "ipa": "sactʃeja",
+    "part_of_speech": "noun.inanimate",
+    "english": "category, part, piece"
+  },
+  {
+    "word": "sachat",
+    "ipa": "satʃat",
+    "part_of_speech": "verb",
+    "english": "to split, to divide"
+  },
+  {
+    "word": "sachi",
+    "ipa": "satʃi",
+    "part_of_speech": "noun.inanimate",
+    "english": "half sajak: [sa> dZak] DP na. rider sajat: [sa> dZat\u0011] DP vtr. to mount sajo: [sa> dZo] DP na. steed, one’s own horse"
+  },
+  {
+    "word": "samva",
+    "ipa": "samva",
+    "part_of_speech": "adjective",
+    "english": "broken"
+  },
+  {
+    "word": "samven",
+    "ipa": "samven",
+    "part_of_speech": "adjective",
+    "english": "numerous"
+  },
+  {
+    "word": "samvenolat",
+    "ipa": "samvenolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to surpass"
+  },
+  {
+    "word": "samvolat",
+    "ipa": "samvolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to break (when something is breakable)"
+  },
+  {
+    "word": "san",
+    "ipa": "san",
+    "part_of_speech": "noun.inanimate",
+    "english": "heap, pile",
+    "sense": 1
+  },
+  {
+    "word": "san",
+    "ipa": "san",
+    "part_of_speech": "adverb",
+    "english": "much, many",
+    "sense": 3
+  },
+  {
+    "word": "sandi",
+    "ipa": "sandi",
+    "part_of_speech": "adjective",
+    "english": "safe"
+  },
+  {
+    "word": "sanekhi",
+    "ipa": "sanexi",
+    "part_of_speech": "adverb",
+    "english": "a lot, many times"
+  },
+  {
+    "word": "sanneyalat",
+    "ipa": "sannejalat",
+    "part_of_speech": "verb",
+    "english": "to count"
+  },
+  {
+    "word": "saqoyalat",
+    "ipa": "saqɔjalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be bloody"
+  },
+  {
+    "word": "sash",
+    "ipa": "saʃ",
+    "part_of_speech": "adjective",
+    "english": "new"
+  },
+  {
+    "word": "sathoma",
+    "ipa": "saθoma",
+    "part_of_speech": "adjective",
+    "english": "juicy"
+  },
+  {
+    "word": "sathomakh",
+    "ipa": "saθomax",
+    "part_of_speech": "noun.inanimate",
+    "english": "orange"
+  },
+  {
+    "word": "save",
+    "ipa": "save",
+    "part_of_speech": "adverb",
+    "english": "again, back"
+  },
+  {
+    "word": "savidosalat",
+    "ipa": "savidosalat",
+    "part_of_speech": "verb",
+    "english": "to be protected"
+  },
+  {
+    "word": "sek",
+    "ipa": "sek",
+    "part_of_speech": "interjection",
+    "english": "yes"
+  },
+  {
+    "word": "sekke",
+    "ipa": "sekke",
+    "part_of_speech": "adverb",
+    "english": "too (much), too much; so, really, very"
+  },
+  {
+    "word": "sekosshi",
+    "ipa": "sekoʃʃi",
+    "part_of_speech": "adverb",
+    "english": "surely, certainly"
+  },
+  {
+    "word": "sen",
+    "ipa": "sen",
+    "part_of_speech": "numeral",
+    "english": "three"
+  },
+  {
+    "word": "senak",
+    "ipa": "senak",
+    "part_of_speech": "noun.animate",
+    "english": "third (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "senken",
+    "ipa": "senken",
+    "part_of_speech": "numeral",
+    "english": "three hundred"
+  },
+  {
+    "word": "senthi",
+    "ipa": "senθi",
+    "part_of_speech": "numeral",
+    "english": "thirteen"
+  },
+  {
+    "word": "seris",
+    "ipa": "seɾis",
+    "part_of_speech": "adjective",
+    "english": "free serja: [seR> dZa] DP ni. vest"
+  },
+  {
+    "word": "sewaf",
+    "ipa": "sewaf",
+    "part_of_speech": "noun",
+    "english": "grape sewaﬁkh: [sewafix] DP ni. wine"
+  },
+  {
+    "word": "shafka",
+    "ipa": "ʃafka",
+    "part_of_speech": "pronoun",
+    "english": "you (respectful)"
+  },
+  {
+    "word": "sharat",
+    "ipa": "ʃaɾat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be healthy"
+  },
+  {
+    "word": "she",
+    "ipa": "ʃe",
+    "part_of_speech": "preposition",
+    "english": "to nom. on, upon, in",
+    "sense": 1
+  },
+  {
+    "word": "she",
+    "ipa": "ʃe",
+    "part_of_speech": "preposition",
+    "english": "to abl. off of",
+    "sense": 2
+  },
+  {
+    "word": "she",
+    "ipa": "ʃe",
+    "part_of_speech": "preposition",
+    "english": "to all. onto",
+    "sense": 3
+  },
+  {
+    "word": "shekh",
+    "ipa": "ʃex",
+    "part_of_speech": "noun.inanimate",
+    "english": "sun"
+  },
+  {
+    "word": "shekh drivo",
+    "ipa": "ʃex dɾivo",
+    "part_of_speech": "noun.inanimate",
+    "english": "setting sun"
+  },
+  {
+    "word": "shekhikh",
+    "ipa": "ʃexix",
+    "part_of_speech": "noun.inanimate",
+    "english": "light"
+  },
+  {
+    "word": "shekhikhi",
+    "ipa": "ʃexixi",
+    "part_of_speech": "noun",
+    "english": "little light (A term of endearment for a child)"
+  },
+  {
+    "word": "shekhqoyi",
+    "ipa": "ʃexqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "total solar eclipse"
+  },
+  {
+    "word": "shierak",
+    "ipa": "ʃieɾak",
+    "part_of_speech": "noun.animate",
+    "english": "star"
+  },
+  {
+    "word": "shierak qiya",
+    "ipa": "ʃieɾak qeja",
+    "part_of_speech": "noun",
+    "english": "comet"
+  },
+  {
+    "word": "shigat",
+    "ipa": "ʃigat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to snore"
+  },
+  {
+    "word": "shigi",
+    "ipa": "ʃigi",
+    "part_of_speech": "noun.inanimate",
+    "english": "snore",
+    "type_b": true
+  },
+  {
+    "word": "shilak",
+    "ipa": "ʃilak",
+    "part_of_speech": "noun.animate",
+    "english": "gossip. busybody"
+  },
+  {
+    "word": "shilat",
+    "ipa": "ʃilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to know (a person), to be familiar with"
+  },
+  {
+    "word": "shillat",
+    "ipa": "ʃillat",
+    "part_of_speech": "verb.transitive",
+    "english": "to trust"
+  },
+  {
+    "word": "shillolat",
+    "ipa": "ʃillolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to believe"
+  },
+  {
+    "word": "shilolat",
+    "ipa": "ʃilolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to meet, to get to know"
+  },
+  {
+    "word": "shim",
+    "ipa": "ʃim",
+    "part_of_speech": "adjective",
+    "english": "tame"
+  },
+  {
+    "word": "shin",
+    "ipa": "ʃin",
+    "part_of_speech": "noun",
+    "english": "sound of ﬁre going out"
+  },
+  {
+    "word": "shinat",
+    "ipa": "ʃinat",
+    "part_of_speech": "verb",
+    "english": "to burn out, ﬁzzle out"
+  },
+  {
+    "word": "shiqeth",
+    "ipa": "ʃiqɛθ",
+    "part_of_speech": "adjective",
+    "english": "gray"
+  },
+  {
+    "word": "shiqethi",
+    "ipa": "ʃiqɛθi",
+    "part_of_speech": "noun.inanimate",
+    "english": "iron"
+  },
+  {
+    "word": "shirane",
+    "ipa": "ʃiɾane",
+    "part_of_speech": "noun.inanimate",
+    "english": "beard"
+  },
+  {
+    "word": "shiro",
+    "ipa": "ʃiɾo",
+    "part_of_speech": "noun.animate",
+    "english": "scorpion"
+  },
+  {
+    "word": "sho",
+    "ipa": "ʃo",
+    "part_of_speech": "noun.animate",
+    "english": "spot"
+  },
+  {
+    "word": "shokat",
+    "ipa": "ʃokat",
+    "part_of_speech": "verb",
+    "english": "to jump over"
+  },
+  {
+    "word": "sholat",
+    "ipa": "ʃolat",
+    "part_of_speech": "verb",
+    "english": "to mark"
+  },
+  {
+    "word": "shor",
+    "ipa": "ʃor",
+    "part_of_speech": "noun.animate",
+    "english": "dress, garment worn primarily by women"
+  },
+  {
+    "word": "shor tawakof",
+    "ipa": "ʃor tawakof",
+    "part_of_speech": "noun.animate",
+    "english": "armor (lit. steel dress)"
+  },
+  {
+    "word": "shoven",
+    "ipa": "ʃoven",
+    "part_of_speech": "adjective",
+    "english": "marked, smudged"
+  },
+  {
+    "word": "siera",
+    "ipa": "sieɾa",
+    "part_of_speech": "noun.animate",
+    "english": "nephew"
+  },
+  {
+    "word": "sikhtelat",
+    "ipa": "sixtelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to spit"
+  },
+  {
+    "word": "silak",
+    "ipa": "silak",
+    "part_of_speech": "noun.animate",
+    "english": "follower, subject"
+  },
+  {
+    "word": "silat",
+    "ipa": "silat",
+    "part_of_speech": "verb",
+    "english": "to ﬂash, to gleam"
+  },
+  {
+    "word": "sillat",
+    "ipa": "sillat",
+    "part_of_speech": "verb",
+    "english": "to follow"
+  },
+  {
+    "word": "sille",
+    "ipa": "sille",
+    "part_of_speech": "adverb",
+    "english": "next"
+  },
+  {
+    "word": "silokh",
+    "ipa": "silox",
+    "part_of_speech": "adverb",
+    "english": "tomorrow"
+  },
+  {
+    "word": "simon",
+    "ipa": "simon",
+    "part_of_speech": "noun.animate",
+    "english": "male relative"
+  },
+  {
+    "word": "simonof",
+    "ipa": "simonof",
+    "part_of_speech": "noun.animate",
+    "english": "grandfather"
+  },
+  {
+    "word": "sindarine",
+    "ipa": "sindaɾine",
+    "part_of_speech": "adverb",
+    "english": "left"
+  },
+  {
+    "word": "sindarinekh",
+    "ipa": "sindaɾinex",
+    "part_of_speech": "noun.inanimate",
+    "english": "left side"
+  },
+  {
+    "word": "sisi",
+    "ipa": "sisi",
+    "part_of_speech": "noun.animate",
+    "english": "lightning"
+  },
+  {
+    "word": "som",
+    "ipa": "som",
+    "part_of_speech": "numeral",
+    "english": "zero",
+    "sense": 1
+  },
+  {
+    "word": "som",
+    "ipa": "som",
+    "part_of_speech": "adjective",
+    "english": "absent, missing",
+    "sense": 2
+  },
+  {
+    "word": "sondra",
+    "ipa": "sondɾa",
+    "part_of_speech": "noun.inanimate",
+    "english": "dragon glass (obsidian)",
+    "type_b": true
+  },
+  {
+    "word": "soqat",
+    "ipa": "soqAt",
+    "part_of_speech": "verb",
+    "english": "to weave"
+  },
+  {
+    "word": "soqwi",
+    "ipa": "soqwi",
+    "part_of_speech": "noun.inanimate",
+    "english": "plum"
+  },
+  {
+    "word": "soqwof",
+    "ipa": "soqwof",
+    "part_of_speech": "noun.inanimate",
+    "english": "plum tree"
+  },
+  {
+    "word": "sorf",
+    "ipa": "soɾf",
+    "part_of_speech": "adjective",
+    "english": "dirty"
+  },
+  {
+    "word": "sorfo",
+    "ipa": "soɾfo",
+    "part_of_speech": "noun.inanimate",
+    "english": "dirt"
+  },
+  {
+    "word": "sorfosor",
+    "ipa": "soɾfosor",
+    "part_of_speech": "noun.animate",
+    "english": "earth (world)"
+  },
+  {
+    "word": "soroh",
+    "ipa": "soɾoh",
+    "part_of_speech": "interjection",
+    "english": "halt! (horse command)"
+  },
+  {
+    "word": "sorohis",
+    "ipa": "soɾohis",
+    "part_of_speech": "interjection",
+    "english": "halt! (command for a person)"
+  },
+  {
+    "word": "sovi",
+    "ipa": "sovi",
+    "part_of_speech": "noun",
+    "english": "pear"
+  },
+  {
+    "word": "sovikh",
+    "ipa": "sovix",
+    "part_of_speech": "noun.inanimate",
+    "english": "pear brandy ’th: [T] DP v.aux. elided version of eth"
+  },
+  {
+    "word": "taoka",
+    "ipa": "taoka",
+    "part_of_speech": "adjective",
+    "english": "metal"
+  },
+  {
+    "word": "taso",
+    "ipa": "taso",
+    "part_of_speech": "noun",
+    "english": "silkworm"
+  },
+  {
+    "word": "tasokh",
+    "ipa": "tasox",
+    "part_of_speech": "noun.inanimate",
+    "english": "silk"
+  },
+  {
+    "word": "tat",
+    "ipa": "tat",
+    "part_of_speech": "verb.transitive",
+    "english": "to do"
+  },
+  {
+    "word": "tavat",
+    "ipa": "tavat",
+    "part_of_speech": "verb",
+    "english": "chop"
+  },
+  {
+    "word": "tawak",
+    "ipa": "tawak",
+    "part_of_speech": "noun.inanimate",
+    "english": "metal, real, authentic, legitimate"
+  },
+  {
+    "word": "tehin",
+    "ipa": "tehin",
+    "part_of_speech": "noun",
+    "english": "breed of horse with reddish or brown coat"
+  },
+  {
+    "word": "temme",
+    "ipa": "temme",
+    "part_of_speech": "noun.animate",
+    "english": "thunder"
+  },
+  {
+    "word": "thagwa",
+    "ipa": "θagwa",
+    "part_of_speech": "noun.inanimate",
+    "english": "yogurt made from mare’s milk"
+  },
+  {
+    "word": "thagwash",
+    "ipa": "θagwaʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "a dessert made from thagwa and eaten with dried fruit"
+  },
+  {
+    "word": "thash",
+    "ipa": "θaʃ",
+    "part_of_speech": "adjective",
+    "english": "soft"
+  },
+  {
+    "word": "thave",
+    "ipa": "θave",
+    "part_of_speech": "noun",
+    "english": "marmot"
+  },
+  {
+    "word": "thelis",
+    "ipa": "θelis",
+    "part_of_speech": "adjective",
+    "english": "blue"
+  },
+  {
+    "word": "theya",
+    "ipa": "θeja",
+    "part_of_speech": "noun",
+    "english": "nipple (on a teat)"
+  },
+  {
+    "word": "theyaven",
+    "ipa": "θejaven",
+    "part_of_speech": "adjective",
+    "english": "pink"
+  },
+  {
+    "word": "thi",
+    "ipa": "θi",
+    "part_of_speech": "numeral",
+    "english": "ten"
+  },
+  {
+    "word": "thif",
+    "ipa": "θif",
+    "part_of_speech": "adjective",
+    "english": "narrow"
+  },
+  {
+    "word": "thik",
+    "ipa": "θik",
+    "part_of_speech": "noun.animate",
+    "english": "tenth (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "thimalat",
+    "ipa": "θimalat",
+    "part_of_speech": "verb",
+    "english": "to leak"
+  },
+  {
+    "word": "thir",
+    "ipa": "θir",
+    "part_of_speech": "adjective",
+    "english": "alive"
+  },
+  {
+    "word": "thirat",
+    "ipa": "θiɾat",
+    "part_of_speech": "verb",
+    "english": "to live"
+  },
+  {
+    "word": "thirat atthiraride",
+    "ipa": "θiɾat aθθiɾaɾide",
+    "part_of_speech": "verb",
+    "english": "to dream (lit. to live a wooden life)"
+  },
+  {
+    "word": "thirolat",
+    "ipa": "θiɾolat",
+    "part_of_speech": "verb",
+    "english": "to survive"
+  },
+  {
+    "word": "thom",
+    "ipa": "θom",
+    "part_of_speech": "noun.inanimate",
+    "english": "juice"
+  },
+  {
+    "word": "tif",
+    "ipa": "tif",
+    "part_of_speech": "noun",
+    "english": "nut (woody seed)"
+  },
+  {
+    "word": "tih",
+    "ipa": "tih",
+    "part_of_speech": "noun.animate",
+    "english": "eye"
+  },
+  {
+    "word": "tihat",
+    "ipa": "tihat",
+    "part_of_speech": "verb.transitive",
+    "english": "to look, to see"
+  },
+  {
+    "word": "tihikh",
+    "ipa": "tihix",
+    "part_of_speech": "noun.inanimate",
+    "english": "view"
+  },
+  {
+    "word": "tihikhziri",
+    "ipa": "tihixziɾi",
+    "part_of_speech": "noun.inanimate",
+    "english": "overview"
+  },
+  {
+    "word": "tihilat",
+    "ipa": "tihilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to look at, to glance at"
+  },
+  {
+    "word": "tiholat",
+    "ipa": "tiholat",
+    "part_of_speech": "verb",
+    "english": "to understand"
+  },
+  {
+    "word": "tikh",
+    "ipa": "tix",
+    "part_of_speech": "noun.inanimate",
+    "english": "deed, act"
+  },
+  {
+    "word": "tikkheya",
+    "ipa": "tixxeja",
+    "part_of_speech": "noun.inanimate",
+    "english": "verb, the instigator’s half of the act (Grammatical sense) cf. melikheya"
+  },
+  {
+    "word": "tim",
+    "ipa": "tim",
+    "part_of_speech": "noun.inanimate",
+    "english": "boot"
+  },
+  {
+    "word": "timvir",
+    "ipa": "timvir",
+    "part_of_speech": "noun",
+    "english": "book (from High Valyrian tembyr)"
+  },
+  {
+    "word": "tir",
+    "ipa": "tir",
+    "part_of_speech": "noun.inanimate",
+    "english": "ﬁnger"
+  },
+  {
+    "word": "tirat",
+    "ipa": "tiɾat",
+    "part_of_speech": "verb",
+    "english": "to point"
+  },
+  {
+    "word": "tirikh",
+    "ipa": "tiɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "nail"
+  },
+  {
+    "word": "tith",
+    "ipa": "tiθ",
+    "part_of_speech": "adjective",
+    "english": "eastern"
+  },
+  {
+    "word": "titha",
+    "ipa": "tiθa",
+    "part_of_speech": "noun.inanimate",
+    "english": "east"
+  },
+  {
+    "word": "toki",
+    "ipa": "toki",
+    "part_of_speech": "adjective",
+    "english": "dumb"
+  },
+  {
+    "word": "tokik",
+    "ipa": "tokik",
+    "part_of_speech": "noun.animate",
+    "english": "fool"
+  },
+  {
+    "word": "tolorro",
+    "ipa": "toloro",
+    "part_of_speech": "noun.inanimate",
+    "english": "bone"
+  },
+  {
+    "word": "tor",
+    "ipa": "tor",
+    "part_of_speech": "numeral",
+    "english": "four"
+  },
+  {
+    "word": "torak",
+    "ipa": "toɾak",
+    "part_of_speech": "noun.animate",
+    "english": "fourth (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "torga",
+    "ipa": "toɾga",
+    "part_of_speech": "noun.inanimate",
+    "english": "stomach",
+    "sense": 1
+  },
+  {
+    "word": "torga",
+    "ipa": "toɾga",
+    "part_of_speech": "preposition",
+    "english": "to gen. under",
+    "sense": 2
+  },
+  {
+    "word": "torken",
+    "ipa": "toɾken",
+    "part_of_speech": "numeral",
+    "english": "four hundred"
+  },
+  {
+    "word": "torthi",
+    "ipa": "toɾθi",
+    "part_of_speech": "numeral",
+    "english": "fourteen"
+  },
+  {
+    "word": "tozara",
+    "ipa": "tozaɾa",
+    "part_of_speech": "noun.animate",
+    "english": "lake"
+  },
+  {
+    "word": "vadakherat",
+    "ipa": "vadaxeɾat",
+    "part_of_speech": "verb",
+    "english": "to feed"
+  },
+  {
+    "word": "vado",
+    "ipa": "vado",
+    "part_of_speech": "noun.inanimate",
+    "english": "turnip",
+    "sense": 1
+  },
+  {
+    "word": "vado",
+    "ipa": "vado",
+    "part_of_speech": "noun.inanimate",
+    "english": "ﬁlly",
+    "sense": 2
+  },
+  {
+    "word": "vaes",
+    "ipa": "vaes",
+    "part_of_speech": "noun.inanimate",
+    "english": "city"
+  },
+  {
+    "word": "vaesilat",
+    "ipa": "vaesilat",
+    "part_of_speech": "verb",
+    "english": "to clog vaﬁ: [vafi] DP ni. lamb (female) vaﬁk: [vafik] DP na. lamb girl vaﬁkh: [vafix] DP ni. wool"
+  },
+  {
+    "word": "valad",
+    "ipa": "valad",
+    "part_of_speech": "noun.inanimate",
+    "english": "horizon"
+  },
+  {
+    "word": "valsh",
+    "ipa": "valʃ",
+    "part_of_speech": "adjective",
+    "english": "northern"
+  },
+  {
+    "word": "valshe",
+    "ipa": "valʃe",
+    "part_of_speech": "noun.inanimate",
+    "english": "north"
+  },
+  {
+    "word": "valshek",
+    "ipa": "valʃek",
+    "part_of_speech": "noun.animate",
+    "english": "northerner"
+  },
+  {
+    "word": "valshtithak",
+    "ipa": "valʃtiθak",
+    "part_of_speech": "noun.animate",
+    "english": "northeasterner"
+  },
+  {
+    "word": "vash",
+    "ipa": "vaʃ",
+    "part_of_speech": "noun",
+    "english": "stampede"
+  },
+  {
+    "word": "vash hrazefmen",
+    "ipa": "vaʃ hɾazefmen",
+    "part_of_speech": "noun",
+    "english": "earthquake"
+  },
+  {
+    "word": "vasterat",
+    "ipa": "vasteɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to speak with, to converse"
+  },
+  {
+    "word": "vatterat",
+    "ipa": "vatteɾat",
+    "part_of_speech": "verb",
+    "english": "to continue"
+  },
+  {
+    "word": "vaz",
+    "ipa": "vaz",
+    "part_of_speech": "noun",
+    "english": "storm"
+  },
+  {
+    "word": "vazyol",
+    "ipa": "vazjol",
+    "part_of_speech": "noun.inanimate",
+    "english": "stormborn"
+  },
+  {
+    "word": "vefenarat",
+    "ipa": "vefenaɾat",
+    "part_of_speech": "verb",
+    "english": "to pry something off of something else"
+  },
+  {
+    "word": "vekhat",
+    "ipa": "vexat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be present, to exist (assigns the subject to the genitive)"
+  },
+  {
+    "word": "vekhikh",
+    "ipa": "vexix",
+    "part_of_speech": "noun.inanimate",
+    "english": "object, thing",
+    "sense": 1
+  },
+  {
+    "word": "vekhikh",
+    "ipa": "vexix",
+    "part_of_speech": "noun.animate",
+    "english": "noun",
+    "sense": 2
+  },
+  {
+    "word": "vekhikh asavva",
+    "ipa": "vexix asavva",
+    "part_of_speech": "noun",
+    "english": "animate noun"
+  },
+  {
+    "word": "vekhikh hranna",
+    "ipa": "vexix hɾanna",
+    "part_of_speech": "noun",
+    "english": "inanimate noun"
+  },
+  {
+    "word": "velainerat",
+    "ipa": "velaineɾat",
+    "part_of_speech": "verb",
+    "english": "to sow"
+  },
+  {
+    "word": "veltor",
+    "ipa": "veltor",
+    "part_of_speech": "adjective",
+    "english": "yellow"
+  },
+  {
+    "word": "velzerat",
+    "ipa": "velzeɾat",
+    "part_of_speech": "verb",
+    "english": "to stall, to procrastinate"
+  },
+  {
+    "word": "velzerikh",
+    "ipa": "velzeɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "reason why"
+  },
+  {
+    "word": "vem",
+    "ipa": "vem",
+    "part_of_speech": "noun",
+    "english": "knee, elbow"
+  },
+  {
+    "word": "vemish",
+    "ipa": "vemiʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "heel of the hand or foot"
+  },
+  {
+    "word": "vemishikh",
+    "ipa": "vemiʃix",
+    "part_of_speech": "noun.inanimate",
+    "english": "heel of a boot"
+  },
+  {
+    "word": "ven",
+    "ipa": "ven",
+    "part_of_speech": "conjunction",
+    "english": "like, as"
+  },
+  {
+    "word": "venat",
+    "ipa": "venat",
+    "part_of_speech": "verb.transitive",
+    "english": "to be like, to be similar to"
+  },
+  {
+    "word": "veneser",
+    "ipa": "veneser",
+    "part_of_speech": "noun.animate",
+    "english": "class, category"
+  },
+  {
+    "word": "venikh",
+    "ipa": "venix",
+    "part_of_speech": "noun.inanimate",
+    "english": "semblance"
+  },
+  {
+    "word": "ver",
+    "ipa": "ver",
+    "part_of_speech": "noun",
+    "english": "wolf"
+  },
+  {
+    "word": "verak",
+    "ipa": "veɾak",
+    "part_of_speech": "noun.animate",
+    "english": "traveler"
+  },
+  {
+    "word": "verakasar",
+    "ipa": "veɾakasar",
+    "part_of_speech": "noun.animate",
+    "english": "caravan"
+  },
+  {
+    "word": "verat",
+    "ipa": "veɾat",
+    "part_of_speech": "verb",
+    "english": "to travel"
+  },
+  {
+    "word": "verikh",
+    "ipa": "veɾix",
+    "part_of_speech": "noun.inanimate",
+    "english": "a defensive strike (with a sword)"
+  },
+  {
+    "word": "verven",
+    "ipa": "veɾven",
+    "part_of_speech": "adjective",
+    "english": "violent"
+  },
+  {
+    "word": "vezh",
+    "ipa": "veʒ",
+    "part_of_speech": "noun.animate",
+    "english": "stallion"
+  },
+  {
+    "word": "vezhak",
+    "ipa": "veʒak",
+    "part_of_speech": "noun.animate",
+    "english": "horse lord"
+  },
+  {
+    "word": "vezhven",
+    "ipa": "veʒven",
+    "part_of_speech": "adjective",
+    "english": "great"
+  },
+  {
+    "word": "vi",
+    "ipa": "vi",
+    "part_of_speech": "preposition",
+    "english": "to all. through, along"
+  },
+  {
+    "word": "vichiterat",
+    "ipa": "vitʃiteɾat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to shiver vichomer: [vi>tSomer] DP adj. respectful, respectable"
+  },
+  {
+    "word": "vichomerak",
+    "ipa": "vitʃomeɾak",
+    "part_of_speech": "noun.animate",
+    "english": "respectful one"
+  },
+  {
+    "word": "vichomerat",
+    "ipa": "vitʃomeɾat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be respectful"
+  },
+  {
+    "word": "vidrogerat",
+    "ipa": "vidɾogeɾat",
+    "part_of_speech": "verb",
+    "english": "to ride"
+  },
+  {
+    "word": "vigererat",
+    "ipa": "vigeɾeɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to miss someone vijazerat: [vi> dZazeRat\u0011] DP vtr. to protect vijazerolat: [vi> dZazeRol\u0011at\u0011] DP vtr. to save, to rescue"
+  },
+  {
+    "word": "vik",
+    "ipa": "vik",
+    "part_of_speech": "noun.inanimate",
+    "english": "chin"
+  },
+  {
+    "word": "vikeesi",
+    "ipa": "vikeesi",
+    "part_of_speech": "noun",
+    "english": "slang for an annoying woman"
+  },
+  {
+    "word": "vikovarerat",
+    "ipa": "vikovaɾeɾat",
+    "part_of_speech": "verb",
+    "english": "to stay"
+  },
+  {
+    "word": "vil",
+    "ipa": "vil",
+    "part_of_speech": "verb.auxiliary",
+    "english": "to manage to vilajero: [vil\u0011a> dZeRo] DP ni. battle vilajerosh: [vil\u0011a> dZeRoS] DP ni. game"
+  },
+  {
+    "word": "villat",
+    "ipa": "villat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be wise"
+  },
+  {
+    "word": "ville",
+    "ipa": "ville",
+    "part_of_speech": "adjective",
+    "english": "wise"
+  },
+  {
+    "word": "vimatterat",
+    "ipa": "vimatteɾat",
+    "part_of_speech": "verb",
+    "english": "to limp"
+  },
+  {
+    "word": "vimithrerat",
+    "ipa": "vimiθɾeɾat",
+    "part_of_speech": "verb",
+    "english": "to rest, to camp"
+  },
+  {
+    "word": "vindelat",
+    "ipa": "vindelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to stab",
+    "sense": 1
+  },
+  {
+    "word": "vindelat",
+    "ipa": "vindelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to all. to stab at",
+    "sense": 2
+  },
+  {
+    "word": "vineserat",
+    "ipa": "vineseɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to remember"
+  },
+  {
+    "word": "vinte",
+    "ipa": "vinte",
+    "part_of_speech": "noun.inanimate",
+    "english": "portion of meat"
+  },
+  {
+    "word": "viqaferat",
+    "ipa": "viqAfeɾat",
+    "part_of_speech": "verb",
+    "english": "to beg, to plead"
+  },
+  {
+    "word": "virsalat",
+    "ipa": "viɾsalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to burn"
+  },
+  {
+    "word": "virzeth",
+    "ipa": "viɾzeθ",
+    "part_of_speech": "adjective",
+    "english": "red"
+  },
+  {
+    "word": "virzetha",
+    "ipa": "viɾzeθa",
+    "part_of_speech": "noun.inanimate",
+    "english": "red wine"
+  },
+  {
+    "word": "vish",
+    "ipa": "viʃ",
+    "part_of_speech": "noun",
+    "english": "forehead"
+  },
+  {
+    "word": "vishaferat",
+    "ipa": "viʃafeɾat",
+    "part_of_speech": "verb.transitive",
+    "english": "to break a horse, to domesticate a beast of burden, to get ones’ ﬁrst kill with a new weapon"
+  },
+  {
+    "word": "vishiya",
+    "ipa": "viʃʃiya",
+    "part_of_speech": "noun.inanimate",
+    "english": "color"
+  },
+  {
+    "word": "vithalat",
+    "ipa": "viθalat",
+    "part_of_speech": "verb",
+    "english": "to ﬂow"
+  },
+  {
+    "word": "vitiherat",
+    "ipa": "vitiheɾat",
+    "part_of_speech": "verb",
+    "english": "to look upon, to stare at, to examine, to ponder"
+  },
+  {
+    "word": "vitihirak",
+    "ipa": "vitihiɾak",
+    "part_of_speech": "noun.animate",
+    "english": "watch, guard"
+  },
+  {
+    "word": "vitihirat",
+    "ipa": "vitihiɾat",
+    "part_of_speech": "verb",
+    "english": "to watch, to observe"
+  },
+  {
+    "word": "vitisherat",
+    "ipa": "vitiʃeɾat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to grow"
+  },
+  {
+    "word": "vitteya",
+    "ipa": "vitteja",
+    "part_of_speech": "noun.inanimate",
+    "english": "feast, gathering with a feast"
+  },
+  {
+    "word": "vitteyqoyi",
+    "ipa": "vittejqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "feast day"
+  },
+  {
+    "word": "vizhadi",
+    "ipa": "viʒadi",
+    "part_of_speech": "noun.inanimate",
+    "english": "silver vo: [vo] adv. not, no; a shortened variant of vos, that may be used when the next word starts with a consonant."
+  },
+  {
+    "word": "vod",
+    "ipa": "vod",
+    "part_of_speech": "noun.inanimate",
+    "english": "dust voj: [vo> dZ] DP na. person vojjor: [vod> dZor] DP ni. deity, god"
+  },
+  {
+    "word": "vorsa",
+    "ipa": "voɾsa",
+    "part_of_speech": "noun.animate",
+    "english": "ﬁre"
+  },
+  {
+    "word": "vorsakh",
+    "ipa": "voɾsax",
+    "part_of_speech": "noun.inanimate",
+    "english": "ﬂame"
+  },
+  {
+    "word": "vorsaska",
+    "ipa": "voɾsaska",
+    "part_of_speech": "noun.inanimate",
+    "english": "summer"
+  },
+  {
+    "word": "vorsqoyi",
+    "ipa": "voɾsqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "funeral pyre"
+  },
+  {
+    "word": "vorto",
+    "ipa": "voɾto",
+    "part_of_speech": "noun.inanimate",
+    "english": "tooth"
+  },
+  {
+    "word": "vos",
+    "ipa": "vos",
+    "part_of_speech": "adverb",
+    "english": "not, no (negator)"
+  },
+  {
+    "word": "vosan",
+    "ipa": "vosan",
+    "part_of_speech": "adverb",
+    "english": "not much, not a lot"
+  },
+  {
+    "word": "vosecchi",
+    "ipa": "vosettʃi",
+    "part_of_speech": "adverb",
+    "english": "emphatic negative, of course not"
+  },
+  {
+    "word": "vosi",
+    "ipa": "vosi",
+    "part_of_speech": "noun.inanimate",
+    "english": "nothing vosm’: [vosm] DP conj. elided version of vosma"
+  },
+  {
+    "word": "vosma",
+    "ipa": "vosma",
+    "part_of_speech": "conjunction",
+    "english": "but"
+  },
+  {
+    "word": "vov",
+    "ipa": "vov",
+    "part_of_speech": "noun.animate",
+    "english": "weapon"
+  },
+  {
+    "word": "vrelat",
+    "ipa": "vɾelat",
+    "part_of_speech": "verb",
+    "english": "to leap"
+  },
+  {
+    "word": "vroz",
+    "ipa": "vɾoz",
+    "part_of_speech": "adjective",
+    "english": "slow yachi norethmen: [ja>tSi n\u0011oReTmen\u0011] DP np. nectarine"
+  },
+  {
+    "word": "yalli",
+    "ipa": "jalli",
+    "part_of_speech": "noun.animate",
+    "english": "child"
+  },
+  {
+    "word": "yamori",
+    "ipa": "jamoɾi",
+    "part_of_speech": "noun.animate",
+    "english": "youth"
+  },
+  {
+    "word": "yanqokh",
+    "ipa": "janqɔx",
+    "part_of_speech": "noun.inanimate",
+    "english": "collection"
+  },
+  {
+    "word": "yanqolat",
+    "ipa": "janqɔlat",
+    "part_of_speech": "verb.transitive",
+    "english": "to collect, to gather",
+    "sense": 1
+  },
+  {
+    "word": "yanqolat",
+    "ipa": "janqɔlat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to gather (some of something)",
+    "sense": 2
+  },
+  {
+    "word": "yarat",
+    "ipa": "jaɾat",
+    "part_of_speech": "verb",
+    "english": "to ﬂinch"
+  },
+  {
+    "word": "yath",
+    "ipa": "jaθ",
+    "part_of_speech": "adjective",
+    "english": "up, upward, upwards, high"
+  },
+  {
+    "word": "yathokh",
+    "ipa": "jaθox",
+    "part_of_speech": "noun.inanimate",
+    "english": "ramp"
+  },
+  {
+    "word": "yatholat",
+    "ipa": "jaθolat",
+    "part_of_speech": "verb",
+    "english": "to rise"
+  },
+  {
+    "word": "yeni",
+    "ipa": "jeni",
+    "part_of_speech": "noun.inanimate",
+    "english": "failure"
+  },
+  {
+    "word": "yer",
+    "ipa": "jeɾ",
+    "part_of_speech": "pronoun",
+    "english": "you"
+  },
+  {
+    "word": "yeri",
+    "ipa": "jeɾi",
+    "part_of_speech": "pronoun",
+    "english": "you (plural), your (singular)"
+  },
+  {
+    "word": "yesi",
+    "ipa": "jesi",
+    "part_of_speech": "noun.animate",
+    "english": "crone"
+  },
+  {
+    "word": "yetto",
+    "ipa": "jetto",
+    "part_of_speech": "noun.inanimate",
+    "english": "frog yoﬁ: [jofi] DP adj. mad, crazy"
+  },
+  {
+    "word": "yol",
+    "ipa": "jol",
+    "part_of_speech": "adjective",
+    "english": "born"
+  },
+  {
+    "word": "yolat",
+    "ipa": "jolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be born"
+  },
+  {
+    "word": "yom",
+    "ipa": "jom",
+    "part_of_speech": "noun.inanimate",
+    "english": "crossing"
+  },
+  {
+    "word": "yomat",
+    "ipa": "jomat",
+    "part_of_speech": "verb.transitive",
+    "english": "to cross"
+  },
+  {
+    "word": "yomme",
+    "ipa": "jomme",
+    "part_of_speech": "preposition",
+    "english": "to nom. across",
+    "sense": 1
+  },
+  {
+    "word": "yomme",
+    "ipa": "jomme",
+    "part_of_speech": "preposition",
+    "english": "to abl. in spite of",
+    "sense": 2
+  },
+  {
+    "word": "yor",
+    "ipa": "jor",
+    "part_of_speech": "numeral",
+    "english": "million"
+  },
+  {
+    "word": "yorosor",
+    "ipa": "joɾosor",
+    "part_of_speech": "numeral",
+    "english": "an extremely large number"
+  },
+  {
+    "word": "yot",
+    "ipa": "jot",
+    "part_of_speech": "noun.inanimate",
+    "english": "fruit"
+  },
+  {
+    "word": "yothnhare",
+    "ipa": "joθnhaɾe",
+    "part_of_speech": "noun.inanimate",
+    "english": "brain (human)"
+  },
+  {
+    "word": "zafra",
+    "ipa": "zafɾa",
+    "part_of_speech": "noun.inanimate",
+    "english": "slave zajjat: [zad> dZat\u0011] DP vtr. to refuse to"
+  },
+  {
+    "word": "zalat",
+    "ipa": "zalat",
+    "part_of_speech": "verb.transitive",
+    "english": "to hope for, to want"
+  },
+  {
+    "word": "zan",
+    "ipa": "zan",
+    "part_of_speech": "adjective",
+    "english": "stable, steadfast"
+  },
+  {
+    "word": "zande",
+    "ipa": "zande",
+    "part_of_speech": "noun",
+    "english": "satchel, sack"
+  },
+  {
+    "word": "zanisshi",
+    "ipa": "zaniʃʃi",
+    "part_of_speech": "noun.inanimate",
+    "english": "shade"
+  },
+  {
+    "word": "zasqa",
+    "ipa": "zasqA",
+    "part_of_speech": "adjective",
+    "english": "white"
+  },
+  {
+    "word": "zerqolat",
+    "ipa": "zeɾqɔlat",
+    "part_of_speech": "verb",
+    "english": "to swim"
+  },
+  {
+    "word": "zhalia",
+    "ipa": "ʒalia",
+    "part_of_speech": "noun.inanimate",
+    "english": "butterﬂy"
+  },
+  {
+    "word": "zhani",
+    "ipa": "ʒani",
+    "part_of_speech": "noun.inanimate",
+    "english": "spear"
+  },
+  {
+    "word": "zhaqe",
+    "ipa": "ʒaqɛ",
+    "part_of_speech": "noun",
+    "english": "bass ﬁsh"
+  },
+  {
+    "word": "zhav",
+    "ipa": "ʒav",
+    "part_of_speech": "noun",
+    "english": "lizard"
+  },
+  {
+    "word": "zhavorsa",
+    "ipa": "ʒavoɾsa",
+    "part_of_speech": "noun.inanimate",
+    "english": "dragon"
+  },
+  {
+    "word": "zhavvorsa",
+    "ipa": "ʒavvoɾsa",
+    "part_of_speech": "noun.inanimate",
+    "english": "dragon (alternate pronunciation of zhavorsa)"
+  },
+  {
+    "word": "zheana",
+    "ipa": "ʒeana",
+    "part_of_speech": "adjective",
+    "english": "beautiful (for animate nouns)"
+  },
+  {
+    "word": "zheanalat",
+    "ipa": "ʒeanalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be beautiful (used for animate nouns)"
+  },
+  {
+    "word": "zhif",
+    "ipa": "ʒif",
+    "part_of_speech": "noun.inanimate",
+    "english": "salt zhiﬁkh: [Zifix] DP ni. dried salted meat"
+  },
+  {
+    "word": "zhifven",
+    "ipa": "ʒifven",
+    "part_of_speech": "adjective",
+    "english": "salty"
+  },
+  {
+    "word": "zhikhat",
+    "ipa": "ʒixat",
+    "part_of_speech": "verb",
+    "english": "to be sick"
+  },
+  {
+    "word": "zhilat",
+    "ipa": "ʒilat",
+    "part_of_speech": "verb.transitive",
+    "english": "to love someone (used for romantic or sexual love; a private word)"
+  },
+  {
+    "word": "zhilli",
+    "ipa": "ʒilli",
+    "part_of_speech": "adjective",
+    "english": "general"
+  },
+  {
+    "word": "zhillie",
+    "ipa": "ʒillie",
+    "part_of_speech": "noun.inanimate",
+    "english": "advice"
+  },
+  {
+    "word": "zhinda",
+    "ipa": "ʒinda",
+    "part_of_speech": "numeral",
+    "english": "six"
+  },
+  {
+    "word": "zhindak",
+    "ipa": "ʒindak",
+    "part_of_speech": "noun.animate",
+    "english": "sixth (ordinal, use genitive form if modifying a noun.)"
+  },
+  {
+    "word": "zhindaken",
+    "ipa": "ʒindaken",
+    "part_of_speech": "numeral",
+    "english": "six hundred"
+  },
+  {
+    "word": "zhinthi",
+    "ipa": "ʒinθi",
+    "part_of_speech": "numeral",
+    "english": "sixteen"
+  },
+  {
+    "word": "zhokakkwa",
+    "ipa": "ʒokakkwa",
+    "part_of_speech": "adjective",
+    "english": "enormous"
+  },
+  {
+    "word": "zhokwa",
+    "ipa": "ʒokwa",
+    "part_of_speech": "adjective",
+    "english": "big"
+  },
+  {
+    "word": "zhokwalat",
+    "ipa": "ʒokwalat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be large"
+  },
+  {
+    "word": "zhor",
+    "ipa": "ʒor",
+    "part_of_speech": "noun.animate",
+    "english": "heart",
+    "sense": 1
+  },
+  {
+    "word": "zhor",
+    "ipa": "ʒor",
+    "part_of_speech": "noun",
+    "english": "pit of a fruit, meat of a nut",
+    "sense": 2
+  },
+  {
+    "word": "zhorre",
+    "ipa": "ʒore",
+    "part_of_speech": "adjective",
+    "english": "own"
+  },
+  {
+    "word": "zhorrof",
+    "ipa": "ʒorof",
+    "part_of_speech": "noun.inanimate",
+    "english": "ﬁg (fresh fruit of a ﬁg tree)"
+  },
+  {
+    "word": "zhowak",
+    "ipa": "ʒowak",
+    "part_of_speech": "adjective",
+    "english": "dangerous"
+  },
+  {
+    "word": "zichome",
+    "ipa": "zitʃome",
+    "part_of_speech": "adjective",
+    "english": "disrespectful ziﬁchelat: [zifi>tSel\u0011at\u0011] DP v. to steal"
+  },
+  {
+    "word": "ziganelat",
+    "ipa": "ziganelat",
+    "part_of_speech": "verb",
+    "english": "to burden"
+  },
+  {
+    "word": "ziganesolat",
+    "ipa": "ziganesolat",
+    "part_of_speech": "verb.transitive",
+    "english": "to defy, to oppose"
+  },
+  {
+    "word": "zigere",
+    "ipa": "zigeɾe",
+    "part_of_speech": "adjective",
+    "english": "required, requisite"
+  },
+  {
+    "word": "zigerelat",
+    "ipa": "zigeɾelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to abl. to require, to need"
+  },
+  {
+    "word": "zimemelat",
+    "ipa": "zimemelat",
+    "part_of_speech": "verb.transitive",
+    "english": "to distract"
+  },
+  {
+    "word": "zin",
+    "ipa": "zin",
+    "part_of_speech": "verb.auxiliary",
+    "english": "still (particle for continuation)"
+  },
+  {
+    "word": "zinay",
+    "ipa": "zinaj",
+    "part_of_speech": "adjective",
+    "english": "remaining"
+  },
+  {
+    "word": "ziqwehelat",
+    "ipa": "ziqwɛhelat",
+    "part_of_speech": "verb",
+    "english": "to retch"
+  },
+  {
+    "word": "zir",
+    "ipa": "zir",
+    "part_of_speech": "noun",
+    "english": "bird"
+  },
+  {
+    "word": "zireyeselat",
+    "ipa": "ziɾejeselat",
+    "part_of_speech": "verb.transitive",
+    "english": "to offend, to bug, to jostle"
+  },
+  {
+    "word": "zirisselat",
+    "ipa": "ziɾisselat",
+    "part_of_speech": "verb.transitive",
+    "english": "to cut off, to remove"
+  },
+  {
+    "word": "ziroqoselat",
+    "ipa": "ziɾoqɔselat",
+    "part_of_speech": "verb",
+    "english": "to ache"
+  },
+  {
+    "word": "zirqoyi",
+    "ipa": "ziɾqɔji",
+    "part_of_speech": "noun.inanimate",
+    "english": "bird of prey, raptor"
+  },
+  {
+    "word": "zisat",
+    "ipa": "zisat",
+    "part_of_speech": "verb",
+    "english": "to be hurt"
+  },
+  {
+    "word": "ziso",
+    "ipa": "ziso",
+    "part_of_speech": "noun.inanimate",
+    "english": "wound"
+  },
+  {
+    "word": "zisosh",
+    "ipa": "zisoʃ",
+    "part_of_speech": "noun.inanimate",
+    "english": "scratch"
+  },
+  {
+    "word": "ziyenelat",
+    "ipa": "zijenelat",
+    "part_of_speech": "verb",
+    "english": "to fail someone"
+  },
+  {
+    "word": "zoh",
+    "ipa": "zoh",
+    "part_of_speech": "adjective",
+    "english": "low"
+  },
+  {
+    "word": "zohhe",
+    "ipa": "zohhe",
+    "part_of_speech": "adverb",
+    "english": "down, downward, downwards"
+  },
+  {
+    "word": "zolat",
+    "ipa": "zolat",
+    "part_of_speech": "verb.intransitive",
+    "english": "to be exceptionally small"
+  },
+  {
+    "word": "zolle",
+    "ipa": "zolle",
+    "part_of_speech": "adverb",
+    "english": "a little bit, a bit, a small amount, some"
+  },
+  {
+    "word": "zoqwa",
+    "ipa": "zoqwa",
+    "part_of_speech": "noun",
+    "english": "kiss"
+  },
+  {
+    "word": "zoqwat",
+    "ipa": "zoqwat",
+    "part_of_speech": "verb",
+    "english": "to kiss"
+  },
+  {
+    "word": "zorat",
+    "ipa": "zoɾat",
+    "part_of_speech": "verb",
+    "english": "to roar Dothraki Numbers These are the Dothraki numbers. This is a work in progress! Expect more notes as I learn how to better format this section. Common numbers teens 10,000 100,000 million som thi (10) at atthi thi ken dalen yor akat akatthi chakat akatken akat dalen sen senthi chisen senken sen dalen tor torthi chitor torken tor dalen mek mekthi chimek mekken mek dalen zhinda zhinthi chizhinda zhindaken zhinda dalen fekh fekhthi chifekh fekhken fekh dalen ori oritthi chori oriken ori dalen qazat qazatthi chiqazat qazatken qazat dalen contract for the last ’digit’ of the number. For example, 21 is chakat ma at, or chakat m’at and 2,431 is akat dalen ma torken ma chisen ma at, or akat dalen ma torken ma chisen m’at. Ordinal number end with the sufﬁx -ak, and are considered animate nouns. mekak, for instance, should be thought of as ’the ﬁfth one’. However, if the ordinal is modifying a noun, use the genitive form of the number instead. For instance, hrazef mekaki, ’the ﬁfth horse’. Much more information about numbers can be found at David Peterson’s blog entry on numbers. Proper Nouns These are Dothraki proper nouns."
+  }
+]
