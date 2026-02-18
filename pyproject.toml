@@ -1,0 +1,31 @@
+[project]
+name = "dothraki-asr"
+version = "0.1.0"
+description = "Zero-shot ASR for Dothraki using multilingual speech models"
+requires-python = ">=3.11"
+dependencies = [
+    # ASR
+    "mlx-whisper>=0.4.0",
+    # Audio processing
+    "demucs>=4.0.0",
+    "librosa>=0.10.0",
+    "soundfile>=0.12.0",
+    # Phoneme processing
+    "gruut>=2.4.0",
+    # Data extraction
+    "pdfplumber>=0.11.0",
+    # Data & utilities
+    "numpy>=1.26.0",
+    "pandas>=2.1.0",
+    "tqdm>=4.66.0",
+    # Notebooks
+    "jupyter>=1.0.0",
+    "matplotlib>=3.8.0",
+    "ipywidgets>=8.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.4.0",
+    "pytest>=8.0.0",
+]
