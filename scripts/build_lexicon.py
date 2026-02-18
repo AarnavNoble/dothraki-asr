@@ -42,8 +42,12 @@ XSAMPA_TO_IPA = {
     "R": "ɾ",
     "N": "ŋ",
     "G": "ɣ",
+    "O": "ɔ",
+    "E": "ɛ",
     "?": "ʔ",
-    ">": "",  # artifact from PDF extraction
+    ">": "",     # artifact from PDF extraction
+    "\x11": "",  # control character artifact
+    "\x00": "",
 }
 
 POS_MAP = {
@@ -195,6 +199,9 @@ def _finalize_entry(raw: dict, entries: list, seen: set):
 
     # Clean up extra whitespace in rest
     rest = re.sub(r"\s+", " ", rest).strip()
+
+    # Fix hyphenated line breaks from PDF column wrapping (e.g. "power- ful" -> "powerful")
+    rest = re.sub(r"- ", "", rest)
 
     rest_match = REST_PATTERN.match(rest)
     if not rest_match:
