@@ -74,8 +74,9 @@ class Pipeline:
         whisper_model: str = DEFAULT_WHISPER_MODEL,
         min_confidence: float = 0.4,
         top_k: int = 5,
+        skip_separation: bool = False,
     ):
-        self.separator = VocalSeparator()
+        self.separator = None if skip_separation else VocalSeparator()
         self.transcriber = Transcriber(model=whisper_model)
         self.matcher = DothrakiMatcher()
         self.translator = Translator(min_confidence=min_confidence)
@@ -91,6 +92,8 @@ class Pipeline:
 
         Args:
             input_path: Path to audio/video with Dothraki speech.
+                        If skip_separation=True, this should be a clean
+                        16 kHz mono WAV (vocals only, no music/SFX).
             language: Force a Whisper language code (None = auto-detect).
             save: Write result JSONs to RESULTS_DIR.
 
@@ -99,8 +102,11 @@ class Pipeline:
         """
         input_path = Path(input_path)
 
-        # 1. Vocal isolation
-        vocals_path = self.separator.separate(input_path)
+        # 1. Vocal isolation (skip if already clean vocals)
+        if self.separator is not None:
+            vocals_path = self.separator.separate(input_path)
+        else:
+            vocals_path = input_path
 
         # 2. Zero-shot ASR
         transcription = self.transcriber.transcribe(vocals_path, language=language)

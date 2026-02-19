@@ -130,6 +130,7 @@ class DothrakiMatcher:
         text: str,
         lang: str = "en-us",
         top_k: int = TOP_K_MATCHES,
+        whisper_lang: str | None = None,
     ) -> list[dict]:
         """Phonemize all words in text and match each against the lexicon.
 
@@ -141,7 +142,7 @@ class DothrakiMatcher:
             ]
         """
         results = []
-        for word, ipa in phonemize_text(text, lang=lang):
+        for word, ipa in phonemize_text(text, lang=lang, whisper_lang=whisper_lang):
             if ipa:
                 matches = self.match_ipa(ipa, top_k=top_k)
             else:
@@ -157,4 +158,6 @@ class DothrakiMatcher:
         Uses Whisper's detected language to guide phonemization.
         """
         lang = whisper_lang_to_gruut(result.language)
-        return self.match_text(result.text, lang=lang, top_k=top_k)
+        return self.match_text(
+            result.text, lang=lang, top_k=top_k, whisper_lang=result.language
+        )

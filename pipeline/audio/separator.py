@@ -57,11 +57,16 @@ class VocalSeparator:
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
         audio_path = self._ensure_audio(input_path)
+        is_temp = audio_path != input_path
 
-        waveform, sr = self._load_audio(audio_path)
-        vocals = self._run_demucs(waveform, sr)
-        vocals_16k = self._resample(vocals, self.model.samplerate, SAMPLE_RATE)
-        self._save(vocals_16k, output_path)
+        try:
+            waveform, sr = self._load_audio(audio_path)
+            vocals = self._run_demucs(waveform, sr)
+            vocals_16k = self._resample(vocals, self.model.samplerate, SAMPLE_RATE)
+            self._save(vocals_16k, output_path)
+        finally:
+            if is_temp:
+                audio_path.unlink(missing_ok=True)
 
         return output_path
 

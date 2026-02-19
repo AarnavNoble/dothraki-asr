@@ -33,13 +33,13 @@
     "word": "adakhilat",
     "ipa": "adaxilat",
     "part_of_speech": "verb",
-    "english": "to feed (speciﬁcally, to feed on or feast on)"
+    "english": "to feed (specifically, to feed on or feast on)"
   },
   {
     "word": "addakhat",
     "ipa": "addaxat",
     "part_of_speech": "verb.transitive",
-    "english": "to feed addo ajjalani: [ad\u0011d\u0011o ad> dZal\u0011an\u0011i] DP n. midnight"
+    "english": "to feed"
   },
   {
     "word": "addothralat",
@@ -51,7 +51,7 @@
     "word": "addrekat",
     "ipa": "addɾekat",
     "part_of_speech": "verb.transitive",
-    "english": "to cause to spill, to spill addrivat: [ad\u0011d\u0011Rivat\u0011] DP vtr. to kill (chieﬂy when done intentionally by a person)"
+    "english": "to cause to spill, to spill"
   },
   {
     "word": "ador",
@@ -94,7 +94,7 @@
     "word": "affa",
     "ipa": "affa",
     "part_of_speech": "interjection",
-    "english": "’shh’, sound used to calm a horse or child affazhat: [affaZat\u0011] DP vtr. to warm, to give warmth to, to make hot",
+    "english": "’shh’, sound used to calm a horse or child",
     "sense": 2
   },
   {
@@ -107,7 +107,7 @@
     "word": "affesat",
     "ipa": "affesat",
     "part_of_speech": "verb.transitive",
-    "english": "to make someone itch afﬁn: [affin\u0011] DP adv. when afﬁsat: [affisat\u0011] DP vtr. to clean, to wash aﬁs: [afis] DP n. ﬂy"
+    "english": "to make someone itch"
   },
   {
     "word": "aggendat",
@@ -149,7 +149,7 @@
     "word": "ai",
     "ipa": "ai",
     "part_of_speech": "interjection",
-    "english": "yes, obedient response ajjalan: [ad> dZal\u0011an\u0011] DP adv. tonight ajjin: [ad> dZin\u0011] DP adv. now"
+    "english": "yes, obedient response"
   },
   {
     "word": "akat",
@@ -203,7 +203,7 @@
     "word": "akkelenat",
     "ipa": "akkelenat",
     "part_of_speech": "verb",
-    "english": "to decide, to judge akko!: [akko] DP intj. stand up! (short for akkovaras, for commanding animals)"
+    "english": "to decide, to judge akko!"
   },
   {
     "word": "akkovarat",
@@ -314,7 +314,7 @@
     "word": "annakholat",
     "ipa": "annaxolat",
     "part_of_speech": "verb.transitive",
-    "english": "to put an end to, to ﬁnish"
+    "english": "to put an end to, to finish"
   },
   {
     "word": "annese",
@@ -450,7 +450,7 @@
     "word": "arrissat",
     "ipa": "arissat",
     "part_of_speech": "verb",
-    "english": "to ﬁx"
+    "english": "to fix"
   },
   {
     "word": "arrokhat",
@@ -640,19 +640,19 @@
     "word": "atak",
     "ipa": "atak",
     "part_of_speech": "noun.animate",
-    "english": "ﬁrst (ordinal, use genitive form if modifying a noun.)"
+    "english": "first (ordinal, use genitive form if modifying a noun.)"
   },
   {
     "word": "ataki",
     "ipa": "ataki",
     "part_of_speech": "adjective",
-    "english": "ﬁrst"
+    "english": "first"
   },
   {
     "word": "ate",
     "ipa": "ate",
     "part_of_speech": "adverb",
-    "english": "ﬁrst"
+    "english": "first"
   },
   {
     "word": "ath",
@@ -682,7 +682,7 @@
     "word": "athasar",
     "ipa": "aθasar",
     "part_of_speech": "noun.animate",
-    "english": "wasteland athastokhdeveshizar: [aTast\u0011oxd\u0011eveSizar] DP ni. nonsense"
+    "english": "wasteland"
   },
   {
     "word": "athayozar",
@@ -700,7 +700,7 @@
     "word": "athchomar",
     "ipa": "aθtʃomar",
     "part_of_speech": "noun.inanimate",
-    "english": "respect, reverence athchomar chomakea: [aT>tSomar >tSomakea] DP phrase respect to those that are respectful (A greeting said to a group)"
+    "english": "respect, reverence"
   },
   {
     "word": "athdarinar",
@@ -760,7 +760,7 @@
     "word": "athezhirar",
     "ipa": "aθeʒiɾar",
     "part_of_speech": "noun.inanimate",
-    "english": "dancing athﬁezar: [aTfiezar] DP ni. love (between siblings or friends)"
+    "english": "dancing"
   },
   {
     "word": "athgoshar",
@@ -778,7 +778,7 @@
     "word": "athhilezar",
     "ipa": "aθhilezar",
     "part_of_speech": "noun.inanimate",
-    "english": "sex athijezar: [aTi> dZezar] DP ni. woman-on-top sex athjahakar: [aT> dZahakar] DP ni. pride, prowess athjerizar: [aT> dZeRizar] DP ni discussion athjilar: [aT> dZil\u0011ar] DP ni. correctness, rightness"
+    "english": "sex"
   },
   {
     "word": "athkemar",
@@ -838,7 +838,7 @@
     "word": "athnithar",
     "ipa": "aθniθar",
     "part_of_speech": "noun.inanimate",
-    "english": "pain athnithmenar: [aTn\u0011iTmen\u0011ar] DP ni. painlessness"
+    "english": "pain"
   },
   {
     "word": "athohharar",
@@ -874,7 +874,7 @@
     "word": "athvezhvenar",
     "ipa": "aθveʒvenar",
     "part_of_speech": "noun.inanimate",
-    "english": "greatness, excellent (when used as an exclamation) athvilajerar: [aTvil\u0011a> dZeRar] DP ni. war"
+    "english": "greatness, excellent (when used as an exclamation)"
   },
   {
     "word": "athvillar",
@@ -928,13 +928,13 @@
     "word": "atte",
     "ipa": "atte",
     "part_of_speech": "adverb",
-    "english": "ﬁrst, ﬁrstly"
+    "english": "first, firstly"
   },
   {
     "word": "atthar",
     "ipa": "aθθar",
     "part_of_speech": "noun.inanimate",
-    "english": "duty atthasat: [aTTasat\u0011] DP v. to make someone/something fall, to defeat, to destroy (insulting)"
+    "english": "duty"
   },
   {
     "word": "atthi",
@@ -1265,7 +1265,7 @@
     "word": "chimek",
     "ipa": "tʃimek",
     "part_of_speech": "numeral",
-    "english": "ﬁfty"
+    "english": "fifty"
   },
   {
     "word": "chiori",
@@ -1577,7 +1577,7 @@
     "word": "dili",
     "ipa": "dili",
     "part_of_speech": "noun.inanimate",
-    "english": "ﬂash, sparkle"
+    "english": "flash, sparkle"
   },
   {
     "word": "dinat",
@@ -1814,7 +1814,7 @@
     "word": "efesalat",
     "ipa": "efesalat",
     "part_of_speech": "verb.transitive",
-    "english": "to uproot, to scratch eﬁchisalat: [efi>tSisal\u0011at\u0011] DP v. to disagree"
+    "english": "to uproot, to scratch"
   },
   {
     "word": "ekhogaralat",
@@ -1998,7 +1998,7 @@
     "word": "eshina",
     "ipa": "esʃina",
     "part_of_speech": "noun",
-    "english": "ﬁsh"
+    "english": "fish"
   },
   {
     "word": "eshna",
@@ -2160,7 +2160,7 @@
     "word": "ezat",
     "ipa": "ezat",
     "part_of_speech": "verb",
-    "english": "to ﬁnd"
+    "english": "to find"
   },
   {
     "word": "ezhirat",
@@ -2255,7 +2255,7 @@
     "word": "fatilat",
     "ipa": "fatilat",
     "part_of_speech": "verb.transitive",
-    "english": "to all. to throw an insult at fejat: [fe> dZat\u0011] DP v. to hate",
+    "english": "to all. to throw an insult at",
     "sense": 2
   },
   {
@@ -2329,7 +2329,7 @@
     "word": "fevelat",
     "ipa": "fevelat",
     "part_of_speech": "verb.transitive",
-    "english": "to abl. to thirst for ﬁchat: [fi>tSat\u0011] DP vtr. to take, to bring, to fetch ﬁez: [fiez] DP n. rope ﬁh: [fih] DP ni. smoke ﬁlkak: [fil\u0011kak] DP na. coward ﬁlkat: [fil\u0011kat\u0011] DP vin. to move like a caterpillar ﬁlki: [fil\u0011ki] DP ni. caterpillar ﬁlla: [fil\u0011l\u0011a] DP ni. dried plum ﬁn (1): [fin\u0011] DP pn. who (question word, when speaking of an animate object) ﬁn (2): [fin\u0011] DP pn. relative pronoun that introduces relative clause, when speaking of an animalte object ﬁni (1): [fin\u0011i] DP pn. what (question word, when speaking of an inanimate object) ﬁni (2): [fin\u0011i] DP pn. relative pronoun that introduces relative clause, when speaking of an inanimate object ﬁnne (1): [fin\u0011n\u0011e] DP pn. where ﬁnne (2): [fin\u0011n\u0011e] DP adv. where ﬁr: [fir] DP adj. round ﬁre: [fiRe] DP ni. ring, circle ﬁresof: [fiResof] DP ni. year ﬁri: [fiRi] DP n. ball ﬁrikh: [fiRix] DP ni. ring ﬁrikhnharen: [fiRixn\u0011haRen\u0011] DP ni. crown ﬁsh: [fiS] DP adj. cold ﬁtte: [fit\u0011t\u0011e] DP adj. short ﬁtteya: [fit\u0011t\u0011eja] DP ni. an unnoticed and uncalled-for erection ﬂas: [fl\u0011as] DP ni. a ﬁlm on top of a soup, cream ﬂasikh: [fl\u0011asix] DP ni. update ﬂech: [fl\u0011e>tS] DP adj. dull",
+    "english": "to abl. to thirst for",
     "sense": 2
   },
   {
@@ -2428,7 +2428,7 @@
     "word": "gachat",
     "ipa": "gatʃat",
     "part_of_speech": "verb",
-    "english": "to ﬁgure out, to solve"
+    "english": "to figure out, to solve"
   },
   {
     "word": "gache",
@@ -2680,7 +2680,7 @@
     "word": "gwe",
     "ipa": "gwe",
     "part_of_speech": "interjection",
-    "english": "Here!, Let’s go!, Go! h’: [h] DP prep. elided version of ha"
+    "english": "Here!, Let’s go!, Go! h’"
   },
   {
     "word": "ha",
@@ -2700,7 +2700,7 @@
     "word": "ha nakhaan",
     "ipa": "ha naxaan",
     "part_of_speech": "adverb",
-    "english": "ﬁnally, last, ultimately"
+    "english": "finally, last, ultimately"
   },
   {
     "word": "hadaen",
@@ -2724,7 +2724,7 @@
     "word": "haf",
     "ipa": "haf",
     "part_of_speech": "adjective",
-    "english": "soft, quiet haj: [ha> dZ] M adj. strong haje: [ha> dZe] DP adj. right (direction) hajekh: [ha> dZex] DP ni. right side haji (1): [ha> dZi] DP prep. to abl. because of, on account of haji (2): [ha> dZi] DP prep. Default preposition for foreign words thet do not decline hajinaan: [ha> dZin\u0011aan\u0011] DP conj. because (followed by preﬁx me-) hajolat: [ha> dZol\u0011at\u0011] DP v. to grow strong"
+    "english": "soft, quiet"
   },
   {
     "word": "hake",
@@ -2748,7 +2748,7 @@
     "word": "halah",
     "ipa": "halah",
     "part_of_speech": "noun.animate",
-    "english": "ﬂower"
+    "english": "flower"
   },
   {
     "word": "halahi",
@@ -2976,7 +2976,7 @@
     "word": "himo",
     "ipa": "himo",
     "part_of_speech": "noun",
-    "english": "ﬁst, clenched thing hiri!: [hiRi] DP intj. watch! (short for vitihiras, for commanding animals)"
+    "english": "fist, clenched thing hiri!"
   },
   {
     "word": "hlaka",
@@ -2988,7 +2988,7 @@
     "word": "hlizif",
     "ipa": "hlizif",
     "part_of_speech": "noun.animate",
-    "english": "bear hliziﬁkh: [hl\u0011izifix] DP ni. a wild but powerful sword strike"
+    "english": "bear"
   },
   {
     "word": "hlofa",
@@ -3054,13 +3054,13 @@
     "word": "hrazef",
     "ipa": "hɾazef",
     "part_of_speech": "noun.inanimate",
-    "english": "horse hrazef chaﬁ: [hRazef >tSafi] DP ni. mustang, a horse that used to be tame"
+    "english": "horse"
   },
   {
     "word": "hrazefeser",
     "ipa": "hɾazefeser",
     "part_of_speech": "noun.animate",
-    "english": "herd of wild horses, ’trafﬁc’"
+    "english": "herd of wild horses, ’traffic’"
   },
   {
     "word": "iddelat",
@@ -3128,13 +3128,13 @@
     "word": "iffat",
     "ipa": "iffat",
     "part_of_speech": "verb.transitive",
-    "english": "to make someone walk ifﬁ: [iffi] DP n. victory"
+    "english": "to make someone walk"
   },
   {
     "word": "igge",
     "ipa": "igge",
     "part_of_speech": "noun",
-    "english": "bucket ijelat: [i> dZel\u0011at\u0011] DP v. to swallow, to practice woman-on-top sex"
+    "english": "bucket"
   },
   {
     "word": "ikh",
@@ -3308,7 +3308,7 @@
     "word": "ivezholat",
     "ipa": "iveʒolat",
     "part_of_speech": "verb.intransitive",
-    "english": "to grow ﬁerce"
+    "english": "to grow fierce"
   },
   {
     "word": "ivisat",
@@ -3344,7 +3344,7 @@
     "word": "izzat",
     "ipa": "izzat",
     "part_of_speech": "verb.transitive",
-    "english": "to poison jadat: [> dZad\u0011at\u0011] DP v. to come jadilat: [> dZad\u0011il\u0011at\u0011] DP vtr. to approach, to come up to jadolat: [> dZad\u0011ol\u0011at\u0011] DP v. to arrive jadro: [> dZad\u0011Ro] DP ni. vulture jahak: [> dZahak] DP na. Dothraki hair-braid, lion’s mane, hairstyle jahakmen: [> dZahakmen\u0011] DP adj. braidless jalan: [> dZal\u0011an\u0011] DP na. moon jalan qoyi: [> dZal\u0011an\u0011 qOji] DP n. harvest moon jalanqoyi: [> dZal\u0011an\u0011qOji] DP ni. total lunar eclipse janha: [> dZan\u0011ha] DP n. blanket janise: [> dZan\u0011ise] DP na. niece jano: [> dZan\u0011o] DP ni. dog jaqqa: [> dZaqqA] DP n. executioner, someone responsible for someone’s death jaqqa rhan: [> dZaqqA Rhan\u0011] M n. mercy men (not literal translation) jasat: [> dZasat\u0011] DP v. to laugh javrath: [> dZavRaT] DP ni reins javrathat: [> dZaRaTat\u0011] DP vtr. to rein, to check or guide a horse with the reins jazat: [> dZazat\u0011] DP v. to block jazo: [> dZazo] DP ni. block, an instance of blocking jedda: [> dZed\u0011d\u0011a] DP ni. pony jekhtat (1): [> dZext\u0011at\u0011] DP vin. to bounce, to ricochet jekhtat (2): [> dZext\u0011at\u0011] DP vtr. to abl. to bounce off of jela: [> dZel\u0011a] DP ni. lemon jelaven: [> dZel\u0011aven\u0011] DP adj. sour jelli: [> dZel\u0011l\u0011i] DP ni. cheese jerak: [> dZeRak] DP na. trader, merchant jerak sewaﬁkhaan: [> dZeRak sewafixaan\u0011] DP na. wine merchant jerakasar: [> dZeRakasar] DP na. trader’s guild, \"company\" jerat: [> dZeRat\u0011] DP v. to trade jerriya: [> dZeriya] DP ni. discussion jervat: [> dZeRvat\u0011] DP v. to imprison jesat: [> dZesat\u0011] DP v. to pull jeser: [> dZeser] DP n. market jesh: [> dZeS] DP ni. ice jesho: [> dZeSo] DP adj. frozen jesholat: [> dZeSol\u0011at\u0011] DP v. freeze jeshoy: [> dZeSoj] DP adj. freezing jeshven: [> dZeSven\u0011] DP adj. icy jezat: [> dZezat\u0011] DP v. to block (a strike) jif: [> dZif] DP v.aux. should jil: [> dZil\u0011] DP adj. right, rightful jilat: [> dZil\u0011at\u0011] DP v. to be right, to be correct jim: [> dZim] DP adj. western jimma: [> dZimma] DP ni. west jin (1): [> dZin\u0011] DP dem adj. this jin (2): [> dZin\u0011] DP na. female goat jin (3): [> dZin\u0011] DP pn. this (when speaking of an animate object) jinak: [> dZin\u0011ak] DP dem. pn. this (when speaking of person(s) ) jini: [> dZin\u0011i] DP pn. this (when speaking of an inanimate object) jinne: [> dZin\u0011n\u0011e] DP loc. adv. here jith: [> dZiT] DP na. fox jiz: [> dZiz] DP na. chicken jolinat: [> dZol\u0011in\u0011at\u0011] DP v. to cook jolinikh: [> dZol\u0011in\u0011ix] DP ni. prepared food jolino: [> dZol\u0011in\u0011o] DP ni. cooking pot joma: [> dZoma] DP ni. salmon jon: [> dZon\u0011] DP adj. closed, shut, sealed joro: [> dZoRo] DP ni. idol, icon jorok: [> dZoRok] DP ni/na. corn k’: [k] DP prep. elided version of ki"
+    "english": "to poison"
   },
   {
     "word": "kadat",
@@ -3448,7 +3448,7 @@
     "word": "kashi",
     "ipa": "kaʃi",
     "part_of_speech": "noun.inanimate",
-    "english": "time kathjilari: [kaT> dZil\u0011aRi] DP adv. rightfully, right"
+    "english": "time"
   },
   {
     "word": "kathqoyi",
@@ -3496,7 +3496,7 @@
     "word": "kemis",
     "ipa": "kemis",
     "part_of_speech": "noun",
-    "english": "dried ﬁg"
+    "english": "dried fig"
   },
   {
     "word": "kemisolat",
@@ -3622,7 +3622,7 @@
     "word": "kher",
     "ipa": "xer",
     "part_of_speech": "noun.inanimate",
-    "english": "ﬂesh, skin of an animal"
+    "english": "flesh, skin of an animal"
   },
   {
     "word": "kherikh",
@@ -3646,7 +3646,7 @@
     "word": "khiro",
     "ipa": "xiɾo",
     "part_of_speech": "noun.inanimate",
-    "english": "ﬂag"
+    "english": "flag"
   },
   {
     "word": "khizra",
@@ -3683,7 +3683,7 @@
     "word": "ki",
     "ipa": "ki",
     "part_of_speech": "preposition",
-    "english": "thus, that (when preceeding quoted speech) kiﬁndirgi: [kifin\u0011d\u0011iRgi] DP adv. why kiﬁnosi: [kifin\u0011osi] DP adv. how kijinosi: [ki> dZin\u0011osi] DP adv. thus, in this way",
+    "english": "thus, that (when preceeding quoted speech)",
     "sense": 2
   },
   {
@@ -3752,7 +3752,7 @@
     "word": "koalak",
     "ipa": "koalak",
     "part_of_speech": "noun.animate",
-    "english": "healer (chieﬂy a male healer)"
+    "english": "healer (chiefly a male healer)"
   },
   {
     "word": "koalakeesi",
@@ -3776,13 +3776,13 @@
     "word": "koge",
     "ipa": "koge",
     "part_of_speech": "noun.inanimate",
-    "english": "nick, blemish, imperfection, ﬂaw"
+    "english": "nick, blemish, imperfection, flaw"
   },
   {
     "word": "kogmen",
     "ipa": "kogmen",
     "part_of_speech": "adjective",
-    "english": "ﬂawless"
+    "english": "flawless"
   },
   {
     "word": "kohol",
@@ -3812,7 +3812,7 @@
     "word": "kovarat",
     "ipa": "kovaɾat",
     "part_of_speech": "verb",
-    "english": "to stand krazaaj: [kRazaa> dZ] DP ni. mountain"
+    "english": "to stand"
   },
   {
     "word": "krista",
@@ -3830,7 +3830,7 @@
     "word": "krol",
     "ipa": "kɾol",
     "part_of_speech": "noun",
-    "english": "ﬂea"
+    "english": "flea"
   },
   {
     "word": "lain",
@@ -3842,7 +3842,7 @@
     "word": "lainat",
     "ipa": "lainat",
     "part_of_speech": "verb.intransitive",
-    "english": "to be beautiful (used for inanimate nouns) lajak: [l\u0011a> dZak] DP na. ﬁghter, warrior lajasar: [l\u0011a> dZasar] DP na. army lajat: [l\u0011a> dZat\u0011] DP v. to ﬁght lajilat: [l\u0011a> dZil\u0011at\u0011] DP v. to spar, to train, to play, to compete (introduce the game to play with ki )"
+    "english": "to be beautiful (used for inanimate"
   },
   {
     "word": "lakkhat",
@@ -3982,7 +3982,7 @@
     "word": "lekhaan",
     "ipa": "lexaan",
     "part_of_speech": "noun",
-    "english": "enough, sufﬁciently"
+    "english": "enough, sufficiently"
   },
   {
     "word": "lekhi",
@@ -4066,7 +4066,7 @@
     "word": "liwalat",
     "ipa": "liwalat",
     "part_of_speech": "verb",
-    "english": "to tie lojat (1): [l\u0011o> dZat\u0011] DP vtr. to hit, to run off lojat (2): [l\u0011o> dZat\u0011] DP vtr. to all. to hit at"
+    "english": "to tie lojat (1)"
   },
   {
     "word": "lommat",
@@ -4177,13 +4177,13 @@
     "word": "mai",
     "ipa": "mai",
     "part_of_speech": "noun.animate",
-    "english": "mother majin: [ma> dZin\u0011] DP conj. and then, then, so, and so, consequently"
+    "english": "mother"
   },
   {
     "word": "malilat",
     "ipa": "malilat",
     "part_of_speech": "verb.intransitive",
-    "english": "to be ﬁnished"
+    "english": "to be finished"
   },
   {
     "word": "manimven",
@@ -4231,7 +4231,7 @@
     "word": "me",
     "ipa": "me",
     "part_of_speech": "pronoun",
-    "english": "he, she, it me orzo!: [me oRzo] DP phrase it’s a trap!"
+    "english": "he, she, it me orzo!"
   },
   {
     "word": "mehas",
@@ -4243,13 +4243,13 @@
     "word": "mek",
     "ipa": "mek",
     "part_of_speech": "numeral",
-    "english": "ﬁve"
+    "english": "five"
   },
   {
     "word": "mekak",
     "ipa": "mekak",
     "part_of_speech": "noun.animate",
-    "english": "ﬁfth (ordinal, use genitive form if modifying a noun.)"
+    "english": "fifth (ordinal, use genitive form if modifying a noun.)"
   },
   {
     "word": "mekis",
@@ -4261,13 +4261,13 @@
     "word": "mekken",
     "ipa": "mekken",
     "part_of_speech": "numeral",
-    "english": "ﬁve hundred"
+    "english": "five hundred"
   },
   {
     "word": "mekthi",
     "ipa": "mekθi",
     "part_of_speech": "numeral",
-    "english": "ﬁfteen"
+    "english": "fifteen"
   },
   {
     "word": "mel",
@@ -4504,7 +4504,7 @@
     "word": "movelat",
     "ipa": "movelat",
     "part_of_speech": "verb",
-    "english": "to make by hand, to create mr’: [mR] DP prep. elided version of mra"
+    "english": "to make by hand, to create mr’"
   },
   {
     "word": "mra",
@@ -4531,7 +4531,7 @@
     "word": "mredi",
     "ipa": "mɾedi",
     "part_of_speech": "noun",
-    "english": "garlic najah: [n\u0011a> dZah] DP adj. victorious najahak: [n\u0011a> dZahak] DP na. winner najahat: [n\u0011a> dZahat\u0011] DP vin. to be victorious najaheya: [n\u0011a> dZaheja] DP ni. victory (in battle)"
+    "english": "garlic"
   },
   {
     "word": "nakhaan",
@@ -4627,7 +4627,7 @@
     "word": "nemo",
     "ipa": "nemo",
     "part_of_speech": "verb.auxiliary",
-    "english": "reﬂexive particle"
+    "english": "reflexive particle"
   },
   {
     "word": "nerro",
@@ -4737,7 +4737,7 @@
     "word": "nirrat",
     "ipa": "nirat",
     "part_of_speech": "verb.transitive",
-    "english": "to ﬁll"
+    "english": "to fill"
   },
   {
     "word": "nith",
@@ -4756,7 +4756,7 @@
     "word": "nithat",
     "ipa": "niθat",
     "part_of_speech": "verb.transitive",
-    "english": "to abl. to feel pain from a speciﬁc source",
+    "english": "to abl. to feel pain from a specific source",
     "sense": 2
   },
   {
@@ -4793,7 +4793,7 @@
     "word": "noah",
     "ipa": "noah",
     "part_of_speech": "noun.animate",
-    "english": "bull noﬁlat: [n\u0011ofil\u0011at\u0011] DP v. to wipe"
+    "english": "bull"
   },
   {
     "word": "nokittat",
@@ -4823,13 +4823,13 @@
     "word": "nozho",
     "ipa": "noʒo",
     "part_of_speech": "noun.inanimate",
-    "english": "chestnut horse nozhoven: [n\u0011oZoven\u0011] DP adj. brown, brown skinned"
+    "english": "chestnut horse"
   },
   {
     "word": "nris",
     "ipa": "nɾis",
     "part_of_speech": "adjective",
-    "english": "straight nroj: [n\u0011Ro> dZ] DP adj. thick, complex nrojat: [n\u0011Ro> dZat\u0011] DP vin. to be thick, complex"
+    "english": "straight"
   },
   {
     "word": "oakah",
@@ -4919,7 +4919,7 @@
     "word": "oiro",
     "ipa": "oiɾo",
     "part_of_speech": "adjective",
-    "english": "fat ojil: [o> dZil\u0011] DP adj. wrong, incorrect ojilat: [o> dZil\u0011at\u0011] DP v. to be wrong, to be incorrect"
+    "english": "fat"
   },
   {
     "word": "okeo",
@@ -5063,7 +5063,7 @@
     "word": "os",
     "ipa": "os",
     "part_of_speech": "noun.inanimate",
-    "english": "path, road osﬁr: [osfir] DP ni. round road, ’roundabout’"
+    "english": "path, road"
   },
   {
     "word": "oshat",
@@ -5105,7 +5105,7 @@
     "word": "ovethat",
     "ipa": "oveθat",
     "part_of_speech": "verb",
-    "english": "to ﬂy"
+    "english": "to fly"
   },
   {
     "word": "ovrakh",
@@ -5141,13 +5141,13 @@
     "word": "ozzirven",
     "ipa": "ozziɾven",
     "part_of_speech": "adjective",
-    "english": "ﬁrey, ﬂashing"
+    "english": "firey, flashing"
   },
   {
     "word": "qacha",
     "ipa": "qAtʃa",
     "part_of_speech": "noun",
-    "english": "ﬁreﬂy"
+    "english": "firefly"
   },
   {
     "word": "qaf",
@@ -5189,7 +5189,7 @@
     "word": "qayelat",
     "ipa": "qAjelat",
     "part_of_speech": "verb",
-    "english": "to ﬂoat"
+    "english": "to float"
   },
   {
     "word": "qazat",
@@ -5437,7 +5437,7 @@
     "word": "rakhi",
     "ipa": "raxi",
     "part_of_speech": "noun",
-    "english": "boy (insult) ramasar: [ramasar] DP na. land, country, plain(s)"
+    "english": "boy (insult)"
   },
   {
     "word": "ray",
@@ -5531,7 +5531,7 @@
     "word": "renrenoh",
     "ipa": "renɾenoh",
     "part_of_speech": "adjective",
-    "english": "hollow reri!: [reRi] DP intj. stay! (short for vikoveras, for commanding animals)"
+    "english": "hollow reri!"
   },
   {
     "word": "rhae",
@@ -5615,7 +5615,7 @@
     "word": "rhoa",
     "ipa": "ɾhoa",
     "part_of_speech": "noun",
-    "english": "animal, beast rhojosor: [Rho> dZosor] DP na. family"
+    "english": "animal, beast"
   },
   {
     "word": "rich",
@@ -5689,7 +5689,7 @@
     "word": "rokhat",
     "ipa": "roxat",
     "part_of_speech": "verb",
-    "english": "to fear ’sh: [S] DP v.aux. elided version of ish"
+    "english": "to fear ’sh"
   },
   {
     "word": "saccheya",
@@ -5707,7 +5707,7 @@
     "word": "sachi",
     "ipa": "satʃi",
     "part_of_speech": "noun.inanimate",
-    "english": "half sajak: [sa> dZak] DP na. rider sajat: [sa> dZat\u0011] DP vtr. to mount sajo: [sa> dZo] DP na. steed, one’s own horse"
+    "english": "half"
   },
   {
     "word": "samva",
@@ -5847,13 +5847,13 @@
     "word": "seris",
     "ipa": "seɾis",
     "part_of_speech": "adjective",
-    "english": "free serja: [seR> dZa] DP ni. vest"
+    "english": "free"
   },
   {
     "word": "sewaf",
     "ipa": "sewaf",
     "part_of_speech": "noun",
-    "english": "grape sewaﬁkh: [sewafix] DP ni. wine"
+    "english": "grape"
   },
   {
     "word": "shafka",
@@ -5983,13 +5983,13 @@
     "word": "shin",
     "ipa": "ʃin",
     "part_of_speech": "noun",
-    "english": "sound of ﬁre going out"
+    "english": "sound of fire going out"
   },
   {
     "word": "shinat",
     "ipa": "ʃinat",
     "part_of_speech": "verb",
-    "english": "to burn out, ﬁzzle out"
+    "english": "to burn out, fizzle out"
   },
   {
     "word": "shiqeth",
@@ -6073,7 +6073,7 @@
     "word": "silat",
     "ipa": "silat",
     "part_of_speech": "verb",
-    "english": "to ﬂash, to gleam"
+    "english": "to flash, to gleam"
   },
   {
     "word": "sillat",
@@ -6202,7 +6202,7 @@
     "word": "sovikh",
     "ipa": "sovix",
     "part_of_speech": "noun.inanimate",
-    "english": "pear brandy ’th: [T] DP v.aux. elided version of eth"
+    "english": "pear brandy ’th"
   },
   {
     "word": "taoka",
@@ -6418,7 +6418,7 @@
     "word": "tir",
     "ipa": "tir",
     "part_of_speech": "noun.inanimate",
-    "english": "ﬁnger"
+    "english": "finger"
   },
   {
     "word": "tirat",
@@ -6523,7 +6523,7 @@
     "word": "vado",
     "ipa": "vado",
     "part_of_speech": "noun.inanimate",
-    "english": "ﬁlly",
+    "english": "filly",
     "sense": 2
   },
   {
@@ -6536,7 +6536,7 @@
     "word": "vaesilat",
     "ipa": "vaesilat",
     "part_of_speech": "verb",
-    "english": "to clog vaﬁ: [vafi] DP ni. lamb (female) vaﬁk: [vafik] DP na. lamb girl vaﬁkh: [vafix] DP ni. wool"
+    "english": "to clog"
   },
   {
     "word": "valad",
@@ -6772,7 +6772,7 @@
     "word": "vichiterat",
     "ipa": "vitʃiteɾat",
     "part_of_speech": "verb.intransitive",
-    "english": "to shiver vichomer: [vi>tSomer] DP adj. respectful, respectable"
+    "english": "to shiver"
   },
   {
     "word": "vichomerak",
@@ -6796,7 +6796,7 @@
     "word": "vigererat",
     "ipa": "vigeɾeɾat",
     "part_of_speech": "verb.transitive",
-    "english": "to abl. to miss someone vijazerat: [vi> dZazeRat\u0011] DP vtr. to protect vijazerolat: [vi> dZazeRol\u0011at\u0011] DP vtr. to save, to rescue"
+    "english": "to abl. to miss someone"
   },
   {
     "word": "vik",
@@ -6820,7 +6820,7 @@
     "word": "vil",
     "ipa": "vil",
     "part_of_speech": "verb.auxiliary",
-    "english": "to manage to vilajero: [vil\u0011a> dZeRo] DP ni. battle vilajerosh: [vil\u0011a> dZeRoS] DP ni. game"
+    "english": "to manage to"
   },
   {
     "word": "villat",
@@ -6906,7 +6906,7 @@
     "word": "vishaferat",
     "ipa": "viʃafeɾat",
     "part_of_speech": "verb.transitive",
-    "english": "to break a horse, to domesticate a beast of burden, to get ones’ ﬁrst kill with a new weapon"
+    "english": "to break a horse, to domesticate a beast of burden, to get ones’ first kill with a new weapon"
   },
   {
     "word": "vishiya",
@@ -6918,7 +6918,7 @@
     "word": "vithalat",
     "ipa": "viθalat",
     "part_of_speech": "verb",
-    "english": "to ﬂow"
+    "english": "to flow"
   },
   {
     "word": "vitiherat",
@@ -6960,25 +6960,25 @@
     "word": "vizhadi",
     "ipa": "viʒadi",
     "part_of_speech": "noun.inanimate",
-    "english": "silver vo: [vo] adv. not, no; a shortened variant of vos, that may be used when the next word starts with a consonant."
+    "english": "silver"
   },
   {
     "word": "vod",
     "ipa": "vod",
     "part_of_speech": "noun.inanimate",
-    "english": "dust voj: [vo> dZ] DP na. person vojjor: [vod> dZor] DP ni. deity, god"
+    "english": "dust"
   },
   {
     "word": "vorsa",
     "ipa": "voɾsa",
     "part_of_speech": "noun.animate",
-    "english": "ﬁre"
+    "english": "fire"
   },
   {
     "word": "vorsakh",
     "ipa": "voɾsax",
     "part_of_speech": "noun.inanimate",
-    "english": "ﬂame"
+    "english": "flame"
   },
   {
     "word": "vorsaska",
@@ -7020,7 +7020,7 @@
     "word": "vosi",
     "ipa": "vosi",
     "part_of_speech": "noun.inanimate",
-    "english": "nothing vosm’: [vosm] DP conj. elided version of vosma"
+    "english": "nothing vosm’"
   },
   {
     "word": "vosma",
@@ -7044,7 +7044,7 @@
     "word": "vroz",
     "ipa": "vɾoz",
     "part_of_speech": "adjective",
-    "english": "slow yachi norethmen: [ja>tSi n\u0011oReTmen\u0011] DP np. nectarine"
+    "english": "slow"
   },
   {
     "word": "yalli",
@@ -7082,7 +7082,7 @@
     "word": "yarat",
     "ipa": "jaɾat",
     "part_of_speech": "verb",
-    "english": "to ﬂinch"
+    "english": "to flinch"
   },
   {
     "word": "yath",
@@ -7130,7 +7130,7 @@
     "word": "yetto",
     "ipa": "jetto",
     "part_of_speech": "noun.inanimate",
-    "english": "frog yoﬁ: [jofi] DP adj. mad, crazy"
+    "english": "frog"
   },
   {
     "word": "yol",
@@ -7198,7 +7198,7 @@
     "word": "zafra",
     "ipa": "zafɾa",
     "part_of_speech": "noun.inanimate",
-    "english": "slave zajjat: [zad> dZat\u0011] DP vtr. to refuse to"
+    "english": "slave"
   },
   {
     "word": "zalat",
@@ -7240,7 +7240,7 @@
     "word": "zhalia",
     "ipa": "ʒalia",
     "part_of_speech": "noun.inanimate",
-    "english": "butterﬂy"
+    "english": "butterfly"
   },
   {
     "word": "zhani",
@@ -7252,7 +7252,7 @@
     "word": "zhaqe",
     "ipa": "ʒaqɛ",
     "part_of_speech": "noun",
-    "english": "bass ﬁsh"
+    "english": "bass fish"
   },
   {
     "word": "zhav",
@@ -7288,7 +7288,7 @@
     "word": "zhif",
     "ipa": "ʒif",
     "part_of_speech": "noun.inanimate",
-    "english": "salt zhiﬁkh: [Zifix] DP ni. dried salted meat"
+    "english": "salt"
   },
   {
     "word": "zhifven",
@@ -7386,7 +7386,7 @@
     "word": "zhorrof",
     "ipa": "ʒorof",
     "part_of_speech": "noun.inanimate",
-    "english": "ﬁg (fresh fruit of a ﬁg tree)"
+    "english": "fig (fresh fruit of a fig tree)"
   },
   {
     "word": "zhowak",
@@ -7398,7 +7398,7 @@
     "word": "zichome",
     "ipa": "zitʃome",
     "part_of_speech": "adjective",
-    "english": "disrespectful ziﬁchelat: [zifi>tSel\u0011at\u0011] DP v. to steal"
+    "english": "disrespectful"
   },
   {
     "word": "ziganelat",
@@ -7542,6 +7542,6 @@
     "word": "zorat",
     "ipa": "zoɾat",
     "part_of_speech": "verb",
-    "english": "to roar Dothraki Numbers These are the Dothraki numbers. This is a work in progress! Expect more notes as I learn how to better format this section. Common numbers teens 10,000 100,000 million som thi (10) at atthi thi ken dalen yor akat akatthi chakat akatken akat dalen sen senthi chisen senken sen dalen tor torthi chitor torken tor dalen mek mekthi chimek mekken mek dalen zhinda zhinthi chizhinda zhindaken zhinda dalen fekh fekhthi chifekh fekhken fekh dalen ori oritthi chori oriken ori dalen qazat qazatthi chiqazat qazatken qazat dalen contract for the last ’digit’ of the number. For example, 21 is chakat ma at, or chakat m’at and 2,431 is akat dalen ma torken ma chisen ma at, or akat dalen ma torken ma chisen m’at. Ordinal number end with the sufﬁx -ak, and are considered animate nouns. mekak, for instance, should be thought of as ’the ﬁfth one’. However, if the ordinal is modifying a noun, use the genitive form of the number instead. For instance, hrazef mekaki, ’the ﬁfth horse’. Much more information about numbers can be found at David Peterson’s blog entry on numbers. Proper Nouns These are Dothraki proper nouns."
+    "english": "to roar"
   }
 ]
