@@ -1,0 +1,1535 @@
+{
+  "words": [
+    {
+      "original": "If",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "you",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "write",
+      "dothraki": "at",
+      "english": "one",
+      "confidence": 0.5
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Darkerst",
+      "dothraki": "drekat",
+      "english": "to spill (non volitional e.g. the milk spilled)",
+      "confidence": 0.4286
+    },
+    {
+      "original": "as",
+      "dothraki": "az",
+      "english": "blade",
+      "confidence": 0.5
+    },
+    {
+      "original": "Shai",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "his",
+      "dothraki": "haz",
+      "english": "that (when speaking of an animate object present and directly indicated)",
+      "confidence": 0.6667
+    },
+    {
+      "original": "assassins",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2857
+    },
+    {
+      "original": "will",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "follow",
+      "dothraki": "felde",
+      "english": "wing",
+      "confidence": 0.4
+    },
+    {
+      "original": "you",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "If",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "you",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "sailed",
+      "dothraki": "felde",
+      "english": "wing",
+      "confidence": 0.4
+    },
+    {
+      "original": "all",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "way",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Basilisk",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.375
+    },
+    {
+      "original": "Isles",
+      "dothraki": "ale",
+      "english": "some",
+      "confidence": 0.5
+    },
+    {
+      "original": "his",
+      "dothraki": "haz",
+      "english": "that (when speaking of an animate object present and directly indicated)",
+      "confidence": 0.6667
+    },
+    {
+      "original": "spies",
+      "dothraki": "az",
+      "english": "blade",
+      "confidence": 0.4
+    },
+    {
+      "original": "would",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "tell",
+      "dothraki": "chal",
+      "english": "bean (general use)",
+      "confidence": 0.5
+    },
+    {
+      "original": "him",
+      "dothraki": "hem",
+      "english": "fur",
+      "confidence": 0.6667
+    },
+    {
+      "original": "he",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "will",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "never",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "abandon",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2857
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "hunt",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "You're",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Targaryen",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "The",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "last",
+      "dothraki": "lost",
+      "english": "disappointed",
+      "confidence": 0.75
+    },
+    {
+      "original": "Targaryen",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "Your",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "son",
+      "dothraki": "san",
+      "english": "heap, pile",
+      "confidence": 0.6667
+    },
+    {
+      "original": "will",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "have",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Targaryen",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "blood",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "with",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "forty",
+      "dothraki": "fekhthi",
+      "english": "seventeen",
+      "confidence": 0.4
+    },
+    {
+      "original": "thousand",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2857
+    },
+    {
+      "original": "riders",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "behind",
+      "dothraki": "dahaan",
+      "english": "green",
+      "confidence": 0.4286
+    },
+    {
+      "original": "him",
+      "dothraki": "hem",
+      "english": "fur",
+      "confidence": 0.6667
+    },
+    {
+      "original": "He",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "will",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "not",
+      "dothraki": "anat",
+      "english": "to jog",
+      "confidence": 0.5
+    },
+    {
+      "original": "have",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "my",
+      "dothraki": "ma",
+      "english": "and",
+      "confidence": 0.6667
+    },
+    {
+      "original": "son",
+      "dothraki": "san",
+      "english": "heap, pile",
+      "confidence": 0.6667
+    },
+    {
+      "original": "He",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "will",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "not",
+      "dothraki": "anat",
+      "english": "to jog",
+      "confidence": 0.5
+    },
+    {
+      "original": "have",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "you",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "either",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Galleys",
+      "dothraki": "alikh",
+      "english": "more",
+      "confidence": 0.4
+    },
+    {
+      "original": "The",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Targaryen",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "The",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Targaryen",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "The",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Targaryen",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "You're",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Targaryen",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "I'm",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "here",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Damn",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Damn",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Damn",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Damn",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I'm",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "not",
+      "dothraki": "anat",
+      "english": "to jog",
+      "confidence": 0.5
+    },
+    {
+      "original": "sure",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "actually",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.375
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "don't",
+      "dothraki": "dogat",
+      "english": "to suffer",
+      "confidence": 0.6
+    },
+    {
+      "original": "know",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "if",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "can",
+      "dothraki": "ken",
+      "english": "hundred",
+      "confidence": 0.6667
+    },
+    {
+      "original": "get",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "to",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "edge",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "of",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "this",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Damn",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "My",
+      "dothraki": "ma",
+      "english": "and",
+      "confidence": 0.6667
+    },
+    {
+      "original": "big",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "big",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "jorsa",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2857
+    },
+    {
+      "original": "samvava",
+      "dothraki": "samva",
+      "english": "broken",
+      "confidence": 0.4286
+    },
+    {
+      "original": "is",
+      "dothraki": "az",
+      "english": "blade",
+      "confidence": 0.5
+    },
+    {
+      "original": "on",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "road",
+      "dothraki": "vod",
+      "english": "dust",
+      "confidence": 0.5
+    },
+    {
+      "original": "Yeah",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Ki",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 1.0
+    },
+    {
+      "original": "geni",
+      "dothraki": "daeni",
+      "english": "leaf",
+      "confidence": 0.5
+    },
+    {
+      "original": "anas",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "takas",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "koi",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Anna",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "Rubu",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "ki",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 1.0
+    },
+    {
+      "original": "par",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "pisa",
+      "dothraki": "dis",
+      "english": "simple, plain",
+      "confidence": 0.5
+    },
+    {
+      "original": "Yeah",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Ki",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 1.0
+    },
+    {
+      "original": "geni",
+      "dothraki": "daeni",
+      "english": "leaf",
+      "confidence": 0.5
+    },
+    {
+      "original": "anas",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "takas",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "koi",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Andi",
+      "dothraki": "anni",
+      "english": "of mine",
+      "confidence": 0.5
+    },
+    {
+      "original": "mayas",
+      "dothraki": "mehas",
+      "english": "pronominal version of preposition ha",
+      "confidence": 0.6
+    },
+    {
+      "original": "et",
+      "dothraki": "at",
+      "english": "one",
+      "confidence": 0.5
+    },
+    {
+      "original": "raza",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "geni",
+      "dothraki": "daeni",
+      "english": "leaf",
+      "confidence": 0.5
+    },
+    {
+      "original": "Kashirak",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2857
+    },
+    {
+      "original": "ki",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 1.0
+    },
+    {
+      "original": "vidiri",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "asa",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "vasoor",
+      "dothraki": "vezh",
+      "english": "stallion",
+      "confidence": 0.4
+    },
+    {
+      "original": "Yeah",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Tata",
+      "dothraki": "tat",
+      "english": "to do",
+      "confidence": 0.5
+    },
+    {
+      "original": "vasoor",
+      "dothraki": "vezh",
+      "english": "stallion",
+      "confidence": 0.4
+    },
+    {
+      "original": "Tata",
+      "dothraki": "tat",
+      "english": "to do",
+      "confidence": 0.5
+    },
+    {
+      "original": "vasoor",
+      "dothraki": "vezh",
+      "english": "stallion",
+      "confidence": 0.4
+    },
+    {
+      "original": "Yeah",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Yeah",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    }
+  ],
+  "translation": "[If] [you] one [to] to spill (non volitional e.g. the milk spilled) blade [Shai] that (when speaking of an animate object present and directly indicated) [assassins] [will] wing [you] [If] [you] wing [all] [the] [way] [to] [the] [Basilisk] some that (when speaking of an animate object present and directly indicated) blade [would] bean (general use) fur yes, obedient response [will] [never] [abandon] [the] [hunt] [You're] [a] [Targaryen] [The] disappointed [Targaryen] [Your] heap, pile [will] [have] [Targaryen] [blood] [with] seventeen [thousand] [riders] green fur yes, obedient response [will] to jog [have] and heap, pile yes, obedient response [will] to jog [have] [you] [either] more [The] [Targaryen] [The] [Targaryen] [The] [Targaryen] [You're] [the] [Targaryen] [I'm] [here] [Damn] [Damn] [Damn] [Damn] [I'm] to jog [sure] yes, obedient response hundred [actually] [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] yes, obedient response to suffer [know] [if] yes, obedient response hundred [get] [to] [the] [edge] [of] [this] [Damn] and [big] [big] [jorsa] broken blade [on] [the] dust [Yeah] to gen. by, because of, of leaf [anas] [takas] [koi] [Anna] [Rubu] to gen. by, because of, of [par] simple, plain [Yeah] to gen. by, because of, of leaf [anas] [takas] [koi] of mine pronominal version of preposition ha one [raza] leaf [Kashirak] to gen. by, because of, of [vidiri] [asa] stallion [Yeah] to do stallion to do stallion [Yeah] [Yeah]"
+}
