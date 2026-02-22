@@ -36,6 +36,7 @@ def download_clip(url: str, label: str | None = None) -> Path | None:
 
     cmd = [
         "yt-dlp",
+        "--cookies-from-browser", "brave",
         "--extract-audio",
         "--audio-format", "wav",
         "--audio-quality", "0",
