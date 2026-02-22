@@ -1,0 +1,6 @@
+# Dothraki Audio Clips
+# Format: <url> <label>
+# Labels become filenames (e.g. "drogo_speech" -> data/raw/drogo_speech.wav)
+#
+# Paste your YouTube URLs below:
+
