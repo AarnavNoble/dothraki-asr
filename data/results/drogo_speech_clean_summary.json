@@ -1,0 +1,190 @@
+{
+  "input": "data/raw/drogo_speech_clean.wav",
+  "vocals": "/Users/aarnavnoble/dothraki-asr/data/processed/drogo_speech_clean_vocals.wav",
+  "whisper_text": "Thank you. I'm told by Gidginia Nostakoskoy under Rubu K. Parpe Gidginia Nostakoskoy and the bias is rather deep because you're a key vitiere a savassor a savassor a savassor",
+  "whisper_language": "en",
+  "whisper_model": "small",
+  "translation": "tenth (ordinal, use genitive form if modifying a noun.) [you] [I'm] bean (general use) [by] [Gidginia] [Nostakoskoy] [under] [Rubu] conjoined, married [Parpe] [Gidginia] [Nostakoskoy] [and] [the] cloud blade [rather] fast [because] [you're] [a] to gen. by, because of, of face [a] [savassor] [a] [savassor] [a] [savassor]",
+  "words": [
+    {
+      "heard": "Thank",
+      "dothraki": "thik",
+      "english": "tenth (ordinal, use genitive form if modifying a noun.)",
+      "confidence": 0.5
+    },
+    {
+      "heard": "you",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "I'm",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "heard": "told",
+      "dothraki": "chal",
+      "english": "bean (general use)",
+      "confidence": 0.4
+    },
+    {
+      "heard": "by",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "heard": "Gidginia",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2727
+    },
+    {
+      "heard": "Nostakoskoy",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3077
+    },
+    {
+      "heard": "under",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "heard": "Rubu",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "K",
+      "dothraki": "kem",
+      "english": "conjoined, married",
+      "confidence": 0.6667
+    },
+    {
+      "heard": "Parpe",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "Gidginia",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2727
+    },
+    {
+      "heard": "Nostakoskoy",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3077
+    },
+    {
+      "heard": "and",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "heard": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "bias",
+      "dothraki": "fas",
+      "english": "cloud",
+      "confidence": 0.4
+    },
+    {
+      "heard": "is",
+      "dothraki": "az",
+      "english": "blade",
+      "confidence": 0.5
+    },
+    {
+      "heard": "rather",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "deep",
+      "dothraki": "dik",
+      "english": "fast",
+      "confidence": 0.6667
+    },
+    {
+      "heard": "because",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2
+    },
+    {
+      "heard": "you're",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "heard": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "key",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 1.0
+    },
+    {
+      "heard": "vitiere",
+      "dothraki": "hatif",
+      "english": "face",
+      "confidence": 0.4
+    },
+    {
+      "heard": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "savassor",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "heard": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "savassor",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "heard": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "heard": "savassor",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    }
+  ]
+}

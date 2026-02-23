@@ -1,0 +1,185 @@
+{
+  "words": [
+    {
+      "original": "Thank",
+      "dothraki": "thik",
+      "english": "tenth (ordinal, use genitive form if modifying a noun.)",
+      "confidence": 0.5
+    },
+    {
+      "original": "you",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "I'm",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "told",
+      "dothraki": "chal",
+      "english": "bean (general use)",
+      "confidence": 0.4
+    },
+    {
+      "original": "by",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Gidginia",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2727
+    },
+    {
+      "original": "Nostakoskoy",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3077
+    },
+    {
+      "original": "under",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "Rubu",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "K",
+      "dothraki": "kem",
+      "english": "conjoined, married",
+      "confidence": 0.6667
+    },
+    {
+      "original": "Parpe",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Gidginia",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2727
+    },
+    {
+      "original": "Nostakoskoy",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3077
+    },
+    {
+      "original": "and",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "the",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "bias",
+      "dothraki": "fas",
+      "english": "cloud",
+      "confidence": 0.4
+    },
+    {
+      "original": "is",
+      "dothraki": "az",
+      "english": "blade",
+      "confidence": 0.5
+    },
+    {
+      "original": "rather",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "deep",
+      "dothraki": "dik",
+      "english": "fast",
+      "confidence": 0.6667
+    },
+    {
+      "original": "because",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2
+    },
+    {
+      "original": "you're",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "key",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 1.0
+    },
+    {
+      "original": "vitiere",
+      "dothraki": "hatif",
+      "english": "face",
+      "confidence": 0.4
+    },
+    {
+      "original": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "savassor",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "savassor",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "a",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "savassor",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    }
+  ],
+  "translation": "tenth (ordinal, use genitive form if modifying a noun.) [you] [I'm] bean (general use) [by] [Gidginia] [Nostakoskoy] [under] [Rubu] conjoined, married [Parpe] [Gidginia] [Nostakoskoy] [and] [the] cloud blade [rather] fast [because] [you're] [a] to gen. by, because of, of face [a] [savassor] [a] [savassor] [a] [savassor]"
+}
