@@ -1,0 +1,569 @@
+{
+  "words": [
+    {
+      "original": "Her",
+      "dothraki": "ha",
+      "english": "to abl. from",
+      "confidence": 0.5
+    },
+    {
+      "original": "şefka",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "hala",
+      "dothraki": "hale",
+      "english": "hey! (exclamation)",
+      "confidence": 0.5
+    },
+    {
+      "original": "ne",
+      "dothraki": "nem",
+      "english": "passive particle",
+      "confidence": 0.6667
+    },
+    {
+      "original": "yadına",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "her",
+      "dothraki": "ha",
+      "english": "to abl. from",
+      "confidence": 0.5
+    },
+    {
+      "original": "eze",
+      "dothraki": "az",
+      "english": "blade",
+      "confidence": 0.5
+    },
+    {
+      "original": "birze",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "darşolta",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.375
+    },
+    {
+      "original": "Bir",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "oriz",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "yediği",
+      "dothraki": "dei",
+      "english": "shallow",
+      "confidence": 0.4
+    },
+    {
+      "original": "cendere",
+      "dothraki": "sandi",
+      "english": "safe",
+      "confidence": 0.6
+    },
+    {
+      "original": "ima",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "eki",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 0.6667
+    },
+    {
+      "original": "sere",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "ses",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "na",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "hale",
+      "dothraki": "hem",
+      "english": "fur",
+      "confidence": 0.5
+    },
+    {
+      "original": "moe",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Bu",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "feko",
+      "dothraki": "dik",
+      "english": "fast",
+      "confidence": 0.4
+    },
+    {
+      "original": "ana",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "vosecci",
+      "dothraki": "vosi",
+      "english": "nothing vosm’",
+      "confidence": 0.5
+    },
+    {
+      "original": "Ana",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "da",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "ineriz",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Cevasko",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.375
+    },
+    {
+      "original": "Halisi",
+      "dothraki": "halahi",
+      "english": "tree that can blossom",
+      "confidence": 0.5
+    },
+    {
+      "original": "maravoshi",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "yavrshi",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "veyavara",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2857
+    },
+    {
+      "original": "Yer",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "vosak",
+      "dothraki": "vorsa",
+      "english": "fire",
+      "confidence": 0.5
+    },
+    {
+      "original": "yorak",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2
+    },
+    {
+      "original": "yeri",
+      "dothraki": "yeni",
+      "english": "failure",
+      "confidence": 0.5
+    },
+    {
+      "original": "safra",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2
+    },
+    {
+      "original": "hali",
+      "dothraki": "dili",
+      "english": "flash, sparkle",
+      "confidence": 0.5
+    },
+    {
+      "original": "moro",
+      "dothraki": "mafo",
+      "english": "young goat, kid",
+      "confidence": 0.4
+    },
+    {
+      "original": "Ajalana",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "şilok",
+      "dothraki": "ezok",
+      "english": "learner",
+      "confidence": 0.4
+    },
+    {
+      "original": "aşer",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "tihoe",
+      "dothraki": "choo",
+      "english": "pika",
+      "confidence": 0.4
+    },
+    {
+      "original": "Ana",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "vosecci",
+      "dothraki": "vosi",
+      "english": "nothing vosm’",
+      "confidence": 0.5
+    },
+    {
+      "original": "Elfah",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "manan",
+      "dothraki": "manin",
+      "english": "young male horse",
+      "confidence": 0.6
+    },
+    {
+      "original": "atmadan",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2857
+    },
+    {
+      "original": "murak",
+      "dothraki": "mek",
+      "english": "five",
+      "confidence": 0.4
+    },
+    {
+      "original": "orra",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "Mes'e",
+      "dothraki": "mas",
+      "english": "valuable",
+      "confidence": 0.6667
+    },
+    {
+      "original": "rikron",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "hal",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "drogo",
+      "dothraki": "dorvof",
+      "english": "ibex",
+      "confidence": 0.4286
+    },
+    {
+      "original": "kibar",
+      "dothraki": "ki",
+      "english": "to gen. by, because of, of",
+      "confidence": 0.5
+    },
+    {
+      "original": "bozuy",
+      "dothraki": "orzi",
+      "english": "shoe",
+      "confidence": 0.6
+    },
+    {
+      "original": "Hal",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "drogo",
+      "dothraki": "dorvof",
+      "english": "ibex",
+      "confidence": 0.4286
+    },
+    {
+      "original": "triva",
+      "dothraki": "chiva",
+      "english": "horn",
+      "confidence": 0.6
+    },
+    {
+      "original": "Ana",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "ne",
+      "dothraki": "nem",
+      "english": "passive particle",
+      "confidence": 0.6667
+    },
+    {
+      "original": "sak",
+      "dothraki": "sek",
+      "english": "yes",
+      "confidence": 0.6667
+    },
+    {
+      "original": "anha",
+      "dothraki": "anha",
+      "english": "I",
+      "confidence": 0.5
+    },
+    {
+      "original": "ve",
+      "dothraki": "vi",
+      "english": "to all. through, along",
+      "confidence": 1.0
+    },
+    {
+      "original": "avok",
+      "dothraki": "vik",
+      "english": "chin",
+      "confidence": 0.5
+    },
+    {
+      "original": "moro",
+      "dothraki": "mafo",
+      "english": "young goat, kid",
+      "confidence": 0.4
+    },
+    {
+      "original": "Geçin",
+      "dothraki": "darin",
+      "english": "lame, limp",
+      "confidence": 0.5
+    },
+    {
+      "original": "masak",
+      "dothraki": "hesk",
+      "english": "southern",
+      "confidence": 0.4
+    },
+    {
+      "original": "anha",
+      "dothraki": "anha",
+      "english": "I",
+      "confidence": 0.5
+    },
+    {
+      "original": "ve",
+      "dothraki": "vi",
+      "english": "to all. through, along",
+      "confidence": 1.0
+    },
+    {
+      "original": "oneso",
+      "dothraki": "oiro",
+      "english": "fat",
+      "confidence": 0.4286
+    },
+    {
+      "original": "Yer",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "ana",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "zikuy",
+      "dothraki": "daki",
+      "english": "pomegranate",
+      "confidence": 0.5
+    },
+    {
+      "original": "Mavi",
+      "dothraki": "mekthi",
+      "english": "fifteen",
+      "confidence": 0.6
+    },
+    {
+      "original": "cazeri",
+      "dothraki": "gezri",
+      "english": "snake",
+      "confidence": 0.5
+    },
+    {
+      "original": "merin",
+      "dothraki": "manin",
+      "english": "young male horse",
+      "confidence": 0.4
+    },
+    {
+      "original": "ama",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "Aşk",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.0
+    },
+    {
+      "original": "hal",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "drivoi",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "aşat",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "kaçii",
+      "dothraki": "dei",
+      "english": "shallow",
+      "confidence": 0.5
+    },
+    {
+      "original": "hale",
+      "dothraki": "hem",
+      "english": "fur",
+      "confidence": 0.5
+    },
+    {
+      "original": "sis",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "anma",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.25
+    },
+    {
+      "original": "e",
+      "dothraki": "ai",
+      "english": "yes, obedient response",
+      "confidence": 0.5
+    },
+    {
+      "original": "Paistofrak",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3
+    },
+    {
+      "original": "Atira",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.2
+    },
+    {
+      "original": "şehez",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "meyima",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    },
+    {
+      "original": "halin",
+      "dothraki": "dalen",
+      "english": "thousand",
+      "confidence": 0.4
+    },
+    {
+      "original": "yosa",
+      "dothraki": "lost",
+      "english": "disappointed",
+      "confidence": 0.4
+    },
+    {
+      "original": "halidrivi",
+      "dothraki": null,
+      "english": null,
+      "confidence": 0.3333
+    }
+  ],
+  "translation": "to abl. from [şefka] hey! (exclamation) passive particle [yadına] to abl. from blade [birze] [darşolta] [Bir] [oriz] shallow safe [ima] to gen. by, because of, of [sere] [ses] [na] fur [moe] [Bu] fast [ana] nothing vosm’ [Ana] [da] [ineriz] [Cevasko] tree that can blossom [maravoshi] [yavrshi] [veyavara] [Yer] fire [yorak] failure [safra] flash, sparkle young goat, kid [Ajalana] learner [aşer] pika [Ana] nothing vosm’ [Elfah] young male horse [atmadan] five [orra] valuable [rikron] [hal] ibex to gen. by, because of, of shoe [Hal] ibex horn [Ana] passive particle yes I to all. through, along chin young goat, kid lame, limp southern I to all. through, along fat [Yer] [ana] pomegranate fifteen snake young male horse [ama] [Aşk] [hal] [drivoi] [aşat] shallow fur [sis] [anma] yes, obedient response [Paistofrak] [Atira] [şehez] [meyima] thousand disappointed [halidrivi]"
+}

@@ -90,7 +90,10 @@ class Transcriber:
             path_or_hf_repo=self._repo,
             language=language,
             task=task,
-            word_timestamps=False,  # segment-level is enough for the matcher
+            word_timestamps=False,              # segment-level is enough for the matcher
+            condition_on_previous_text=False,   # prevent hallucination loops
+            compression_ratio_threshold=1.5,    # tighter repetition detection (default 2.4)
+            hallucination_silence_threshold=2.0, # skip hallucinated silent segments
         )
 
         segments = [

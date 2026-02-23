@@ -1,0 +1,98 @@
+{
+  "text": "Her şefka hala ne yadına her eze, birze darşolta. Bir oriz yediği cendere ima eki, sere ses na hale moe. Bu feko ana vosecci. Ana da ineriz Cevasko. Halisi maravoshi, yavrshi veyavara. Yer vosak yorak yeri, safra hali moro. Ajalana şilok, aşer tihoe. Ana vosecci. Elfah manan, atmadan murak orra. Mes'e rikron, hal drogo kibar bozuy. Hal drogo, triva. Ana ne sak, anha ve avok moro. Geçin masak, anha ve oneso. Yer ana zikuy. Mavi cazeri merin ama. Aşk hal drivoi, aşat kaçii, hale sis anma e. Paistofrak. Atira şehez meyima halin yosa halidrivi.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.2,
+      "text": "Her şefka hala ne yadına her eze, birze darşolta."
+    },
+    {
+      "start": 4.2,
+      "end": 9.0,
+      "text": "Bir oriz yediği cendere ima eki, sere ses na hale moe."
+    },
+    {
+      "start": 10.0,
+      "end": 11.6,
+      "text": "Bu feko ana vosecci."
+    },
+    {
+      "start": 11.6,
+      "end": 13.6,
+      "text": "Ana da ineriz Cevasko."
+    },
+    {
+      "start": 13.6,
+      "end": 17.0,
+      "text": "Halisi maravoshi, yavrshi veyavara."
+    },
+    {
+      "start": 19.0,
+      "end": 23.400000000000002,
+      "text": "Yer vosak yorak yeri, safra hali moro."
+    },
+    {
+      "start": 23.400000000000002,
+      "end": 26.0,
+      "text": "Ajalana şilok, aşer tihoe."
+    },
+    {
+      "start": 26.0,
+      "end": 28.0,
+      "text": "Ana vosecci."
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "text": "Elfah manan, atmadan murak orra."
+    },
+    {
+      "start": 32.0,
+      "end": 36.0,
+      "text": "Mes'e rikron, hal drogo kibar bozuy."
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "Hal drogo, triva."
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "Ana ne sak, anha ve avok moro."
+    },
+    {
+      "start": 42.0,
+      "end": 45.0,
+      "text": "Geçin masak, anha ve oneso."
+    },
+    {
+      "start": 45.0,
+      "end": 47.0,
+      "text": "Yer ana zikuy."
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "text": "Mavi cazeri merin ama."
+    },
+    {
+      "start": 50.0,
+      "end": 54.0,
+      "text": "Aşk hal drivoi, aşat kaçii, hale sis anma e."
+    },
+    {
+      "start": 54.0,
+      "end": 56.0,
+      "text": "Paistofrak."
+    },
+    {
+      "start": 56.0,
+      "end": 60.0,
+      "text": "Atira şehez meyima halin yosa halidrivi."
+    }
+  ],
+  "language": "tr",
+  "model": "small",
+  "audio_path": "data/raw/dothraki_short.wav"
+}
