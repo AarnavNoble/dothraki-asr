@@ -5,9 +5,17 @@
     "total_clips": 200,
     "successful": 200,
     "errors": 0,
-    "empty_transcriptions": 48,
-    "nonempty_transcriptions": 152,
-    "empty_rate": 0.24,
+    "hallucinations": 29,
+    "hallucination_rate": 0.145,
+    "quality_distribution": {
+      "low_confidence": 89,
+      "empty": 48,
+      "good": 34,
+      "hallucinated": 29
+    },
+    "empty_transcriptions": 77,
+    "nonempty_transcriptions": 123,
+    "empty_rate": 0.385,
     "language_distribution": {
       "en": 130,
       "th": 32,
@@ -21,10 +29,10 @@
       "pt": 1,
       "id": 1
     },
-    "avg_whisper_output_length": 77.8,
+    "avg_whisper_output_length": 12.8,
     "avg_gt_dothraki_length": 41.2,
-    "translation_coverage": 152,
-    "translation_coverage_rate": 0.76
+    "translation_coverage": 121,
+    "translation_coverage_rate": 0.605
   },
   "results": [
     {
@@ -35,6 +43,8 @@
       "scene": "Requested Translation: From ILLYRIO to DROGO (1)",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -47,6 +57,8 @@
       "scene": "Requested Translation: From ILLYRIO to DROGO (1)",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -59,6 +71,8 @@
       "scene": "Requested Translation: From ILLYRIO to DROGO (2)",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -70,9 +84,11 @@
       "gt_english": "Viserys of the House Targaryen, the third of that name. King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm. His sister Daenerys Stormborn, Princess of Dragonstone. His honorable host, Illyrio Mopatis, Magister of the Free City of Pentos.",
       "scene": "From the 7/12 Script: EUNUCH's Speech",
       "whisper_lang": "he",
-      "whisper_text": "ואוקסי וקח כסוק הלמנה ודבר כחג ונות וצל מובר.",
+      "whisper_text": "ואוקסי וקח כסוק הלמנה ודבש הלג ונות וציל מובע.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to all. through, along [וקח] to all. through, along to gen. by, because of, of smooth yes, obedient response to all. through, along to gen. by, because of, of [מובר.]",
+      "pipeline_translation": "[ואוקסי] [וקח] [כסוק] [הלמנה] [ודבש] [הלג] [ונות] [וציל] [מובע.]",
       "model": "tiny"
     },
     {
@@ -83,8 +99,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
       "whisper_text": "เขาไม่มากกล้องมา",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "smooth",
+      "pipeline_translation": "[เขาไม่มากกล้องมา]",
       "model": "tiny"
     },
     {
@@ -95,6 +113,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Yeah, yeah.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
       "pipeline_translation": "[Yeah] [yeah]",
       "model": "tiny"
@@ -106,9 +126,11 @@
       "gt_english": "Thank you, Great Khal! I have suffered from no sickness, thanks to the sun, the moon and the stars. The sun is bright today! It is pleased by this marriage. Does it please you, Khal?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "สังเข้าไม่บอกสันมามันเป็นกินเข้าไม่เข้า",
-      "num_segments": 1,
-      "pipeline_translation": "smooth",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -119,6 +141,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -130,9 +154,11 @@
       "gt_english": "Indeed, you will, Khal, I promise you! And have you seen your bride yet? She's standing over there, great Khal. Can you see her? She's beautiful, beautiful…!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "he",
-      "whisper_text": "זה ק sagt过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע过 ע",
-      "num_segments": 1,
-      "pipeline_translation": "to abl. from to abl. from [sagt过] to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from to abl. from",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -143,8 +169,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "and hope for.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[and] giddyup! (horse command) [for]",
+      "pipeline_translation": "[and] giddyup! (horse command) [for.]",
       "model": "tiny"
     },
     {
@@ -155,8 +183,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "es",
       "whisper_text": "¡Vos a caume a la maquimoclo!",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[¡Vos] deep smooth yes, obedient response to gen. by, because of, of yes, obedient response",
+      "pipeline_translation": "[¡Vos] [caume] [la] [maquimoclo!]",
       "model": "tiny"
     },
     {
@@ -166,9 +196,11 @@
       "gt_english": "I'll follow you.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "we.",
-      "num_segments": 74,
-      "pipeline_translation": "yes, obedient response",
+      "whisper_text": "Wait....",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "sheep (singular)",
       "model": "tiny"
     },
     {
@@ -178,9 +210,11 @@
       "gt_english": "Marvelous! Come, Mighty Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "คาคาเศื่อ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[คาคาเศื่อ]",
       "model": "tiny"
     },
     {
@@ -191,8 +225,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Paul.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[Paul]",
+      "pipeline_translation": "born",
       "model": "tiny"
     },
     {
@@ -203,8 +239,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "So...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "zero",
+      "pipeline_translation": "[So...]",
       "model": "tiny"
     },
     {
@@ -215,6 +253,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -226,9 +266,11 @@
       "gt_english": "Welcome, Mighty Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "คาเศคาเศค",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[คาเศคาเศค]",
       "model": "tiny"
     },
     {
@@ -238,9 +280,11 @@
       "gt_english": "I present to you: Viserys of the House Targaryen, the third of his name. The Rightful King of the Andals and the First Men, the Lord of the Seven Kingdoms and the Protector of the Realm, presents his sister Daenerys Stormborn, Princess of Dragonstone.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "fr",
-      "whisper_text": "ctttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "en",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "smooth",
+      "pipeline_translation": "[en]",
       "model": "tiny"
     },
     {
@@ -250,9 +294,11 @@
       "gt_english": "Look at her hair!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "tiny",
-      "num_segments": 56,
-      "pipeline_translation": "of mine",
+      "whisper_text": "but not....",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[but] [not....]",
       "model": "tiny"
     },
     {
@@ -262,9 +308,11 @@
       "gt_english": "Her hair is silver like a blade!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "not we has.",
-      "num_segments": 73,
-      "pipeline_translation": "to jog yes, obedient response that (when speaking of an animate object present and directly indicated)",
+      "whisper_text": "not meet others.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[not] he, she, it me orzo! [others]",
       "model": "tiny"
     },
     {
@@ -274,9 +322,11 @@
       "gt_english": "Her eyes are purple like gems!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "เศ้า...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[เศ้า...]",
       "model": "tiny"
     },
     {
@@ -287,8 +337,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Hit the...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[Hit] [the]",
+      "pipeline_translation": "sharp [the...]",
       "model": "tiny"
     },
     {
@@ -299,6 +351,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -311,6 +365,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -322,9 +378,11 @@
       "gt_english": "Hey. Any for me?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Ha ha ha",
-      "num_segments": 1,
-      "pipeline_translation": "to abl. from to abl. from to abl. from",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -334,9 +392,11 @@
       "gt_english": "Do you want to die today?!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "tinytinytinytinytinytinytinytinytinytinytinytinytinyinytinyinytinyinytinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyiny",
+      "whisper_text": "คาเผา",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[tinytinytinytinytinytinytinytinytinytinytinytinytinyinytinyinytinyinytinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyiny]",
+      "pipeline_translation": "[คาเผา]",
       "model": "tiny"
     },
     {
@@ -347,6 +407,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -359,8 +421,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "fr",
       "whisper_text": "Merci.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "and",
+      "pipeline_translation": "[Merci.]",
       "model": "tiny"
     },
     {
@@ -371,6 +435,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -383,6 +449,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -394,9 +462,11 @@
       "gt_english": "No, that's not her…",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashash",
-      "num_segments": 1,
-      "pipeline_translation": "[ashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashashash]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -406,9 +476,11 @@
       "gt_english": "Go there!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
-      "whisper_text": "tt",
-      "num_segments": 1,
-      "pipeline_translation": "one",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -418,9 +490,11 @@
       "gt_english": "Stop!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ko",
-      "whisper_text": "ali",
-      "num_segments": 74,
-      "pipeline_translation": "[ali]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -431,6 +505,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -442,9 +518,11 @@
       "gt_english": "Get away from me, pest!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -454,9 +532,11 @@
       "gt_english": "Help move this!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "we're doing.",
-      "num_segments": 73,
-      "pipeline_translation": "[we're] [doing]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -466,9 +546,11 @@
       "gt_english": "Come help move this!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Late Late",
-      "num_segments": 10,
-      "pipeline_translation": "ghost, adult whose body was not burned ghost, adult whose body was not burned",
+      "whisper_text": "but you...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[but] [you...]",
       "model": "tiny"
     },
     {
@@ -479,6 +561,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -491,6 +575,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -502,9 +588,11 @@
       "gt_english": "Shut up!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "Atop.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "one",
       "model": "tiny"
     },
     {
@@ -515,6 +603,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -527,6 +617,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -538,9 +630,11 @@
       "gt_english": "Never!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Hello.",
-      "num_segments": 74,
-      "pipeline_translation": "gust of wind",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -551,6 +645,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -562,9 +658,11 @@
       "gt_english": "Kill that fool!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "hastttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "and half-tokki....",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[hastttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[and] soft, quiet",
       "model": "tiny"
     },
     {
@@ -574,9 +672,11 @@
       "gt_english": "Bring me his head!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "tinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinyinytinyinyinytinyinyinyinytinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyiny",
+      "whisper_text": "fio<|th|>า",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[tinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinytinyinyinytinyinyinytinyinyinyinytinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyiny]",
+      "pipeline_translation": "turnip",
       "model": "tiny"
     },
     {
@@ -587,8 +687,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
       "whisper_text": "ほらさぁ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to abl. from",
+      "pipeline_translation": "[ほらさぁ]",
       "model": "tiny"
     },
     {
@@ -599,6 +701,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -610,9 +714,11 @@
       "gt_english": "Put the gifts there!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "fear medicar",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[fear] to sew",
       "model": "tiny"
     },
     {
@@ -622,9 +728,11 @@
       "gt_english": "Get the food!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "fxN",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "cloud",
       "model": "tiny"
     },
     {
@@ -635,8 +743,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "or record.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[or] [record]",
+      "pipeline_translation": "[or] two",
       "model": "tiny"
     },
     {
@@ -647,8 +757,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Wait.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[Wait]",
+      "pipeline_translation": "sheep (singular)",
       "model": "tiny"
     },
     {
@@ -658,9 +770,11 @@
       "gt_english": "Silence the horses!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "t",
-      "num_segments": 74,
-      "pipeline_translation": "yes, obedient response",
+      "whisper_text": "but....",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[but....]",
       "model": "tiny"
     },
     {
@@ -670,9 +784,11 @@
       "gt_english": "Let there be drumming!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "subscribe",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[subscribe]",
       "model": "tiny"
     },
     {
@@ -683,6 +799,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -694,9 +812,11 @@
       "gt_english": "Some pathetic fool spit at me while I was walking here, so I took his tongue—and his head with it!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "tinytinytinytinytinytinytinytinytinytinytinytinytinyinytinyinytinyinytinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyiny",
+      "whisper_text": "சิNNNNคาคิf مัf ิตริคหมด國",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[tinytinytinytinytinytinytinytinytinytinytinytinytinyinytinyinytinyinytinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyiny]",
+      "pipeline_translation": "me [مัf] [ิตริคหมด國]",
       "model": "tiny"
     },
     {
@@ -706,9 +826,11 @@
       "gt_english": "Davo! How many girls have you fucked?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "has been kicktttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "and not anything.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "that (when speaking of an animate object present and directly indicated) [been] [kicktttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[and] [not] painful",
       "model": "tiny"
     },
     {
@@ -718,9 +840,11 @@
       "gt_english": "I lost count! There're too many!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "ச้าใจต้อง...",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "morning",
       "model": "tiny"
     },
     {
@@ -731,6 +855,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ko",
       "whisper_text": "계속...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
       "pipeline_translation": "[계속...]",
       "model": "tiny"
@@ -743,6 +869,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Mikhail.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
       "pipeline_translation": "bad, evil",
       "model": "tiny"
@@ -755,8 +883,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Wait.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[Wait]",
+      "pipeline_translation": "sheep (singular)",
       "model": "tiny"
     },
     {
@@ -766,9 +896,11 @@
       "gt_english": "Ha, ha! For the Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "คาคาคา",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[คาคาคา]",
       "model": "tiny"
     },
     {
@@ -778,9 +910,11 @@
       "gt_english": "Your arakh has seen blood today, Tasho!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "சิf跟你 ச้า",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[சิf跟你] [ச้า]",
       "model": "tiny"
     },
     {
@@ -791,8 +925,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Sick, safe ride, good.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "yes yes [ride] [good]",
+      "pipeline_translation": "yes nut (woody seed) one [good]",
       "model": "tiny"
     },
     {
@@ -802,9 +938,11 @@
       "gt_english": "Sakatto! You haven't eaten yet! Eat! Are you a woman?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "zh",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "morning",
+      "whisper_text": "最後一毛槽呢最後一毛槽",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 2,
+      "pipeline_translation": "[最後一毛槽呢最後一毛槽]",
       "model": "tiny"
     },
     {
@@ -814,9 +952,11 @@
       "gt_english": "I will eat all the food here, and my stomach still will not be full! You will see, Mighty Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "มันอาศาศาศาศินมากินบอกขาวเว้",
+      "whisper_text": "บ้านาคาดาฟินมากินบอกคาวเว...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "and",
+      "pipeline_translation": "[บ้านาคาดาฟินมากินบอกคาวเว...]",
       "model": "tiny"
     },
     {
@@ -827,6 +967,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -839,6 +981,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -851,8 +995,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "So...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "zero",
+      "pipeline_translation": "[So...]",
       "model": "tiny"
     },
     {
@@ -862,9 +1008,11 @@
       "gt_english": "Catch it! Catch it!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
-      "whisper_text": "tt",
+      "whisper_text": "槜槜",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "one",
+      "pipeline_translation": "morning",
       "model": "tiny"
     },
     {
@@ -874,9 +1022,11 @@
       "gt_english": "The Khal is pleased.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "tiny",
+      "whisper_text": "ค้าใน",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "of mine",
+      "pipeline_translation": "[ค้าใน]",
       "model": "tiny"
     },
     {
@@ -887,6 +1037,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -899,6 +1051,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -911,6 +1065,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -923,8 +1079,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
       "whisper_text": "ハフィンラスケマイエー",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to abl. from",
+      "pipeline_translation": "[ハフィンラスケマイエー]",
       "model": "tiny"
     },
     {
@@ -934,9 +1092,11 @@
       "gt_english": "Look at those breasts!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Ricktoms.",
-      "num_segments": 55,
-      "pipeline_translation": "[Ricktoms]",
+      "whisper_text": "Big solve.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[Big] dirty",
       "model": "tiny"
     },
     {
@@ -946,9 +1106,11 @@
       "gt_english": "I'd like to take a bite out of those pears!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Maktop hasttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[Maktop] [hasttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -959,8 +1121,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "C'mon.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "patterned, orderly",
+      "pipeline_translation": "rice",
       "model": "tiny"
     },
     {
@@ -970,9 +1134,11 @@
       "gt_english": "I want that one!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "opic.",
-      "num_segments": 74,
-      "pipeline_translation": "[opic]",
+      "whisper_text": "subscribe",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[subscribe]",
       "model": "tiny"
     },
     {
@@ -982,9 +1148,11 @@
       "gt_english": "No! That one's prettier!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "tt",
+      "whisper_text": "Lost.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "one",
+      "pipeline_translation": "disappointed",
       "model": "tiny"
     },
     {
@@ -994,9 +1162,11 @@
       "gt_english": "Fools! That one's the prettiest!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "tt",
+      "whisper_text": "Lost.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "one",
+      "pipeline_translation": "disappointed",
       "model": "tiny"
     },
     {
@@ -1006,9 +1176,11 @@
       "gt_english": "I'm gonna bend her like a sapling!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "de",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "one",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1018,9 +1190,11 @@
       "gt_english": "Eh… Her skinny legs suit you and your skinny dick.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "es",
-      "whisper_text": "¡tinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytinytiny",
+      "whisper_text": "en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en el tema en",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "one",
+      "pipeline_translation": "[en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en] [el] [tema] [en]",
       "model": "tiny"
     },
     {
@@ -1030,9 +1204,11 @@
       "gt_english": "That one will be mine!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Maktt",
-      "num_segments": 4,
-      "pipeline_translation": "five",
+      "whisper_text": "almighty.",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "to rub",
       "model": "tiny"
     },
     {
@@ -1042,9 +1218,11 @@
       "gt_english": "Mount her!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "t",
-      "num_segments": 74,
-      "pipeline_translation": "yes, obedient response",
+      "whisper_text": "subscribe",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[subscribe]",
       "model": "tiny"
     },
     {
@@ -1054,9 +1232,11 @@
       "gt_english": "Unhand my woman, little boy!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "tt",
-      "num_segments": 74,
-      "pipeline_translation": "one",
+      "whisper_text": "Thank you.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "tenth (ordinal, use genitive form if modifying a noun.) [you.]",
       "model": "tiny"
     },
     {
@@ -1066,9 +1246,11 @@
       "gt_english": "Shut your mouth, eunuch! The girl is mine!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "poskly not",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "south [not]",
       "model": "tiny"
     },
     {
@@ -1079,6 +1261,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "zh",
       "whisper_text": "吃咖啡咖啡",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
       "pipeline_translation": "eye",
       "model": "tiny"
@@ -1091,8 +1275,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "I'm a morpht.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[I'm] [a] to sew",
+      "pipeline_translation": "[I'm] to sew",
       "model": "tiny"
     },
     {
@@ -1102,9 +1288,11 @@
       "gt_english": "I will see your blood today, fool!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
-      "whisper_text": "ttご視聴ありがとうございました",
-      "num_segments": 75,
-      "pipeline_translation": "one",
+      "whisper_text": "最後のニャル",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "morning",
       "model": "tiny"
     },
     {
@@ -1115,6 +1303,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1127,6 +1317,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1139,6 +1331,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1151,6 +1345,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Yeah.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
       "pipeline_translation": "[Yeah]",
       "model": "tiny"
@@ -1162,9 +1358,11 @@
       "gt_english": "We're gonna see guts on the ground today!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ko",
-      "whisper_text": "가소 ali",
+      "whisper_text": "자쇼아",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "bodyguard [ali]",
+      "pipeline_translation": "[자쇼아]",
       "model": "tiny"
     },
     {
@@ -1174,9 +1372,11 @@
       "gt_english": "Fight! Fight!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "La la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la",
-      "num_segments": 1,
-      "pipeline_translation": "[La] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la] [la]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1186,9 +1386,11 @@
       "gt_english": "Eviscerate him!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "we.",
-      "num_segments": 74,
-      "pipeline_translation": "yes, obedient response",
+      "whisper_text": "Wait....",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "sheep (singular)",
       "model": "tiny"
     },
     {
@@ -1199,6 +1401,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1211,6 +1415,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1222,9 +1428,11 @@
       "gt_english": "Stand up! Are you a man or a boy?!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Maktttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[Maktttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1234,9 +1442,11 @@
       "gt_english": "Blood! I see blood!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "Go to sleep.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[Go] [to] more",
       "model": "tiny"
     },
     {
@@ -1247,6 +1457,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1258,9 +1470,11 @@
       "gt_english": "He's fallen!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ko",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "ச멜",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 44,
+      "pipeline_translation": "morning",
       "model": "tiny"
     },
     {
@@ -1270,9 +1484,11 @@
       "gt_english": "A great man! A great man!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "มาเฮ้มาเฮ้",
+      "whisper_text": "มาเจ้า มาเจ้า",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "and",
+      "pipeline_translation": "[มาเจ้า] [มาเจ้า]",
       "model": "tiny"
     },
     {
@@ -1282,9 +1498,11 @@
       "gt_english": "Now that's a real man!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Makt",
+      "whisper_text": "HAMA",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "five",
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1294,9 +1512,11 @@
       "gt_english": "Take his bells! They're yours now!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "Thank you.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "tenth (ordinal, use genitive form if modifying a noun.) [you.]",
       "model": "tiny"
     },
     {
@@ -1306,9 +1526,11 @@
       "gt_english": "Fuck that girl!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "tttt",
-      "num_segments": 1,
-      "pipeline_translation": "one",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1319,6 +1541,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1331,8 +1555,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
       "whisper_text": "ハイラスケモキー",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to abl. from",
+      "pipeline_translation": "[ハイラスケモキー]",
       "model": "tiny"
     },
     {
@@ -1343,8 +1569,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Make me win.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "five yes, obedient response [win]",
+      "pipeline_translation": "five [me] [win]",
       "model": "tiny"
     },
     {
@@ -1354,9 +1582,11 @@
       "gt_english": "Ha! The Khal's massive cock is going to split her in two tonight.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "kicktttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[kicktttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1367,6 +1597,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "What?",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
       "pipeline_translation": "[What]",
       "model": "tiny"
@@ -1379,8 +1611,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "May be ours.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "he, she, it me orzo! yes, obedient response blade",
+      "pipeline_translation": "he, she, it me orzo! [be] blade",
       "model": "tiny"
     },
     {
@@ -1391,8 +1625,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "That's it.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[That's] one",
+      "pipeline_translation": "soft [it.]",
       "model": "tiny"
     },
     {
@@ -1403,6 +1639,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1414,9 +1652,11 @@
       "gt_english": "Do you think she bleeds silver?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "ค้าเมื่อ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[ค้าเมื่อ]",
       "model": "tiny"
     },
     {
@@ -1426,9 +1666,11 @@
       "gt_english": "From where?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "tiny",
-      "num_segments": 56,
-      "pipeline_translation": "of mine",
+      "whisper_text": "then....",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[then....]",
       "model": "tiny"
     },
     {
@@ -1438,9 +1680,11 @@
       "gt_english": "Either way, the Khal's gonna ﬁnd out tonight!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "Goodividad.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[Goodividad]",
       "model": "tiny"
     },
     {
@@ -1451,8 +1695,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
       "whisper_text": "คิดมาค่ะ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to gen. by, because of, of",
+      "pipeline_translation": "[คิดมาค่ะ]",
       "model": "tiny"
     },
     {
@@ -1462,9 +1708,11 @@
       "gt_english": "And her thighs!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M",
-      "num_segments": 1,
-      "pipeline_translation": "[M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1474,9 +1722,11 @@
       "gt_english": "I just do not see how that Andahl womb can carry the glorious seed of our Khal…",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1487,8 +1737,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
       "whisper_text": "今",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "morning",
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1499,6 +1751,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1511,6 +1765,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1522,9 +1778,11 @@
       "gt_english": "My life for your life, mighty Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "คาเศ้า...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[คาเศ้า...]",
       "model": "tiny"
     },
     {
@@ -1535,6 +1793,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "ah",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
       "pipeline_translation": "[ah]",
       "model": "tiny"
@@ -1546,9 +1806,11 @@
       "gt_english": "A medallion of the sun for your new moon, my Khal.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "cow.",
-      "num_segments": 74,
-      "pipeline_translation": ", adv. while, when, until, during, then",
+      "whisper_text": "house.",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "sharp",
       "model": "tiny"
     },
     {
@@ -1558,9 +1820,11 @@
       "gt_english": "A swift stallion for your swift arm, great warrior.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "fr",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "Vedic en Amour....",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "one",
+      "pipeline_translation": "[Vedic] [en] [Amour....]",
       "model": "tiny"
     },
     {
@@ -1570,9 +1834,11 @@
       "gt_english": "Violet crystals for her violet eyes, my master.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
-      "whisper_text": "tt",
-      "num_segments": 2,
-      "pipeline_translation": "one",
+      "whisper_text": "たぶんはぁ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[たぶんはぁ]",
       "model": "tiny"
     },
     {
@@ -1582,9 +1848,11 @@
       "gt_english": "A sharp arakh for a sharp son, great rider.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "tashttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "คาคิดต้องเงิ้",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[tashttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[คาคิดต้องเงิ้]",
       "model": "tiny"
     },
     {
@@ -1594,9 +1862,11 @@
       "gt_english": "Painful death to your enemies, master hunter!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "wettt",
+      "whisper_text": "meet us.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[wettt]",
+      "pipeline_translation": "he, she, it me orzo! [us]",
       "model": "tiny"
     },
     {
@@ -1607,6 +1877,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1619,8 +1891,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Hot.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[Hot]",
+      "pipeline_translation": "sharp",
       "model": "tiny"
     },
     {
@@ -1630,9 +1904,11 @@
       "gt_english": "A purple vest for your purple eyes, Beautiful One.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ko",
-      "whisper_text": "ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali ali",
-      "num_segments": 1,
-      "pipeline_translation": "[ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali] [ali]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1642,9 +1918,11 @@
       "gt_english": "The softest fur for the softest skin, Kind One.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "fr",
-      "whisper_text": "Makini ali",
-      "num_segments": 1,
-      "pipeline_translation": "and yes, obedient response",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1655,8 +1933,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "So normally...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "zero female dog",
+      "pipeline_translation": "[So] song",
       "model": "tiny"
     },
     {
@@ -1667,6 +1947,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1679,8 +1961,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Thank you.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "tenth (ordinal, use genitive form if modifying a noun.) [you]",
+      "pipeline_translation": "tenth (ordinal, use genitive form if modifying a noun.) [you.]",
       "model": "tiny"
     },
     {
@@ -1690,9 +1974,11 @@
       "gt_english": "The most beautiful feathers for the most beautiful Khaleesi, Moon Child.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "pt",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "one",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1703,6 +1989,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1714,9 +2002,11 @@
       "gt_english": "On account of your wedding, this gown I give you, Good Khaleesi.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ko",
-      "whisper_text": "김민현.",
-      "num_segments": 73,
-      "pipeline_translation": "[김민현.]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1727,6 +2017,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "ah",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
       "pipeline_translation": "[ah]",
       "model": "tiny"
@@ -1738,9 +2030,11 @@
       "gt_english": "Purple for your purple eyes, Flower Child.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "zh",
-      "whisper_text": "行",
+      "whisper_text": "好的",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[行]",
+      "pipeline_translation": "[好的]",
       "model": "tiny"
     },
     {
@@ -1750,9 +2044,11 @@
       "gt_english": "A whip to bloody the backs of the enemy.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "id",
-      "whisper_text": "hastttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "sister",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[hastttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "saying, prayer",
       "model": "tiny"
     },
     {
@@ -1762,9 +2058,11 @@
       "gt_english": "An arakh to slice through the bones of the enemy.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ali ali",
-      "num_segments": 74,
-      "pipeline_translation": "[ali] [ali]",
+      "whisper_text": "sister sister",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "saying, prayer",
       "model": "tiny"
     },
     {
@@ -1774,9 +2072,11 @@
       "gt_english": "A double-curved dragonbone bow to penetrate the chests of the enemy.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1787,6 +2087,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
       "whisper_text": "ไม่รับก็ยินมากรับบอกสันครับ",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
       "pipeline_translation": "yes, obedient response",
       "model": "tiny"
@@ -1799,6 +2101,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1810,9 +2114,11 @@
       "gt_english": "It pleases me to be able to teach you, Khaleesi.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
-      "whisper_text": "t",
-      "num_segments": 74,
-      "pipeline_translation": "yes, obedient response",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1823,8 +2129,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
       "whisper_text": "มันขอค่ะ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "and",
+      "pipeline_translation": "[มันขอค่ะ]",
       "model": "tiny"
     },
     {
@@ -1835,6 +2143,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1846,9 +2156,11 @@
       "gt_english": "The knight has given the Khaleesi stories from the Seven Kingdoms in the Common Tongue. It is a sentimental gift.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1858,9 +2170,11 @@
       "gt_english": "Goodness, Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "Hello.",
-      "num_segments": 56,
-      "pipeline_translation": "gust of wind",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1870,9 +2184,11 @@
       "gt_english": "They're dragon eggs from the Shadow Lands. Quite beautiful… Trinkets? They please the Khaleesi, you can see. I got a good deal, no?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
-      "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -1882,9 +2198,11 @@
       "gt_english": "Move for the Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "es",
-      "whisper_text": "¡Escala!",
+      "whisper_text": "en el calar.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "smooth",
+      "pipeline_translation": "[en] [el] [calar.]",
       "model": "tiny"
     },
     {
@@ -1894,9 +2212,11 @@
       "gt_english": "Silver for the silver of your hair.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "we.",
-      "num_segments": 74,
-      "pipeline_translation": "yes, obedient response",
+      "whisper_text": "Wait....",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "sheep (singular)",
       "model": "tiny"
     },
     {
@@ -1907,6 +2227,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -1918,9 +2240,11 @@
       "gt_english": "Heh! Can she even ride?",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "คิดภาเมลา",
+      "whisper_text": "คิคคาไม่ล้า....",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to gen. by, because of, of",
+      "pipeline_translation": "[คิคคาไม่ล้า....]",
       "model": "tiny"
     },
     {
@@ -1931,8 +2255,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
       "whisper_text": "ご視聴ありがとうございました",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to gen. by, because of, of",
+      "pipeline_translation": "[ご視聴ありがとうございました]",
       "model": "tiny"
     },
     {
@@ -1942,9 +2268,11 @@
       "gt_english": "Move for the Khaleesi!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ko",
-      "whisper_text": "에스카리 에스카리 에스카리",
+      "whisper_text": "축출되opath",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "smooth smooth [에스카리]",
+      "pipeline_translation": "to gen. over, above",
       "model": "tiny"
     },
     {
@@ -1955,6 +2283,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "May last.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
       "pipeline_translation": "he, she, it me orzo! disappointed",
       "model": "tiny"
@@ -1967,8 +2297,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Talk with all.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "first (ordinal, use genitive form if modifying a noun.) [with] [all]",
+      "pipeline_translation": "fast [with] [all]",
       "model": "tiny"
     },
     {
@@ -1979,8 +2311,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "Amen.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "seed, sperm",
+      "pipeline_translation": "shoulder",
       "model": "tiny"
     },
     {
@@ -1991,6 +2325,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2003,8 +2339,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "ja",
       "whisper_text": "ご視聴ありがとうございました",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to gen. by, because of, of",
+      "pipeline_translation": "[ご視聴ありがとうございました]",
       "model": "tiny"
     },
     {
@@ -2014,9 +2352,11 @@
       "gt_english": "She says you have given her the wind, Great Khal.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "th",
-      "whisper_text": "ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "มีมีอามาทคาวเงิ้",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[มีมีอามาทคาวเงิ้]",
       "model": "tiny"
     },
     {
@@ -2027,6 +2367,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2039,6 +2381,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "How?",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
       "pipeline_translation": "to abl. from",
       "model": "tiny"
@@ -2050,9 +2394,11 @@
       "gt_english": "Hunt well, Khal!",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "forttttt",
-      "num_segments": 2,
-      "pipeline_translation": "to slap",
+      "whisper_text": "Fork house",
+      "is_hallucination": false,
+      "quality": "good",
+      "num_segments": 1,
+      "pipeline_translation": "hunter sharp",
       "model": "tiny"
     },
     {
@@ -2063,8 +2409,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "So...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "zero",
+      "pipeline_translation": "[So...]",
       "model": "tiny"
     },
     {
@@ -2074,9 +2422,11 @@
       "gt_english": "By the sun, moon and stars…",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
-      "whisper_text": "M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M",
-      "num_segments": 1,
-      "pipeline_translation": "[M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M] [M]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -2087,8 +2437,10 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "That's all.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[That's] [all]",
+      "pipeline_translation": "soft [all]",
       "model": "tiny"
     },
     {
@@ -2098,9 +2450,11 @@
       "gt_english": "With this night, I will die happy. With you, I want nothing more; I will call on the ﬁre.",
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "es",
-      "whisper_text": "¡Mana, da, ma, ella, bossa, bossa, bossa, bossa!",
+      "whisper_text": "en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el enra en el en",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "and yes, obedient response [ma,] yes, obedient response [bossa,] yes, obedient response and yes, obedient response",
+      "pipeline_translation": "[en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [enra] [en] [el] [en]",
       "model": "tiny"
     },
     {
@@ -2111,6 +2465,8 @@
       "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2122,9 +2478,11 @@
       "gt_english": "Do you want him to die?",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
-      "whisper_text": "tt",
-      "num_segments": 74,
-      "pipeline_translation": "one",
+      "whisper_text": "H sister",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "saying, prayer",
       "model": "tiny"
     },
     {
@@ -2134,9 +2492,11 @@
       "gt_english": "Do you want him to die, Khaleesi?",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
-      "whisper_text": "tt",
-      "num_segments": 74,
-      "pipeline_translation": "one",
+      "whisper_text": "H sister",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "saying, prayer",
       "model": "tiny"
     },
     {
@@ -2146,9 +2506,11 @@
       "gt_english": "Shall I take his head?",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "th",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "คาทิคาหมอ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[คาทิคาหมอ]",
       "model": "tiny"
     },
     {
@@ -2158,9 +2520,11 @@
       "gt_english": "Do you want his head?",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
-      "whisper_text": "Htt",
-      "num_segments": 74,
-      "pipeline_translation": "one",
+      "whisper_text": "Ha....",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[Ha]",
       "model": "tiny"
     },
     {
@@ -2170,9 +2534,11 @@
       "gt_english": "Shall I take his air?",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "zh",
-      "whisper_text": "tinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyinyiny",
+      "whisper_text": "哈利唐某",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "morning",
+      "pipeline_translation": "[哈利唐某]",
       "model": "tiny"
     },
     {
@@ -2182,9 +2548,11 @@
       "gt_english": "Shall I kill him?",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
-      "whisper_text": "hardt",
-      "num_segments": 74,
-      "pipeline_translation": "[hardt]",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -2195,8 +2563,10 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "Hamid.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "pelt",
+      "pipeline_translation": "rice",
       "model": "tiny"
     },
     {
@@ -2207,8 +2577,10 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "th",
       "whisper_text": "หาไม่",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to abl. from",
+      "pipeline_translation": "[หาไม่]",
       "model": "tiny"
     },
     {
@@ -2218,9 +2590,11 @@
       "gt_english": "Maybe his ear will listen if it's removed from his head.",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "th",
-      "whisper_text": "ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "พี่ค่ะไม่ได้มันค่ะ",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[พี่ค่ะไม่ได้มันค่ะ]",
       "model": "tiny"
     },
     {
@@ -2230,9 +2604,11 @@
       "gt_english": "You should take his ear. That will convince him to be respectful.",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "ko",
-      "whisper_text": "ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "만디",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[만디]",
       "model": "tiny"
     },
     {
@@ -2242,9 +2618,11 @@
       "gt_english": "Take his ear, Khaleesi, and teach him respect!",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
-      "whisper_text": "Mak Mak Mak",
-      "num_segments": 1,
-      "pipeline_translation": "five five five",
+      "whisper_text": "",
+      "is_hallucination": true,
+      "quality": "hallucinated",
+      "num_segments": 0,
+      "pipeline_translation": "",
       "model": "tiny"
     },
     {
@@ -2255,6 +2633,8 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2266,9 +2646,11 @@
       "gt_english": "The Khaleesi doesn't want Viserys harmed.",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "th",
-      "whisper_text": "ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+      "whisper_text": "บอกมันไปเสียนเอง",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "[ตtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt]",
+      "pipeline_translation": "[บอกมันไปเสียนเอง]",
       "model": "tiny"
     },
     {
@@ -2279,6 +2661,8 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2291,8 +2675,10 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "Paul.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "[Paul]",
+      "pipeline_translation": "born",
       "model": "tiny"
     },
     {
@@ -2303,6 +2689,8 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "Yeah.",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
       "pipeline_translation": "[Yeah]",
       "model": "tiny"
@@ -2315,6 +2703,8 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2327,6 +2717,8 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2338,9 +2730,11 @@
       "gt_english": "Take his steed.",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
-      "whisper_text": "tt",
-      "num_segments": 74,
-      "pipeline_translation": "one",
+      "whisper_text": "subscribe",
+      "is_hallucination": false,
+      "quality": "low_confidence",
+      "num_segments": 1,
+      "pipeline_translation": "[subscribe]",
       "model": "tiny"
     },
     {
@@ -2351,6 +2745,8 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2363,8 +2759,10 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "ko",
       "whisper_text": "멈춰",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "and",
+      "pipeline_translation": "[멈춰]",
       "model": "tiny"
     },
     {
@@ -2375,8 +2773,10 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "So...",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "zero",
+      "pipeline_translation": "[So...]",
       "model": "tiny"
     },
     {
@@ -2386,9 +2786,11 @@
       "gt_english": "Full metal.",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "ja",
-      "whisper_text": "tt",
+      "whisper_text": "じゃはは",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "one",
+      "pipeline_translation": "[じゃはは]",
       "model": "tiny"
     },
     {
@@ -2399,6 +2801,8 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
       "whisper_text": "",
+      "is_hallucination": false,
+      "quality": "empty",
       "num_segments": 0,
       "pipeline_translation": "",
       "model": "tiny"
@@ -2411,8 +2815,10 @@
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "th",
       "whisper_text": "ขอจังว่า",
+      "is_hallucination": false,
+      "quality": "low_confidence",
       "num_segments": 1,
-      "pipeline_translation": "to gen. by, because of, of",
+      "pipeline_translation": "[ขอจังว่า]",
       "model": "tiny"
     },
     {
@@ -2422,9 +2828,11 @@
       "gt_english": "Dothraki don't wear steel dresses. Steel dresses—",
       "scene": "Episode 3: Dothraki Dialogue",
       "whisper_lang": "en",
-      "whisper_text": "tt",
+      "whisper_text": "Lost.",
+      "is_hallucination": false,
+      "quality": "good",
       "num_segments": 1,
-      "pipeline_translation": "one",
+      "pipeline_translation": "disappointed",
       "model": "tiny"
     }
   ]
