@@ -52,6 +52,8 @@ def evaluate_batch(entries: list[dict], model: str) -> list[dict]:
                 "scene": entry["scene"],
                 "whisper_lang": result.transcription.language,
                 "whisper_text": result.transcription.text,
+                "is_hallucination": result.transcription.is_hallucination,
+                "quality": result.quality,
                 "num_segments": len(result.transcription.segments),
                 "pipeline_translation": (
                     result.translation.translation if result.translation else ""
@@ -87,6 +89,15 @@ def compute_stats(results: list[dict]) -> dict:
         lang = r["whisper_lang"]
         lang_counts[lang] = lang_counts.get(lang, 0) + 1
 
+    # Hallucination count
+    hallucinations = sum(1 for r in valid if r.get("is_hallucination", False))
+
+    # Quality distribution
+    quality_counts: dict[str, int] = {}
+    for r in valid:
+        q = r.get("quality", "unknown")
+        quality_counts[q] = quality_counts.get(q, 0) + 1
+
     # Empty transcription rate
     empty = sum(1 for r in valid if not r["whisper_text"].strip())
     nonempty = len(valid) - empty
@@ -110,6 +121,11 @@ def compute_stats(results: list[dict]) -> dict:
         "total_clips": len(results),
         "successful": len(valid),
         "errors": len(errors),
+        "hallucinations": hallucinations,
+        "hallucination_rate": hallucinations / len(valid) if valid else 0,
+        "quality_distribution": dict(
+            sorted(quality_counts.items(), key=lambda x: -x[1])
+        ),
         "empty_transcriptions": empty,
         "nonempty_transcriptions": nonempty,
         "empty_rate": empty / len(valid) if valid else 0,
@@ -159,10 +175,15 @@ def main():
     print(f"Total clips:              {stats['total_clips']}")
     print(f"Successful:               {stats['successful']}")
     print(f"Errors:                   {stats['errors']}")
+    print(f"Hallucinations filtered:  {stats['hallucinations']} ({stats['hallucination_rate']:.1%})")
     print(f"Empty transcriptions:     {stats['empty_transcriptions']} ({stats['empty_rate']:.1%})")
     print(f"Avg Whisper output len:   {stats['avg_whisper_output_length']} chars")
     print(f"Avg GT Dothraki len:      {stats['avg_gt_dothraki_length']} chars")
     print(f"Translation coverage:     {stats['translation_coverage_rate']:.1%}")
+    print(f"\nQuality distribution:")
+    for q, count in stats["quality_distribution"].items():
+        pct = count / stats["successful"] * 100
+        print(f"  {q:18s}: {count:4d} ({pct:.1f}%)")
     print(f"\nDetected languages:")
     for lang, count in stats["language_distribution"].items():
         pct = count / stats["successful"] * 100

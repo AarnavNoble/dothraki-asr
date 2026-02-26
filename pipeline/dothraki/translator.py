@@ -41,7 +41,7 @@ class Translator:
     was uncertain.
     """
 
-    def __init__(self, min_confidence: float = 0.4):
+    def __init__(self, min_confidence: float = 0.5):
         self.min_confidence = min_confidence
 
     def translate(self, match_results: list[dict]) -> TranslationResult:
@@ -57,17 +57,35 @@ class Translator:
 
         for entry in match_results:
             original = entry["word"]
+
+            # Skip single-character words (Whisper artifacts like "V", "L")
+            if len(original.strip(".,!?;:\"'")) <= 1:
+                words.append(TranslatedWord(
+                    original=original, dothraki=None, english=None, confidence=0.0,
+                ))
+                continue
+
             matches = entry.get("matches", [])
 
             if matches and matches[0].score >= self.min_confidence:
                 best = matches[0]
+                english = best.english
+
+                # Deduplicate consecutive identical translations
+                if parts and parts[-1] == english:
+                    words.append(TranslatedWord(
+                        original=original, dothraki=best.word,
+                        english=english, confidence=best.score,
+                    ))
+                    continue
+
                 tw = TranslatedWord(
                     original=original,
                     dothraki=best.word,
-                    english=best.english,
+                    english=english,
                     confidence=best.score,
                 )
-                parts.append(best.english)
+                parts.append(english)
             else:
                 score = matches[0].score if matches else 0.0
                 tw = TranslatedWord(

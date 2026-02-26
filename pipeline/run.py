@@ -29,6 +29,7 @@ class PipelineResult:
     transcription: TranscriptionResult
     match_results: list[dict]
     translation: TranslationResult
+    quality: str = "good"  # "good", "low_confidence", "hallucinated", "empty"
 
     def save(self, output_dir: str | Path | None = None) -> Path:
         """Save all pipeline outputs to a directory."""
@@ -45,6 +46,7 @@ class PipelineResult:
         summary = {
             "input": self.input_path,
             "vocals": self.vocals_path,
+            "quality": self.quality,
             "whisper_text": self.transcription.text,
             "whisper_language": self.transcription.language,
             "whisper_model": self.transcription.model,
@@ -111,13 +113,28 @@ class Pipeline:
         # 2. Zero-shot ASR
         transcription = self.transcriber.transcribe(vocals_path, language=language)
 
-        # 3. Phoneme matching
-        match_results = self.matcher.match_transcription(
-            transcription, top_k=self.top_k
-        )
-
-        # 4. Translation
-        translation = self.translator.translate(match_results)
+        # 3. Quality gate — skip matching/translation for garbage input
+        if transcription.is_hallucination:
+            quality = "hallucinated"
+            match_results: list[dict] = []
+            translation = TranslationResult(words=[], translation="")
+        elif not transcription.text.strip():
+            quality = "empty"
+            match_results = []
+            translation = TranslationResult(words=[], translation="")
+        else:
+            # 3a. Phoneme matching
+            match_results = self.matcher.match_transcription(
+                transcription, top_k=self.top_k
+            )
+            # 3b. Translation
+            translation = self.translator.translate(match_results)
+            # Classify quality based on translation confidence
+            if translation.words:
+                avg_conf = sum(w.confidence for w in translation.words) / len(translation.words)
+                quality = "good" if avg_conf >= 0.4 else "low_confidence"
+            else:
+                quality = "low_confidence"
 
         result = PipelineResult(
             input_path=str(input_path),
@@ -125,6 +142,7 @@ class Pipeline:
             transcription=transcription,
             match_results=match_results,
             translation=translation,
+            quality=quality,
         )
 
         if save:

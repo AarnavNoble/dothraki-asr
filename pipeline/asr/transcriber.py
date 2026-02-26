@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
@@ -33,6 +34,7 @@ class TranscriptionResult:
     language: str | None   # ISO-639-1 code detected by Whisper (e.g. "tr", "ar")
     model: str
     audio_path: str        # stored as str for JSON serialisability
+    is_hallucination: bool = False  # True if post-hoc filter flagged this as garbage
 
     def save(self, output_path: str | Path | None = None) -> Path:
         """Persist result as JSON.  Defaults to RESULTS_DIR/<audio_stem>.json."""
@@ -47,6 +49,35 @@ class TranscriptionResult:
             json.dump(asdict(self), fh, ensure_ascii=False, indent=2)
 
         return output_path
+
+
+def _detect_hallucination(text: str) -> bool:
+    """Detect common Whisper hallucination patterns.
+
+    Returns True if text looks like a hallucination:
+    - Token repetition: any single token is >40% of all tokens (e.g. "qu qu qu qu")
+    - Long gibberish: a single "word" >30 chars with no spaces (ALL-CAPS garble)
+    """
+    text = text.strip()
+    if not text:
+        return False
+
+    # Long gibberish: a contiguous run of >30 non-space chars
+    if re.search(r'\S{31,}', text):
+        return True
+
+    # Token repetition: split on whitespace, check frequency
+    tokens = text.lower().split()
+    if len(tokens) < 3:
+        return False
+
+    from collections import Counter
+    counts = Counter(tokens)
+    most_common_count = counts.most_common(1)[0][1]
+    if most_common_count / len(tokens) > 0.4:
+        return True
+
+    return False
 
 
 class Transcriber:
@@ -101,12 +132,16 @@ class Transcriber:
             for s in raw.get("segments", [])
         ]
 
+        full_text = raw["text"].strip()
+        hallucinated = _detect_hallucination(full_text)
+
         result = TranscriptionResult(
-            text=raw["text"].strip(),
-            segments=segments,
+            text="" if hallucinated else full_text,
+            segments=[] if hallucinated else segments,
             language=raw.get("language"),
             model=self.model,
             audio_path=str(audio_path),
+            is_hallucination=hallucinated,
         )
 
         if save_result:
