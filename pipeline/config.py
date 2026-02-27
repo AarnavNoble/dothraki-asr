@@ -9,6 +9,10 @@ RAW_AUDIO_DIR = DATA_DIR / "raw"
 PROCESSED_AUDIO_DIR = DATA_DIR / "processed"
 LEXICON_DIR = DATA_DIR / "lexicon"
 RESULTS_DIR = DATA_DIR / "results"
+FEATURES_DIR = DATA_DIR / "features"
+DIALOGUE_DIR = DATA_DIR / "dialogue"
+SYNTHETIC_DIR = DATA_DIR / "synthetic"
+MODELS_DIR = ROOT_DIR / "models"
 
 # Audio settings
 SAMPLE_RATE = 16000  # Whisper expects 16kHz
