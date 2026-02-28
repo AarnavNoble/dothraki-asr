@@ -7,6 +7,7 @@ Usage:
 
 CLI:
     uv run python -m pipeline.run path/to/got_scene.mp4
+    uv run python -m pipeline.run --strategy embedding data/synthetic/d0001.wav
 """
 
 from __future__ import annotations
@@ -15,21 +16,20 @@ import json
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-from pipeline.asr.transcriber import TranscriptionResult, Transcriber
-from pipeline.audio.separator import VocalSeparator
-from pipeline.config import DEFAULT_WHISPER_MODEL, RESULTS_DIR
-from pipeline.dothraki.matcher import DothrakiMatcher
-from pipeline.dothraki.translator import TranslationResult, Translator
+from pipeline.config import DEFAULT_WHISPER_MODEL, RESULTS_DIR, Strategy
 
 
 @dataclass
 class PipelineResult:
     input_path: str
     vocals_path: str
-    transcription: TranscriptionResult
+    strategy: str
+    transcription: object | None  # TranscriptionResult, None for non-phoneme strategies
     match_results: list[dict]
-    translation: TranslationResult
-    quality: str = "good"  # "good", "low_confidence", "hallucinated", "empty"
+    translation: object | None  # TranslationResult
+    quality: str = "good"
+    clip_matches: list[dict] | None = None  # For embedding/dtw/finetune/ensemble
+    raw_dothraki: str | None = None  # Direct Dothraki output from finetune
 
     def save(self, output_dir: str | Path | None = None) -> Path:
         """Save all pipeline outputs to a directory."""
@@ -40,18 +40,26 @@ class PipelineResult:
 
         stem = Path(self.input_path).stem
 
-        self.transcription.save(output_dir / f"{stem}_transcription.json")
-        self.translation.save(output_dir / f"{stem}_translation.json")
+        if self.transcription is not None:
+            self.transcription.save(output_dir / f"{stem}_transcription.json")
+        if self.translation is not None:
+            self.translation.save(output_dir / f"{stem}_translation.json")
 
         summary = {
             "input": self.input_path,
             "vocals": self.vocals_path,
+            "strategy": self.strategy,
             "quality": self.quality,
-            "whisper_text": self.transcription.text,
-            "whisper_language": self.transcription.language,
-            "whisper_model": self.transcription.model,
-            "translation": self.translation.translation,
-            "words": [
+        }
+
+        if self.transcription is not None:
+            summary["whisper_text"] = self.transcription.text
+            summary["whisper_language"] = self.transcription.language
+            summary["whisper_model"] = self.transcription.model
+
+        if self.translation is not None:
+            summary["translation"] = self.translation.translation
+            summary["words"] = [
                 {
                     "heard": w.original,
                     "dothraki": w.dothraki,
@@ -59,8 +67,14 @@ class PipelineResult:
                     "confidence": w.confidence,
                 }
                 for w in self.translation.words
-            ],
-        }
+            ]
+
+        if self.clip_matches is not None:
+            summary["clip_matches"] = self.clip_matches
+
+        if self.raw_dothraki is not None:
+            summary["raw_dothraki"] = self.raw_dothraki
+
         summary_path = output_dir / f"{stem}_summary.json"
         with open(summary_path, "w", encoding="utf-8") as fh:
             json.dump(summary, fh, ensure_ascii=False, indent=2)
@@ -69,7 +83,7 @@ class PipelineResult:
 
 
 class Pipeline:
-    """Runs the full Dothraki ASR pipeline: audio → ASR → match → translate."""
+    """Runs the Dothraki ASR pipeline with selectable matching strategy."""
 
     def __init__(
         self,
@@ -77,12 +91,51 @@ class Pipeline:
         min_confidence: float = 0.4,
         top_k: int = 5,
         skip_separation: bool = False,
+        strategy: str = "phoneme",
     ):
-        self.separator = None if skip_separation else VocalSeparator()
-        self.transcriber = Transcriber(model=whisper_model)
-        self.matcher = DothrakiMatcher()
-        self.translator = Translator(min_confidence=min_confidence)
+        self.strategy = Strategy(strategy)
         self.top_k = top_k
+        self._skip_separation = skip_separation
+        self._whisper_model = whisper_model
+        self._min_confidence = min_confidence
+
+        # Lazy-init only the components needed for the chosen strategy
+        self._separator = None
+        self._transcriber = None
+        self._matcher = None
+        self._translator = None
+        self._embedding_matcher = None
+        self._sequence_matcher = None
+        self._finetuned_decoder = None
+
+        strategies_needing_phoneme = {Strategy.PHONEME, Strategy.ENSEMBLE}
+        strategies_needing_embedding = {Strategy.EMBEDDING, Strategy.ENSEMBLE}
+        strategies_needing_dtw = {Strategy.DTW, Strategy.ENSEMBLE}
+        strategies_needing_finetune = {Strategy.FINETUNE, Strategy.ENSEMBLE}
+
+        if not skip_separation:
+            from pipeline.audio.separator import VocalSeparator
+            self._separator = VocalSeparator()
+
+        if self.strategy in strategies_needing_phoneme:
+            from pipeline.asr.transcriber import Transcriber
+            from pipeline.dothraki.matcher import DothrakiMatcher
+            from pipeline.dothraki.translator import Translator
+            self._transcriber = Transcriber(model=whisper_model)
+            self._matcher = DothrakiMatcher()
+            self._translator = Translator(min_confidence=min_confidence)
+
+        if self.strategy in strategies_needing_embedding:
+            from pipeline.asr.embedder import EmbeddingMatcher
+            self._embedding_matcher = EmbeddingMatcher()
+
+        if self.strategy in strategies_needing_dtw:
+            from pipeline.dothraki.sequence_matcher import SequenceMatcher
+            self._sequence_matcher = SequenceMatcher()
+
+        if self.strategy in strategies_needing_finetune:
+            from pipeline.asr.finetuned import FinetunedDecoder
+            self._finetuned_decoder = FinetunedDecoder()
 
     def run(
         self,
@@ -90,30 +143,38 @@ class Pipeline:
         language: str | None = None,
         save: bool = True,
     ) -> PipelineResult:
-        """Run the full pipeline on an audio or video file.
-
-        Args:
-            input_path: Path to audio/video with Dothraki speech.
-                        If skip_separation=True, this should be a clean
-                        16 kHz mono WAV (vocals only, no music/SFX).
-            language: Force a Whisper language code (None = auto-detect).
-            save: Write result JSONs to RESULTS_DIR.
-
-        Returns:
-            PipelineResult with all intermediate and final outputs.
-        """
+        """Run the pipeline on an audio or video file."""
         input_path = Path(input_path)
 
-        # 1. Vocal isolation (skip if already clean vocals)
-        if self.separator is not None:
-            vocals_path = self.separator.separate(input_path)
+        # 1. Vocal isolation
+        if self._separator is not None:
+            vocals_path = self._separator.separate(input_path)
         else:
             vocals_path = input_path
 
-        # 2. Zero-shot ASR
-        transcription = self.transcriber.transcribe(vocals_path, language=language)
+        dispatch = {
+            Strategy.PHONEME: self._run_phoneme,
+            Strategy.EMBEDDING: self._run_embedding,
+            Strategy.DTW: self._run_dtw,
+            Strategy.FINETUNE: self._run_finetune,
+            Strategy.ENSEMBLE: self._run_ensemble,
+        }
 
-        # 3. Quality gate — skip matching/translation for garbage input
+        result = dispatch[self.strategy](input_path, vocals_path, language)
+
+        if save:
+            result.save()
+
+        return result
+
+    def _run_phoneme(
+        self, input_path: Path, vocals_path: Path, language: str | None
+    ) -> PipelineResult:
+        """Original phoneme-matching pipeline."""
+        from pipeline.dothraki.translator import TranslationResult
+
+        transcription = self._transcriber.transcribe(vocals_path, language=language)
+
         if transcription.is_hallucination:
             quality = "hallucinated"
             match_results: list[dict] = []
@@ -123,46 +184,191 @@ class Pipeline:
             match_results = []
             translation = TranslationResult(words=[], translation="")
         else:
-            # 3a. Phoneme matching
-            match_results = self.matcher.match_transcription(
+            match_results = self._matcher.match_transcription(
                 transcription, top_k=self.top_k
             )
-            # 3b. Translation
-            translation = self.translator.translate(match_results)
-            # Classify quality based on translation confidence
+            translation = self._translator.translate(match_results)
             if translation.words:
-                avg_conf = sum(w.confidence for w in translation.words) / len(translation.words)
+                avg_conf = sum(w.confidence for w in translation.words) / len(
+                    translation.words
+                )
                 quality = "good" if avg_conf >= 0.4 else "low_confidence"
             else:
                 quality = "low_confidence"
 
-        result = PipelineResult(
+        return PipelineResult(
             input_path=str(input_path),
             vocals_path=str(vocals_path),
+            strategy=self.strategy.value,
             transcription=transcription,
             match_results=match_results,
             translation=translation,
             quality=quality,
         )
 
-        if save:
-            result.save()
+    def _run_embedding(
+        self, input_path: Path, vocals_path: Path, language: str | None
+    ) -> PipelineResult:
+        """Whisper encoder embedding similarity matching."""
+        matches = self._embedding_matcher.match(vocals_path, top_k=self.top_k)
 
-        return result
+        clip_matches = [
+            {
+                "clip_id": m.clip_id,
+                "dothraki": m.dothraki,
+                "english": m.english,
+                "score": m.score,
+                "audio_file": m.audio_file,
+            }
+            for m in matches
+        ]
+
+        # Use top-1 match's English as the translation
+        top_english = matches[0].english if matches else ""
+        quality = "good" if matches and matches[0].score >= 0.5 else "low_confidence"
+
+        return PipelineResult(
+            input_path=str(input_path),
+            vocals_path=str(vocals_path),
+            strategy=self.strategy.value,
+            transcription=None,
+            match_results=[],
+            translation=None,
+            quality=quality,
+            clip_matches=clip_matches,
+            raw_dothraki=matches[0].dothraki if matches else None,
+        )
+
+    def _run_dtw(
+        self, input_path: Path, vocals_path: Path, language: str | None
+    ) -> PipelineResult:
+        """DTW sequence matching on MFCC features."""
+        matches = self._sequence_matcher.match(vocals_path, top_k=self.top_k)
+
+        clip_matches = [
+            {
+                "clip_id": m.clip_id,
+                "dothraki": m.dothraki,
+                "english": m.english,
+                "score": m.score,
+                "dtw_cost": m.dtw_cost,
+                "audio_file": m.audio_file,
+            }
+            for m in matches
+        ]
+
+        top_english = matches[0].english if matches else ""
+        quality = "good" if matches and matches[0].score >= 0.5 else "low_confidence"
+
+        return PipelineResult(
+            input_path=str(input_path),
+            vocals_path=str(vocals_path),
+            strategy=self.strategy.value,
+            transcription=None,
+            match_results=[],
+            translation=None,
+            quality=quality,
+            clip_matches=clip_matches,
+            raw_dothraki=matches[0].dothraki if matches else None,
+        )
+
+    def _run_finetune(
+        self, input_path: Path, vocals_path: Path, language: str | None
+    ) -> PipelineResult:
+        """Fine-tuned Whisper decoder for direct Dothraki output."""
+        result = self._finetuned_decoder.decode(vocals_path)
+
+        quality = "good" if result.text.strip() else "empty"
+
+        return PipelineResult(
+            input_path=str(input_path),
+            vocals_path=str(vocals_path),
+            strategy=self.strategy.value,
+            transcription=None,
+            match_results=[],
+            translation=None,
+            quality=quality,
+            raw_dothraki=result.text,
+        )
+
+    def _run_ensemble(
+        self, input_path: Path, vocals_path: Path, language: str | None
+    ) -> PipelineResult:
+        """Run all strategies and merge results."""
+        phoneme_result = self._run_phoneme(input_path, vocals_path, language)
+        embedding_result = self._run_embedding(input_path, vocals_path, language)
+        dtw_result = self._run_dtw(input_path, vocals_path, language)
+        finetune_result = self._run_finetune(input_path, vocals_path, language)
+
+        # Merge clip matches from embedding and DTW (dedupe by clip_id, keep highest score)
+        seen: dict[str, dict] = {}
+        for match_list in [
+            embedding_result.clip_matches or [],
+            dtw_result.clip_matches or [],
+        ]:
+            for m in match_list:
+                cid = m["clip_id"]
+                if cid not in seen or m["score"] > seen[cid]["score"]:
+                    seen[cid] = m
+
+        merged_matches = sorted(seen.values(), key=lambda x: x["score"], reverse=True)
+
+        # Prefer finetune output for raw_dothraki if non-empty
+        raw_dothraki = finetune_result.raw_dothraki
+        if not raw_dothraki or not raw_dothraki.strip():
+            raw_dothraki = embedding_result.raw_dothraki
+
+        # Quality: best of all strategies
+        qualities = [
+            phoneme_result.quality,
+            embedding_result.quality,
+            dtw_result.quality,
+            finetune_result.quality,
+        ]
+        quality = "good" if "good" in qualities else "low_confidence"
+
+        return PipelineResult(
+            input_path=str(input_path),
+            vocals_path=str(vocals_path),
+            strategy=self.strategy.value,
+            transcription=phoneme_result.transcription,
+            match_results=phoneme_result.match_results,
+            translation=phoneme_result.translation,
+            quality=quality,
+            clip_matches=merged_matches,
+            raw_dothraki=raw_dothraki,
+        )
 
 
 if __name__ == "__main__":
     import sys
 
     if len(sys.argv) < 2:
-        print("Usage: python -m pipeline.run <audio_or_video_path>")
+        print("Usage: python -m pipeline.run [--strategy STRATEGY] <audio_or_video_path>")
         sys.exit(1)
 
-    result = Pipeline().run(sys.argv[1])
-    print(f"\nWhisper heard:  {result.transcription.text}")
-    print(f"Detected lang:  {result.transcription.language}")
-    print(f"\nTranslation:    {result.translation.translation}")
-    print(f"\nPer-word breakdown:")
-    for w in result.translation.words:
-        tag = f"{w.dothraki} → {w.english}" if w.dothraki else "???"
-        print(f"  {w.original:20s}  ({w.confidence:.2f})  {tag}")
+    # Simple arg parsing for CLI
+    strategy = "phoneme"
+    path_arg = sys.argv[1]
+    if sys.argv[1] == "--strategy" and len(sys.argv) >= 4:
+        strategy = sys.argv[2]
+        path_arg = sys.argv[3]
+
+    result = Pipeline(strategy=strategy, skip_separation=True).run(path_arg)
+
+    print(f"\nStrategy: {result.strategy}")
+    if result.transcription is not None:
+        print(f"Whisper heard:  {result.transcription.text}")
+        print(f"Detected lang:  {result.transcription.language}")
+    if result.translation is not None:
+        print(f"\nTranslation:    {result.translation.translation}")
+        print(f"\nPer-word breakdown:")
+        for w in result.translation.words:
+            tag = f"{w.dothraki} → {w.english}" if w.dothraki else "???"
+            print(f"  {w.original:20s}  ({w.confidence:.2f})  {tag}")
+    if result.raw_dothraki:
+        print(f"\nDothraki output: {result.raw_dothraki}")
+    if result.clip_matches:
+        print(f"\nTop clip matches:")
+        for m in result.clip_matches[:5]:
+            print(f"  {m['clip_id']}: {m['dothraki']!r} ({m['score']:.3f})")

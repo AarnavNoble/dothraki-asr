@@ -1,0 +1,1100 @@
+{
+  "strategy": "embedding",
+  "model": "small",
+  "num_clips": 20,
+  "stats": {
+    "total_clips": 20,
+    "successful": 20,
+    "errors": 0,
+    "quality_distribution": {
+      "good": 20
+    },
+    "exact_matches": 16,
+    "exact_match_rate": 0.8,
+    "avg_top_score": 1.0,
+    "min_top_score": 1.0,
+    "max_top_score": 1.0
+  },
+  "results": [
+    {
+      "id": "d0000",
+      "gt_dothraki": "Athchomár chomakaán!",
+      "gt_ipa": "aT.tSo.»mar tSo.ma.ka.»an",
+      "gt_english": "Welcome!",
+      "scene": "Requested Translation: From ILLYRIO to DROGO (1)",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0000",
+          "dothraki": "Athchomár chomakaán!",
+          "english": "Welcome!",
+          "score": 1.0,
+          "audio_file": "d0000.wav"
+        },
+        {
+          "clip_id": "d0856",
+          "dothraki": "Athchomár chomakaán!",
+          "english": "Welcome!",
+          "score": 1.0,
+          "audio_file": "d0856.wav"
+        },
+        {
+          "clip_id": "d0908",
+          "dothraki": "Acchakás hrazéf!",
+          "english": "Silence the horses!",
+          "score": 0.9983211755752563,
+          "audio_file": "d0908.wav"
+        },
+        {
+          "clip_id": "d0052",
+          "dothraki": "Acchakás hrazéf!",
+          "english": "Silence the horses!",
+          "score": 0.9983211755752563,
+          "audio_file": "d0052.wav"
+        },
+        {
+          "clip_id": "d0504",
+          "dothraki": "Ánha ﬁch jin och dranekhosoón. (rs_6.mp3)",
+          "english": "I took this horse from a Qartheen.",
+          "score": 0.9967399835586548,
+          "audio_file": "d0504.wav"
+        }
+      ],
+      "top_match_id": "d0000",
+      "top_match_dothraki": "Athchomár chomakaán!",
+      "top_match_english": "Welcome!",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Athchomár chomakaán!",
+      "exact_match": true,
+      "output_dothraki": "athchomár chomakaán!"
+    },
+    {
+      "id": "d0001",
+      "gt_dothraki": "Athchomár chómakea!",
+      "gt_ipa": "aT.tSo.»mar »tSo.ma.ke.a",
+      "gt_english": "Welcome!",
+      "scene": "Requested Translation: From ILLYRIO to DROGO (1)",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0738",
+          "dothraki": "Athdrivár! (721B_7.mp3)",
+          "english": "Death!",
+          "score": 1.0,
+          "audio_file": "d0738.wav"
+        },
+        {
+          "clip_id": "d1387",
+          "dothraki": "Ahéshke jáda. (gow_11.mp3)",
+          "english": "Winter is coming.",
+          "score": 1.0,
+          "audio_file": "d1387.wav"
+        },
+        {
+          "clip_id": "d0734",
+          "dothraki": "Athdrivár! (721B_7.mp3)",
+          "english": "Death!",
+          "score": 1.0,
+          "audio_file": "d0734.wav"
+        },
+        {
+          "clip_id": "d0735",
+          "dothraki": "Athchekár! (721B_8.mp3)",
+          "english": "Excellent!",
+          "score": 1.0,
+          "audio_file": "d0735.wav"
+        },
+        {
+          "clip_id": "d0737",
+          "dothraki": "Athdavrazár! (611_16.mp3)",
+          "english": "Excellent!",
+          "score": 1.0,
+          "audio_file": "d0737.wav"
+        }
+      ],
+      "top_match_id": "d0738",
+      "top_match_dothraki": "Athdrivár! (721B_7.mp3)",
+      "top_match_english": "Death!",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Athdrivár! (721B_7.mp3)",
+      "exact_match": false,
+      "output_dothraki": "athdrivár! (721b_7.mp3)"
+    },
+    {
+      "id": "d0002",
+      "gt_dothraki": "Vítiheri máe k'áthzalari.",
+      "gt_ipa": "»vi.ti.he.Ri »ma.e »kaT.za.la.Ri",
+      "gt_english": "Inspect her at your leisure.",
+      "scene": "Requested Translation: From ILLYRIO to DROGO (2)",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d1502",
+          "dothraki": "Rhanós! (fs_8.mp3)",
+          "english": "Show no mercy!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1502.wav"
+        },
+        {
+          "clip_id": "d0193",
+          "dothraki": "K'ási sháfki.",
+          "english": "By your word.",
+          "score": 0.9999999403953552,
+          "audio_file": "d0193.wav"
+        },
+        {
+          "clip_id": "d1452",
+          "dothraki": "Jówa! (waf_15.mp3)",
+          "english": "Whoa!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1452.wav"
+        },
+        {
+          "clip_id": "d1184",
+          "dothraki": "Drivós! (826_1.mp3)",
+          "english": "Die!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1184.wav"
+        },
+        {
+          "clip_id": "d1456",
+          "dothraki": "Lájo dávra. (waf_19.mp3)",
+          "english": "Good ﬁght.",
+          "score": 0.9999999403953552,
+          "audio_file": "d1456.wav"
+        }
+      ],
+      "top_match_id": "d1502",
+      "top_match_dothraki": "Rhanós! (fs_8.mp3)",
+      "top_match_english": "Show no mercy!",
+      "top_match_score": 0.9999999403953552,
+      "raw_dothraki": "Rhanós! (fs_8.mp3)",
+      "exact_match": false,
+      "output_dothraki": "rhanós! (fs_8.mp3)"
+    },
+    {
+      "id": "d0003",
+      "gt_dothraki": "Viséris okreseroón Tárgaryeni, senák rek hakesoón: Khal Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi. Inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa. Idrík vichomér máe, Illírio Mofátis, Shilák Vezhvén Váesi Sérisa Féntosi.",
+      "gt_ipa": "vi.»sE.Ris ok.Re.se.Ro.»on »taR.gaR.je.ni se.»nak rek ha.ke.so.»on xal an.»dah.li ma »mah.Ra.Zi »a.ta.ki »ni.So »ra.e.Si an.»dah.li ma vi.dZa.ze.»Rak »va.e.si i.»nav.va »ma.e »da.e.ne.Ris vaz.»jol xa.»lak.ki ne.gwi.no.«on Zav.»vor.sa id.»Rik vi.tSo.»mer »ma.e il.»li.Ri.o mo.»fa.tis Si.»lak veZ.»ven »va.e.si »se.Ri.sa »fen.to.si",
+      "gt_english": "Viserys of the House Targaryen, the third of that name. King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm. His sister Daenerys Stormborn, Princess of Dragonstone. His honorable host, Illyrio Mopatis, Magister of the Free City of Pentos.",
+      "scene": "From the 7/12 Script: EUNUCH's Speech",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0003",
+          "dothraki": "Viséris okreseroón Tárgaryeni, senák rek hakesoón: Khal Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi. Inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa. Idrík vichomér máe, Illírio Mofátis, Shilák Vezhvén Váesi Sérisa Féntosi.",
+          "english": "Viserys of the House Targaryen, the third of that name. King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm. His sister Daenerys Stormborn, Princess of Dragonstone. His honorable host, Illyrio Mopatis, Magister of the Free City of Pentos.",
+          "score": 1.0,
+          "audio_file": "d0003.wav"
+        },
+        {
+          "clip_id": "d0859",
+          "dothraki": "Viséris okreseroón Tárgaryeni, senák rek hakesoón: Khal Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi. Inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa. Idrík vichomér máe, Illírio Mofátis, Shilák Vezhvén Váesi Sérisa Féntosi.",
+          "english": "Viserys of the House Targaryen, the third of that name. King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm. His sister Daenerys Stormborn, Princess of Dragonstone. His honorable host, Illyrio Mopatis, Magister of the Free City of Pentos.",
+          "score": 1.0,
+          "audio_file": "d0859.wav"
+        },
+        {
+          "clip_id": "d0008",
+          "dothraki": "Sek, sháfka vézoe, zhey Khal, ánha asták asqóy! Ma hash sháfka ray tihísh kemokés sháfki? Me kóvara rékke, Khal vezhvén. Hash sháfka laz tíhi máe? Me zhéanae, zhéanae…!",
+          "english": "Indeed, you will, Khal, I promise you! And have you seen your bride yet? She's standing over there, great Khal. Can you see her? She's beautiful, beautiful…!",
+          "score": 0.996575117111206,
+          "audio_file": "d0008.wav"
+        },
+        {
+          "clip_id": "d0864",
+          "dothraki": "Sek, sháfka vézoe, zhey Khal, ánha asták asqóy! Ma hash sháfka ray tihísh kemokés sháfki? Me kóvara rékke, Khal vezhvén. Hash sháfka laz tíhi máe? Me zhéanae, zhéanae…!",
+          "english": "Indeed, you will, Khal, I promise you! And have you seen your bride yet? She's standing over there, great Khal. Can you see her? She's beautiful, beautiful…!",
+          "score": 0.996575117111206,
+          "audio_file": "d0864.wav"
+        },
+        {
+          "clip_id": "d1134",
+          "dothraki": "Majin sháfka ásti anhaán jin: Me jin jerák, jin…aresák rhaeshoón yom Havazzhifoón Kázga kis ídde khaleesiés ma sewaﬁkhoón, ma jin índeo nem ízze? (d21.mp3)",
+          "english": "And so you tell me this: That this merchant, this…coward from the lands across the Black Salt Sea tried to give wine to the Khaleesi, and that this drink was poisoned?",
+          "score": 0.9949610233306885,
+          "audio_file": "d1134.wav"
+        }
+      ],
+      "top_match_id": "d0003",
+      "top_match_dothraki": "Viséris okreseroón Tárgaryeni, senák rek hakesoón: Khal Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi. Inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa. Idrík vichomér máe, Illírio Mofátis, Shilák Vezhvén Váesi Sérisa Féntosi.",
+      "top_match_english": "Viserys of the House Targaryen, the third of that name. King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm. His sister Daenerys Stormborn, Princess of Dragonstone. His honorable host, Illyrio Mopatis, Magister of the Free City of Pentos.",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Viséris okreseroón Tárgaryeni, senák rek hakesoón: Khal Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi. Inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa. Idrík vichomér máe, Illírio Mofátis, Shilák Vezhvén Váesi Sérisa Féntosi.",
+      "exact_match": true,
+      "output_dothraki": "viséris okreseroón tárgaryeni, senák rek hakesoón: khal andáhli ma máhrazhi átaki, nísho rháeshi andáhli ma vijazerák váesi. inávva máe dáeneris vazyól, khalákki negwinoón zhavvórsa. idrík vichomér máe, illírio mofátis, shilák vezhvén váesi sérisa féntosi."
+    },
+    {
+      "id": "d0004",
+      "gt_dothraki": "Khal vezhvén! M'athchomaroón! Ánha qovák háji kovarikhoón sháfki!",
+      "gt_ipa": "xal veZ.»ven maT.tSo.ma.Ro.»on »an.ha qo.»vak »ha.dZi ko.va.Ri.xo.»on »Saf.ki",
+      "gt_english": "Mighty Khal! Hello! I tremble in your presence!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0860",
+          "dothraki": "Khal vezhvén! M'athchomaroón! Ánha qovák háji kovarikhoón sháfki!",
+          "english": "Mighty Khal! Hello! I tremble in your presence!",
+          "score": 1.0,
+          "audio_file": "d0860.wav"
+        },
+        {
+          "clip_id": "d0004",
+          "dothraki": "Khal vezhvén! M'athchomaroón! Ánha qovák háji kovarikhoón sháfki!",
+          "english": "Mighty Khal! Hello! I tremble in your presence!",
+          "score": 1.0,
+          "audio_file": "d0004.wav"
+        },
+        {
+          "clip_id": "d1487",
+          "dothraki": "Ánha vos nesók. Móri févee qoyoón ma athvervenaroón, k'áthtihari. (adr_5.mp3)",
+          "english": "I don't know. It seems they thirst for blood and violence.",
+          "score": 0.9980863332748413,
+          "audio_file": "d1487.wav"
+        },
+        {
+          "clip_id": "d0631",
+          "dothraki": "Ánha vos nesók. Móri févee qoyoón ma athvervenaroón, k'áthtihari. (adr_5.mp3)",
+          "english": "I don't know. It seems they thirst for blood and violence.",
+          "score": 0.9980863332748413,
+          "audio_file": "d0631.wav"
+        },
+        {
+          "clip_id": "d0964",
+          "dothraki": "Hash yer laz tíhi kemokiés?",
+          "english": "Can you see the little bride?",
+          "score": 0.9970279932022095,
+          "audio_file": "d0964.wav"
+        }
+      ],
+      "top_match_id": "d0860",
+      "top_match_dothraki": "Khal vezhvén! M'athchomaroón! Ánha qovák háji kovarikhoón sháfki!",
+      "top_match_english": "Mighty Khal! Hello! I tremble in your presence!",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Khal vezhvén! M'athchomaroón! Ánha qovák háji kovarikhoón sháfki!",
+      "exact_match": true,
+      "output_dothraki": "khal vezhvén! m'athchomaroón! ánha qovák háji kovarikhoón sháfki!"
+    },
+    {
+      "id": "d0005",
+      "gt_dothraki": "Athchomár yeraán, Shilák Vezhvén. Yer shári, k'áthtihari.",
+      "gt_ipa": "aT.tSo.»mar je.Ra.»an Si.»lak veZ.»ven jer »Sa.Ri »kaT.ti.ha.Ri",
+      "gt_english": "Respect to you, Magister. You seem healthy.",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0005",
+          "dothraki": "Athchomár yeraán, Shilák Vezhvén. Yer shári, k'áthtihari.",
+          "english": "Respect to you, Magister. You seem healthy.",
+          "score": 1.0,
+          "audio_file": "d0005.wav"
+        },
+        {
+          "clip_id": "d0861",
+          "dothraki": "Athchomár yeraán, Shilák Vezhvén. Yer shári, k'áthtihari.",
+          "english": "Respect to you, Magister. You seem healthy.",
+          "score": 1.0,
+          "audio_file": "d0861.wav"
+        },
+        {
+          "clip_id": "d0865",
+          "dothraki": "Tíhi vékhi ma anhoón, vosós?",
+          "english": "I have eyes, don't I?",
+          "score": 0.9968659281730652,
+          "audio_file": "d0865.wav"
+        },
+        {
+          "clip_id": "d0009",
+          "dothraki": "Tíhi vékhi ma anhoón, vosós?",
+          "english": "I have eyes, don't I?",
+          "score": 0.9968659281730652,
+          "audio_file": "d0009.wav"
+        },
+        {
+          "clip_id": "d0378",
+          "dothraki": "Yer ifák. Yer ássoo ánna voséchhi! (n829_2.mp3)",
+          "english": "You are a foreigner. You do not command me.",
+          "score": 0.9961910247802734,
+          "audio_file": "d0378.wav"
+        }
+      ],
+      "top_match_id": "d0005",
+      "top_match_dothraki": "Athchomár yeraán, Shilák Vezhvén. Yer shári, k'áthtihari.",
+      "top_match_english": "Respect to you, Magister. You seem healthy.",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Athchomár yeraán, Shilák Vezhvén. Yer shári, k'áthtihari.",
+      "exact_match": true,
+      "output_dothraki": "athchomár yeraán, shilák vezhvén. yer shári, k'áthtihari."
+    },
+    {
+      "id": "d0006",
+      "gt_dothraki": "San áthchomari, Khal Vezhvén! Ánha dógo vos athzhikharoón, háji shekhoón, jalanoón ma shierakoón. Shekh ráhsana asshékh! Me nem állayafa ki jin áthkemari. Hash me állayafa sháfka, zhey Khal?",
+      "gt_ipa": "san »aT.tSo.ma.Ri xal veZ.»ven »an.ha »do.go vos aT.Zi.xa.Ro.»on »ha.dZi Se.xo.»on dZa.la.no.»on ma Si.e.Ra.ko.»on Sex »rah.sa.na aS.»Sex me nem »al.la.ja.fa ki dZin »aT.ke.ma.Ri haS me »al.la.ja.fa »Saf.ka Zej xal",
+      "gt_english": "Thank you, Great Khal! I have suffered from no sickness, thanks to the sun, the moon and the stars. The sun is bright today! It is pleased by this marriage. Does it please you, Khal?",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0862",
+          "dothraki": "San áthchomari, Khal Vezhvén! Ánha dógo vos athzhikharoón, háji shekhoón, jalanoón ma shierakoón. Shekh ráhsana asshékh! Me nem állayafa ki jin áthkemari. Hash me állayafa sháfka, zhey Khal?",
+          "english": "Thank you, Great Khal! I have suffered from no sickness, thanks to the sun, the moon and the stars. The sun is bright today! It is pleased by this marriage. Does it please you, Khal?",
+          "score": 0.9999998807907104,
+          "audio_file": "d0862.wav"
+        },
+        {
+          "clip_id": "d0006",
+          "dothraki": "San áthchomari, Khal Vezhvén! Ánha dógo vos athzhikharoón, háji shekhoón, jalanoón ma shierakoón. Shekh ráhsana asshékh! Me nem állayafa ki jin áthkemari. Hash me állayafa sháfka, zhey Khal?",
+          "english": "Thank you, Great Khal! I have suffered from no sickness, thanks to the sun, the moon and the stars. The sun is bright today! It is pleased by this marriage. Does it please you, Khal?",
+          "score": 0.9999998807907104,
+          "audio_file": "d0006.wav"
+        },
+        {
+          "clip_id": "d0010",
+          "dothraki": "Éste, éste! Vos athzichomezár, Khal Vezhvén! Áse sháfki athdrivár! Ajjín! Hash ánha laz asshilák sháfka kemokoón sháfki?",
+          "english": "Of course, of course! No disrespect, great Khal! Your word is death! Now! May I introduce you to your bride-to-be?",
+          "score": 0.9967315793037415,
+          "audio_file": "d0010.wav"
+        },
+        {
+          "clip_id": "d0866",
+          "dothraki": "Éste, éste! Vos athzichomezár, Khal Vezhvén! Áse sháfki athdrivár! Ajjín! Hash ánha laz asshilák sháfka kemokoón sháfki?",
+          "english": "Of course, of course! No disrespect, great Khal! Your word is death! Now! May I introduce you to your bride-to-be?",
+          "score": 0.9967315793037415,
+          "audio_file": "d0866.wav"
+        },
+        {
+          "clip_id": "d1251",
+          "dothraki": "Me arthás hrazefoón máe. Khal fíni laz vos dóthrao vos khal. (910A_6.mp3)",
+          "english": "He fell from his horse. A khal who cannot ride is no khal.",
+          "score": 0.9966854453086853,
+          "audio_file": "d1251.wav"
+        }
+      ],
+      "top_match_id": "d0862",
+      "top_match_dothraki": "San áthchomari, Khal Vezhvén! Ánha dógo vos athzhikharoón, háji shekhoón, jalanoón ma shierakoón. Shekh ráhsana asshékh! Me nem állayafa ki jin áthkemari. Hash me állayafa sháfka, zhey Khal?",
+      "top_match_english": "Thank you, Great Khal! I have suffered from no sickness, thanks to the sun, the moon and the stars. The sun is bright today! It is pleased by this marriage. Does it please you, Khal?",
+      "top_match_score": 0.9999998807907104,
+      "raw_dothraki": "San áthchomari, Khal Vezhvén! Ánha dógo vos athzhikharoón, háji shekhoón, jalanoón ma shierakoón. Shekh ráhsana asshékh! Me nem állayafa ki jin áthkemari. Hash me állayafa sháfka, zhey Khal?",
+      "exact_match": true,
+      "output_dothraki": "san áthchomari, khal vezhvén! ánha dógo vos athzhikharoón, háji shekhoón, jalanoón ma shierakoón. shekh ráhsana asshékh! me nem állayafa ki jin áthkemari. hash me állayafa sháfka, zhey khal?"
+    },
+    {
+      "id": "d0007",
+      "gt_dothraki": "Kísha vézoki, zhey Shilák.",
+      "gt_ipa": "»ki.Sa »e.zo.ki Zej Si.»lak",
+      "gt_english": "We will ﬁnd out, Magister.",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d1502",
+          "dothraki": "Rhanós! (fs_8.mp3)",
+          "english": "Show no mercy!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1502.wav"
+        },
+        {
+          "clip_id": "d0193",
+          "dothraki": "K'ási sháfki.",
+          "english": "By your word.",
+          "score": 0.9999999403953552,
+          "audio_file": "d0193.wav"
+        },
+        {
+          "clip_id": "d1452",
+          "dothraki": "Jówa! (waf_15.mp3)",
+          "english": "Whoa!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1452.wav"
+        },
+        {
+          "clip_id": "d1184",
+          "dothraki": "Drivós! (826_1.mp3)",
+          "english": "Die!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1184.wav"
+        },
+        {
+          "clip_id": "d1456",
+          "dothraki": "Lájo dávra. (waf_19.mp3)",
+          "english": "Good ﬁght.",
+          "score": 0.9999999403953552,
+          "audio_file": "d1456.wav"
+        }
+      ],
+      "top_match_id": "d1502",
+      "top_match_dothraki": "Rhanós! (fs_8.mp3)",
+      "top_match_english": "Show no mercy!",
+      "top_match_score": 0.9999999403953552,
+      "raw_dothraki": "Rhanós! (fs_8.mp3)",
+      "exact_match": false,
+      "output_dothraki": "rhanós! (fs_8.mp3)"
+    },
+    {
+      "id": "d0008",
+      "gt_dothraki": "Sek, sháfka vézoe, zhey Khal, ánha asták asqóy! Ma hash sháfka ray tihísh kemokés sháfki? Me kóvara rékke, Khal vezhvén. Hash sháfka laz tíhi máe? Me zhéanae, zhéanae…!",
+      "gt_ipa": "sek »Saf.ka »ve.zo.e Zej xal »an.ha as.»tak as.»qoj ma haS »Saf.ka raj ti.»hiS ke.mo.»kes »Saf.ki me »ko.va.Ra »rek.ke xal veZ.»ven haS »Saf.ka laz »ti.hi »ma.e me »Ze.a.na.e »Ze.a.na.e",
+      "gt_english": "Indeed, you will, Khal, I promise you! And have you seen your bride yet? She's standing over there, great Khal. Can you see her? She's beautiful, beautiful…!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0008",
+          "dothraki": "Sek, sháfka vézoe, zhey Khal, ánha asták asqóy! Ma hash sháfka ray tihísh kemokés sháfki? Me kóvara rékke, Khal vezhvén. Hash sháfka laz tíhi máe? Me zhéanae, zhéanae…!",
+          "english": "Indeed, you will, Khal, I promise you! And have you seen your bride yet? She's standing over there, great Khal. Can you see her? She's beautiful, beautiful…!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0008.wav"
+        },
+        {
+          "clip_id": "d0864",
+          "dothraki": "Sek, sháfka vézoe, zhey Khal, ánha asták asqóy! Ma hash sháfka ray tihísh kemokés sháfki? Me kóvara rékke, Khal vezhvén. Hash sháfka laz tíhi máe? Me zhéanae, zhéanae…!",
+          "english": "Indeed, you will, Khal, I promise you! And have you seen your bride yet? She's standing over there, great Khal. Can you see her? She's beautiful, beautiful…!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0864.wav"
+        },
+        {
+          "clip_id": "d0065",
+          "dothraki": "Ánha vadakhák éi hadaén ﬁn jínne, majín gángo zin ónira vos! Sháfka átihi, Khal Vezhvén!",
+          "english": "I will eat all the food here, and my stomach still will not be full! You will see, Mighty Khal!",
+          "score": 0.9970651865005493,
+          "audio_file": "d0065.wav"
+        },
+        {
+          "clip_id": "d0921",
+          "dothraki": "Ánha vadakhák éi hadaén ﬁn jínne, majín gángo zin ónira vos! Sháfka átihi, Khal Vezhvén!",
+          "english": "I will eat all the food here, and my stomach still will not be full! You will see, Mighty Khal!",
+          "score": 0.9970651865005493,
+          "audio_file": "d0921.wav"
+        },
+        {
+          "clip_id": "d0003",
+          "dothraki": "Viséris okreseroón Tárgaryeni, senák rek hakesoón: Khal Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi. Inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa. Idrík vichomér máe, Illírio Mofátis, Shilák Vezhvén Váesi Sérisa Féntosi.",
+          "english": "Viserys of the House Targaryen, the third of that name. King of the Andals and the First Men, Lord of the Seven Kingdoms and Protector of the Realm. His sister Daenerys Stormborn, Princess of Dragonstone. His honorable host, Illyrio Mopatis, Magister of the Free City of Pentos.",
+          "score": 0.996575117111206,
+          "audio_file": "d0003.wav"
+        }
+      ],
+      "top_match_id": "d0008",
+      "top_match_dothraki": "Sek, sháfka vézoe, zhey Khal, ánha asták asqóy! Ma hash sháfka ray tihísh kemokés sháfki? Me kóvara rékke, Khal vezhvén. Hash sháfka laz tíhi máe? Me zhéanae, zhéanae…!",
+      "top_match_english": "Indeed, you will, Khal, I promise you! And have you seen your bride yet? She's standing over there, great Khal. Can you see her? She's beautiful, beautiful…!",
+      "top_match_score": 0.9999998807907104,
+      "raw_dothraki": "Sek, sháfka vézoe, zhey Khal, ánha asták asqóy! Ma hash sháfka ray tihísh kemokés sháfki? Me kóvara rékke, Khal vezhvén. Hash sháfka laz tíhi máe? Me zhéanae, zhéanae…!",
+      "exact_match": true,
+      "output_dothraki": "sek, sháfka vézoe, zhey khal, ánha asták asqóy! ma hash sháfka ray tihísh kemokés sháfki? me kóvara rékke, khal vezhvén. hash sháfka laz tíhi máe? me zhéanae, zhéanae…!"
+    },
+    {
+      "id": "d0009",
+      "gt_dothraki": "Tíhi vékhi ma anhoón, vosós?",
+      "gt_ipa": "»ti.hi »ve.xi an.ho.»on vo.»sos",
+      "gt_english": "I have eyes, don't I?",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0009",
+          "dothraki": "Tíhi vékhi ma anhoón, vosós?",
+          "english": "I have eyes, don't I?",
+          "score": 1.0,
+          "audio_file": "d0009.wav"
+        },
+        {
+          "clip_id": "d0865",
+          "dothraki": "Tíhi vékhi ma anhoón, vosós?",
+          "english": "I have eyes, don't I?",
+          "score": 1.0,
+          "audio_file": "d0865.wav"
+        },
+        {
+          "clip_id": "d1388",
+          "dothraki": "Ahéshke vo dávrao. Vorsáska állayafa ánna. (gow_12.mp3)",
+          "english": "Winter is no good. I like summer.",
+          "score": 0.9986311197280884,
+          "audio_file": "d1388.wav"
+        },
+        {
+          "clip_id": "d1572",
+          "dothraki": "Ahéshke vo dávrao. Vorsáska állayafa ánna. (gow_12.mp3)",
+          "english": "Winter is no good. I like summer.",
+          "score": 0.9986311197280884,
+          "audio_file": "d1572.wav"
+        },
+        {
+          "clip_id": "d0532",
+          "dothraki": "Ahéshke vo dávrao. Vorsáska állayafa ánna. (gow_12.mp3)",
+          "english": "Winter is no good. I like summer.",
+          "score": 0.9986311197280884,
+          "audio_file": "d0532.wav"
+        }
+      ],
+      "top_match_id": "d0009",
+      "top_match_dothraki": "Tíhi vékhi ma anhoón, vosós?",
+      "top_match_english": "I have eyes, don't I?",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Tíhi vékhi ma anhoón, vosós?",
+      "exact_match": true,
+      "output_dothraki": "tíhi vékhi ma anhoón, vosós?"
+    },
+    {
+      "id": "d0010",
+      "gt_dothraki": "Éste, éste! Vos athzichomezár, Khal Vezhvén! Áse sháfki athdrivár! Ajjín! Hash ánha laz asshilák sháfka kemokoón sháfki?",
+      "gt_ipa": "»es.te »es.te vos aT.zi.tSo.me.»zar xal veZ.»ven »a.se »Saf.ki aT.dRi.»var ad.»dZin haS »an.ha laz aS.Si.»lak »Saf.ka ke.mo.ko.»on »Saf.ki",
+      "gt_english": "Of course, of course! No disrespect, great Khal! Your word is death! Now! May I introduce you to your bride-to-be?",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0010",
+          "dothraki": "Éste, éste! Vos athzichomezár, Khal Vezhvén! Áse sháfki athdrivár! Ajjín! Hash ánha laz asshilák sháfka kemokoón sháfki?",
+          "english": "Of course, of course! No disrespect, great Khal! Your word is death! Now! May I introduce you to your bride-to-be?",
+          "score": 0.9999998807907104,
+          "audio_file": "d0010.wav"
+        },
+        {
+          "clip_id": "d0866",
+          "dothraki": "Éste, éste! Vos athzichomezár, Khal Vezhvén! Áse sháfki athdrivár! Ajjín! Hash ánha laz asshilák sháfka kemokoón sháfki?",
+          "english": "Of course, of course! No disrespect, great Khal! Your word is death! Now! May I introduce you to your bride-to-be?",
+          "score": 0.9999998807907104,
+          "audio_file": "d0866.wav"
+        },
+        {
+          "clip_id": "d0004",
+          "dothraki": "Khal vezhvén! M'athchomaroón! Ánha qovák háji kovarikhoón sháfki!",
+          "english": "Mighty Khal! Hello! I tremble in your presence!",
+          "score": 0.9969654083251953,
+          "audio_file": "d0004.wav"
+        },
+        {
+          "clip_id": "d0860",
+          "dothraki": "Khal vezhvén! M'athchomaroón! Ánha qovák háji kovarikhoón sháfki!",
+          "english": "Mighty Khal! Hello! I tremble in your presence!",
+          "score": 0.9969654083251953,
+          "audio_file": "d0860.wav"
+        },
+        {
+          "clip_id": "d0055",
+          "dothraki": "Sindarinák síkhte anhaán kash ánha if jinnaán, majín ánha ﬁch lekh—m'oggoés ákka!",
+          "english": "Some pathetic fool spit at me while I was walking here, so I took his tongue—and his head with it!",
+          "score": 0.9969552755355835,
+          "audio_file": "d0055.wav"
+        }
+      ],
+      "top_match_id": "d0010",
+      "top_match_dothraki": "Éste, éste! Vos athzichomezár, Khal Vezhvén! Áse sháfki athdrivár! Ajjín! Hash ánha laz asshilák sháfka kemokoón sháfki?",
+      "top_match_english": "Of course, of course! No disrespect, great Khal! Your word is death! Now! May I introduce you to your bride-to-be?",
+      "top_match_score": 0.9999998807907104,
+      "raw_dothraki": "Éste, éste! Vos athzichomezár, Khal Vezhvén! Áse sháfki athdrivár! Ajjín! Hash ánha laz asshilák sháfka kemokoón sháfki?",
+      "exact_match": true,
+      "output_dothraki": "éste, éste! vos athzichomezár, khal vezhvén! áse sháfki athdrivár! ajjín! hash ánha laz asshilák sháfka kemokoón sháfki?"
+    },
+    {
+      "id": "d0011",
+      "gt_dothraki": "Ánha vifák yéri.",
+      "gt_ipa": "»an.ha vi.»fak »je.Ri",
+      "gt_english": "I'll follow you.",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0867",
+          "dothraki": "Ánha vifák yéri.",
+          "english": "I'll follow you.",
+          "score": 0.9999998807907104,
+          "audio_file": "d0867.wav"
+        },
+        {
+          "clip_id": "d0611",
+          "dothraki": "Virisserás máe! (mfd_6.mp3)",
+          "english": "Slice him up!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0611.wav"
+        },
+        {
+          "clip_id": "d0952",
+          "dothraki": "Virisserás máe!",
+          "english": "Eviscerate him!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0952.wav"
+        },
+        {
+          "clip_id": "d0096",
+          "dothraki": "Virisserás máe!",
+          "english": "Eviscerate him!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0096.wav"
+        },
+        {
+          "clip_id": "d0329",
+          "dothraki": "Virsás! (826_2.mp3)",
+          "english": "Burn!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0329.wav"
+        }
+      ],
+      "top_match_id": "d0867",
+      "top_match_dothraki": "Ánha vifák yéri.",
+      "top_match_english": "I'll follow you.",
+      "top_match_score": 0.9999998807907104,
+      "raw_dothraki": "Ánha vifák yéri.",
+      "exact_match": true,
+      "output_dothraki": "ánha vifák yéri."
+    },
+    {
+      "id": "d0012",
+      "gt_dothraki": "Athdavrazár! Jádi, Khal Vezhvén!",
+      "gt_ipa": "aT.dav.Ra.»zar »dZa.di xal veZ.»ven",
+      "gt_english": "Marvelous! Come, Mighty Khal!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0868",
+          "dothraki": "Athdavrazár! Jádi, Khal Vezhvén!",
+          "english": "Marvelous! Come, Mighty Khal!",
+          "score": 1.0000001192092896,
+          "audio_file": "d0868.wav"
+        },
+        {
+          "clip_id": "d0012",
+          "dothraki": "Athdavrazár! Jádi, Khal Vezhvén!",
+          "english": "Marvelous! Come, Mighty Khal!",
+          "score": 1.0000001192092896,
+          "audio_file": "d0012.wav"
+        },
+        {
+          "clip_id": "d0980",
+          "dothraki": "Atthirár ánni atthiraraán sháfki, Khal vezhvén!",
+          "english": "My life for your life, mighty Khal!",
+          "score": 0.9983826279640198,
+          "audio_file": "d0980.wav"
+        },
+        {
+          "clip_id": "d0124",
+          "dothraki": "Atthirár ánni atthiraraán sháfki, Khal vezhvén!",
+          "english": "My life for your life, mighty Khal!",
+          "score": 0.9983826279640198,
+          "audio_file": "d0124.wav"
+        },
+        {
+          "clip_id": "d0563",
+          "dothraki": "Jíni asshékh vezhvén. (bng_10.mp3)",
+          "english": "This is an excellent day.",
+          "score": 0.9980032444000244,
+          "audio_file": "d0563.wav"
+        }
+      ],
+      "top_match_id": "d0868",
+      "top_match_dothraki": "Athdavrazár! Jádi, Khal Vezhvén!",
+      "top_match_english": "Marvelous! Come, Mighty Khal!",
+      "top_match_score": 1.0000001192092896,
+      "raw_dothraki": "Athdavrazár! Jádi, Khal Vezhvén!",
+      "exact_match": true,
+      "output_dothraki": "athdavrazár! jádi, khal vezhvén!"
+    },
+    {
+      "id": "d0013",
+      "gt_dothraki": "Hósha, hósha, hosh!",
+      "gt_ipa": "»ho.Sa »ho.Sa hoS",
+      "gt_english": "Hyup, hyup, giddyup!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d1044",
+          "dothraki": "Hósha, hósha, hosh!",
+          "english": "Hyup, hyup, giddyup!",
+          "score": 1.0,
+          "audio_file": "d1044.wav"
+        },
+        {
+          "clip_id": "d0869",
+          "dothraki": "Hósha, hósha, hosh!",
+          "english": "Hyup, hyup, giddyup!",
+          "score": 1.0,
+          "audio_file": "d0869.wav"
+        },
+        {
+          "clip_id": "d0013",
+          "dothraki": "Hósha, hósha, hosh!",
+          "english": "Hyup, hyup, giddyup!",
+          "score": 1.0,
+          "audio_file": "d0013.wav"
+        },
+        {
+          "clip_id": "d0188",
+          "dothraki": "Hósha, hósha, hosh!",
+          "english": "Hyup, hyup, giddyup!",
+          "score": 1.0,
+          "audio_file": "d0188.wav"
+        },
+        {
+          "clip_id": "d0725",
+          "dothraki": "Qorás máe! (918_3.mp3)",
+          "english": "Hold him!",
+          "score": 0.997769832611084,
+          "audio_file": "d0725.wav"
+        }
+      ],
+      "top_match_id": "d1044",
+      "top_match_dothraki": "Hósha, hósha, hosh!",
+      "top_match_english": "Hyup, hyup, giddyup!",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Hósha, hósha, hosh!",
+      "exact_match": true,
+      "output_dothraki": "hósha, hósha, hosh!"
+    },
+    {
+      "id": "d0014",
+      "gt_dothraki": "Soróh!",
+      "gt_ipa": "so.»Roh",
+      "gt_english": "Whoa!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d1025",
+          "dothraki": "Soróh!",
+          "english": "Whoa!",
+          "score": 0.9999998807907104,
+          "audio_file": "d1025.wav"
+        },
+        {
+          "clip_id": "d0870",
+          "dothraki": "Soróh!",
+          "english": "Whoa!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0870.wav"
+        },
+        {
+          "clip_id": "d0014",
+          "dothraki": "Soróh!",
+          "english": "Whoa!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0014.wav"
+        },
+        {
+          "clip_id": "d0169",
+          "dothraki": "Soróh!",
+          "english": "Whoa!",
+          "score": 0.9999998807907104,
+          "audio_file": "d0169.wav"
+        },
+        {
+          "clip_id": "d1597",
+          "dothraki": "Kartás máe sorfosoraán! (pp610_46.mp3)",
+          "english": "Pull it to the ground!",
+          "score": 0.997629702091217,
+          "audio_file": "d1597.wav"
+        }
+      ],
+      "top_match_id": "d1025",
+      "top_match_dothraki": "Soróh!",
+      "top_match_english": "Whoa!",
+      "top_match_score": 0.9999998807907104,
+      "raw_dothraki": "Soróh!",
+      "exact_match": true,
+      "output_dothraki": "soróh!"
+    },
+    {
+      "id": "d0015",
+      "gt_dothraki": "Áffa, áffa, áffa…",
+      "gt_ipa": "»af.fa »af.fa »af.fa",
+      "gt_english": "Easy, easy, easy…",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d1502",
+          "dothraki": "Rhanós! (fs_8.mp3)",
+          "english": "Show no mercy!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1502.wav"
+        },
+        {
+          "clip_id": "d0193",
+          "dothraki": "K'ási sháfki.",
+          "english": "By your word.",
+          "score": 0.9999999403953552,
+          "audio_file": "d0193.wav"
+        },
+        {
+          "clip_id": "d1452",
+          "dothraki": "Jówa! (waf_15.mp3)",
+          "english": "Whoa!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1452.wav"
+        },
+        {
+          "clip_id": "d1184",
+          "dothraki": "Drivós! (826_1.mp3)",
+          "english": "Die!",
+          "score": 0.9999999403953552,
+          "audio_file": "d1184.wav"
+        },
+        {
+          "clip_id": "d1456",
+          "dothraki": "Lájo dávra. (waf_19.mp3)",
+          "english": "Good ﬁght.",
+          "score": 0.9999999403953552,
+          "audio_file": "d1456.wav"
+        }
+      ],
+      "top_match_id": "d1502",
+      "top_match_dothraki": "Rhanós! (fs_8.mp3)",
+      "top_match_english": "Show no mercy!",
+      "top_match_score": 0.9999999403953552,
+      "raw_dothraki": "Rhanós! (fs_8.mp3)",
+      "exact_match": false,
+      "output_dothraki": "rhanós! (fs_8.mp3)"
+    },
+    {
+      "id": "d0016",
+      "gt_dothraki": "Athchomár chomakaán, Khal Vezhvén!",
+      "gt_ipa": "aT.tSo.»mar tSo.ma.ka.»an xal veZ.»ven",
+      "gt_english": "Welcome, Mighty Khal!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0872",
+          "dothraki": "Athchomár chomakaán, Khal Vezhvén!",
+          "english": "Welcome, Mighty Khal!",
+          "score": 1.0,
+          "audio_file": "d0872.wav"
+        },
+        {
+          "clip_id": "d0016",
+          "dothraki": "Athchomár chomakaán, Khal Vezhvén!",
+          "english": "Welcome, Mighty Khal!",
+          "score": 1.0,
+          "audio_file": "d0016.wav"
+        },
+        {
+          "clip_id": "d1307",
+          "dothraki": "Tihatés kísha jin Vezhés fíni Ásaja Rhaesheserés! (919_19.mp3)",
+          "english": "Let's see this Stallion who will Mount the World!",
+          "score": 0.9980981349945068,
+          "audio_file": "d1307.wav"
+        },
+        {
+          "clip_id": "d0451",
+          "dothraki": "Tihatés kísha jin Vezhés fíni Ásaja Rhaesheserés! (919_19.mp3)",
+          "english": "Let's see this Stallion who will Mount the World!",
+          "score": 0.9980981349945068,
+          "audio_file": "d0451.wav"
+        },
+        {
+          "clip_id": "d0420",
+          "dothraki": "Ánha vosoón avvós. Ánha qoy zhavvórsi. (916_6.mp3)",
+          "english": "I have never been nothing. I am the blood of the dragon.",
+          "score": 0.9980956315994263,
+          "audio_file": "d0420.wav"
+        }
+      ],
+      "top_match_id": "d0872",
+      "top_match_dothraki": "Athchomár chomakaán, Khal Vezhvén!",
+      "top_match_english": "Welcome, Mighty Khal!",
+      "top_match_score": 1.0,
+      "raw_dothraki": "Athchomár chomakaán, Khal Vezhvén!",
+      "exact_match": true,
+      "output_dothraki": "athchomár chomakaán, khal vezhvén!"
+    },
+    {
+      "id": "d0017",
+      "gt_dothraki": "be  changed  to  chómakea.  (For  more  on  this  welcome,  see  Requested Translation: From ILLYRIO to DROGO (1).) Ánha asshilák sháfka: Viséris okreseroón Tárgaryeni, senák hakesoón máe. Khal Jil Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi, ásshila inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa.",
+      "gt_ipa": "»an.ha aS.Si.»lak »Saf.ka vi.»sE.Ris ok.Re.se.Ro.»on »taR.gaR.je.ni se.»nak ha.ke.so.»on »ma.e xal dZil an.»dah.li ma »mah.Ra.Zi »a.ta.ki »ni.So »ra.e.Si an.»dah.li ma vi.dZa.ze.»Rak »va.e.si »aS.Si.la i.»nav.va »ma.e »da.e.ne.Ris vaz.»jol xa.»lak.ki ne.gwi.no.«on Zav.»vor.sa",
+      "gt_english": "I present to you: Viserys of the House Targaryen, the third of his name. The Rightful King of the Andals and the First Men, the Lord of the Seven Kingdoms and the Protector of the Realm, presents his sister Daenerys Stormborn, Princess of Dragonstone.",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0873",
+          "dothraki": "be  changed  to  chómakea.  (For  more  on  this  welcome,  see  Requested Translation: From ILLYRIO to DROGO (1).) Ánha asshilák sháfka: Viséris okreseroón Tárgaryeni, senák hakesoón máe. Khal Jil Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi, ásshila inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa.",
+          "english": "I present to you: Viserys of the House Targaryen, the third of his name. The Rightful King of the Andals and the First Men, the Lord of the Seven Kingdoms and the Protector of the Realm, presents his sister Daenerys Stormborn, Princess of Dragonstone.",
+          "score": 0.9999999403953552,
+          "audio_file": "d0873.wav"
+        },
+        {
+          "clip_id": "d0017",
+          "dothraki": "be  changed  to  chómakea.  (For  more  on  this  welcome,  see  Requested Translation: From ILLYRIO to DROGO (1).) Ánha asshilák sháfka: Viséris okreseroón Tárgaryeni, senák hakesoón máe. Khal Jil Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi, ásshila inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa.",
+          "english": "I present to you: Viserys of the House Targaryen, the third of his name. The Rightful King of the Andals and the First Men, the Lord of the Seven Kingdoms and the Protector of the Realm, presents his sister Daenerys Stormborn, Princess of Dragonstone.",
+          "score": 0.9999999403953552,
+          "audio_file": "d0017.wav"
+        },
+        {
+          "clip_id": "d0304",
+          "dothraki": "Lákhi ha khaleesisaán? M'anhoón vékha vírzethi gízikhvena Dornoón, zhey erinák. At lákhi ma sháfka áhakee yal sháfki ma hakesoón ánni. (77_13.mp3)",
+          "english": "A taste for the Khaleesi? I have a sweet red from Dorne, kind one. One taste and you will name your child after me.",
+          "score": 0.9965612292289734,
+          "audio_file": "d0304.wav"
+        },
+        {
+          "clip_id": "d1160",
+          "dothraki": "Lákhi ha khaleesisaán? M'anhoón vékha vírzethi gízikhvena Dornoón, zhey erinák. At lákhi ma sháfka áhakee yal sháfki ma hakesoón ánni. (77_13.mp3)",
+          "english": "A taste for the Khaleesi? I have a sweet red from Dorne, kind one. One taste and you will name your child after me.",
+          "score": 0.9965612292289734,
+          "audio_file": "d1160.wav"
+        },
+        {
+          "clip_id": "d0351",
+          "dothraki": "Kháleesi ﬁch gech tórga anhoón! Jin me et kash ánha jos! Ánha híle yash! Ánha vos afachák vosécchi jin tikh! Me fáti! Kháleesi vázha anhaán qorasókh ánni, che ánha aﬁchák máe m'arakhoón ánni! Jíni athvilajerár! (829_1.mp3)",
+          "english": "The Khaleesi took my bitch right from under me! She did this mid-thrust! I was fucking the air! I will not stand for this! It's an insult! The Khaleesi will give me my spoils, or I will take them with my arakh! This is war!",
+          "score": 0.9960024356842041,
+          "audio_file": "d0351.wav"
+        }
+      ],
+      "top_match_id": "d0873",
+      "top_match_dothraki": "be  changed  to  chómakea.  (For  more  on  this  welcome,  see  Requested Translation: From ILLYRIO to DROGO (1).) Ánha asshilák sháfka: Viséris okreseroón Tárgaryeni, senák hakesoón máe. Khal Jil Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi, ásshila inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa.",
+      "top_match_english": "I present to you: Viserys of the House Targaryen, the third of his name. The Rightful King of the Andals and the First Men, the Lord of the Seven Kingdoms and the Protector of the Realm, presents his sister Daenerys Stormborn, Princess of Dragonstone.",
+      "top_match_score": 0.9999999403953552,
+      "raw_dothraki": "be  changed  to  chómakea.  (For  more  on  this  welcome,  see  Requested Translation: From ILLYRIO to DROGO (1).) Ánha asshilák sháfka: Viséris okreseroón Tárgaryeni, senák hakesoón máe. Khal Jil Andáhli ma Máhrazhi Átaki, Nísho Rháeshi Andáhli ma Vijazerák Váesi, ásshila inávva máe Dáeneris Vazyól, Khalákki Negwinoón Zhavvórsa.",
+      "exact_match": true,
+      "output_dothraki": "be  changed  to  chómakea.  (for  more  on  this  welcome,  see  requested translation: from illyrio to drogo (1).) ánha asshilák sháfka: viséris okreseroón tárgaryeni, senák hakesoón máe. khal jil andáhli ma máhrazhi átaki, nísho rháeshi andáhli ma vijazerák váesi, ásshila inávva máe dáeneris vazyól, khalákki negwinoón zhavvórsa."
+    },
+    {
+      "id": "d0018",
+      "gt_dothraki": "Tihás noréth!",
+      "gt_ipa": "ti.»has no.»ReT",
+      "gt_english": "Look at her hair!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0874",
+          "dothraki": "Tihás noréth!",
+          "english": "Look at her hair!",
+          "score": 0.9999999403953552,
+          "audio_file": "d0874.wav"
+        },
+        {
+          "clip_id": "d0018",
+          "dothraki": "Tihás noréth!",
+          "english": "Look at her hair!",
+          "score": 0.9999999403953552,
+          "audio_file": "d0018.wav"
+        },
+        {
+          "clip_id": "d0116",
+          "dothraki": "Finoón?",
+          "english": "From where?",
+          "score": 0.9975035190582275,
+          "audio_file": "d0116.wav"
+        },
+        {
+          "clip_id": "d0972",
+          "dothraki": "Finoón?",
+          "english": "From where?",
+          "score": 0.9975035190582275,
+          "audio_file": "d0972.wav"
+        },
+        {
+          "clip_id": "d0083",
+          "dothraki": "Réki ávekha m'anhoón!",
+          "english": "That one will be mine!",
+          "score": 0.9972201585769653,
+          "audio_file": "d0083.wav"
+        }
+      ],
+      "top_match_id": "d0874",
+      "top_match_dothraki": "Tihás noréth!",
+      "top_match_english": "Look at her hair!",
+      "top_match_score": 0.9999999403953552,
+      "raw_dothraki": "Tihás noréth!",
+      "exact_match": true,
+      "output_dothraki": "tihás noréth!"
+    },
+    {
+      "id": "d0019",
+      "gt_dothraki": "Noréth vízhada ven az!",
+      "gt_ipa": "no.»ReT »vi.Za.da ven az",
+      "gt_english": "Her hair is silver like a blade!",
+      "scene": "From the 7/12 Script: ILLYRIO's Conversation with KHAL DROGO",
+      "strategy": "embedding",
+      "quality": "good",
+      "model": "small",
+      "clip_matches": [
+        {
+          "clip_id": "d0875",
+          "dothraki": "Noréth vízhada ven az!",
+          "english": "Her hair is silver like a blade!",
+          "score": 1.0000001192092896,
+          "audio_file": "d0875.wav"
+        },
+        {
+          "clip_id": "d0019",
+          "dothraki": "Noréth vízhada ven az!",
+          "english": "Her hair is silver like a blade!",
+          "score": 1.0000001192092896,
+          "audio_file": "d0019.wav"
+        },
+        {
+          "clip_id": "d0968",
+          "dothraki": "Ánha char memé vízhada ven az.",
+          "english": "I heard that it's silver like a blade.",
+          "score": 0.9978679418563843,
+          "audio_file": "d0968.wav"
+        },
+        {
+          "clip_id": "d0112",
+          "dothraki": "Ánha char memé vízhada ven az.",
+          "english": "I heard that it's silver like a blade.",
+          "score": 0.9978679418563843,
+          "audio_file": "d0112.wav"
+        },
+        {
+          "clip_id": "d0160",
+          "dothraki": "Hále! Me laz dóthrae!",
+          "english": "Hey! She can ride!",
+          "score": 0.9976173043251038,
+          "audio_file": "d0160.wav"
+        }
+      ],
+      "top_match_id": "d0875",
+      "top_match_dothraki": "Noréth vízhada ven az!",
+      "top_match_english": "Her hair is silver like a blade!",
+      "top_match_score": 1.0000001192092896,
+      "raw_dothraki": "Noréth vízhada ven az!",
+      "exact_match": true,
+      "output_dothraki": "noréth vízhada ven az!"
+    }
+  ]
+}
