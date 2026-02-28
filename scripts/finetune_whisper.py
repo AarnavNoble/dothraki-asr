@@ -14,6 +14,7 @@ Output: models/whisper-{model}-dothraki/weights.npz
 import argparse
 import json
 import math
+import re
 import sys
 import time
 from pathlib import Path
@@ -32,6 +33,11 @@ from pipeline.config import MODELS_DIR, SYNTHETIC_DIR
 SOT = 50258
 EOT = 50257
 NO_TIMESTAMPS = 50363
+
+
+def clean_target_text(text: str) -> str:
+    """Strip source annotations like (fs_2.mp3) from training targets."""
+    return re.sub(r'\s*\([^)]*\)', '', text).strip()
 
 
 def load_dataset(manifest_path: Path, val_ratio: float = 0.2):
@@ -75,7 +81,7 @@ def prepare_batch(entries, tokenizer, model, synthetic_dir: Path):
         mels.append(mel)
 
         # Tokenize target text: [SOT, NO_TIMESTAMPS, ...text_tokens..., EOT]
-        text_tokens = tokenizer.encode(entry["dothraki"])
+        text_tokens = tokenizer.encode(clean_target_text(entry["dothraki"]))
         full_tokens = [SOT, NO_TIMESTAMPS] + text_tokens + [EOT]
         all_tokens.append(full_tokens)
 
@@ -163,16 +169,32 @@ def main():
     model = load_model(repo_map[args.model])
     tokenizer = get_tokenizer(multilingual=True)
 
-    # Freeze encoder
+    # Cast decoder to float32 for training stability
+    # (MLX Whisper models load as float16 which overflows during optimizer updates)
+    def to_float32(params):
+        if isinstance(params, mx.array):
+            return params.astype(mx.float32)
+        elif isinstance(params, dict):
+            return {k: to_float32(v) for k, v in params.items()}
+        elif isinstance(params, list):
+            return [to_float32(v) for v in params]
+        return params
+
+    model.decoder.update(to_float32(model.decoder.parameters()))
+    print("Cast decoder to float32 for training stability")
+
+    # Freeze encoder (stays float16 — no gradients needed)
     model.encoder.freeze()
-    trainable = sum(p.size for _, p in model.trainable_parameters())
-    total = sum(p.size for _, p in model.parameters())
-    print(f"Parameters: {total:,} total, {trainable:,} trainable (decoder only)")
+    trainable_params = dict(nn.utils.tree_flatten(model.trainable_parameters()))
+    all_params = dict(nn.utils.tree_flatten(model.parameters()))
+    trainable = sum(v.size for v in trainable_params.values())
+    total = sum(v.size for v in all_params.values())
+    print(f"Parameters: {total:,} total, {trainable:,} trainable (decoder only)", flush=True)
 
     # Load dataset
     manifest_path = SYNTHETIC_DIR / "manifest.json"
     train_entries, val_entries = load_dataset(manifest_path, args.val_ratio)
-    print(f"Dataset: {len(train_entries)} train, {len(val_entries)} val")
+    print(f"Dataset: {len(train_entries)} train, {len(val_entries)} val", flush=True)
 
     # Optimizer with cosine decay
     n_steps = (len(train_entries) // args.batch_size) * args.epochs
@@ -186,8 +208,8 @@ def main():
     output_dir = MODELS_DIR / f"whisper-{args.model}-dothraki"
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"\nTraining for {args.epochs} epochs, {n_steps} steps...")
-    print(f"Output: {output_dir}\n")
+    print(f"\nTraining for {args.epochs} epochs, {n_steps} steps...", flush=True)
+    print(f"Output: {output_dir}\n", flush=True)
 
     global_step = 0
     for epoch in range(args.epochs):
@@ -216,9 +238,9 @@ def main():
             n_batches += 1
             global_step += 1
 
-            if global_step % 50 == 0:
+            if global_step % 10 == 0:
                 avg = epoch_loss / n_batches
-                print(f"  step {global_step}: loss={avg:.4f}")
+                print(f"  step {global_step}/{n_steps}: loss={avg:.4f}", flush=True)
 
         # Epoch stats
         train_loss = epoch_loss / max(n_batches, 1)
