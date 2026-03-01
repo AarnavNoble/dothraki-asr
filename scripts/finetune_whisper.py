@@ -112,17 +112,29 @@ def compute_loss(model, mel, tokens_in, tokens_out):
     # Decode
     logits = model.decoder(tokens_in, audio_features)[0]  # (batch, seq_len, vocab)
 
-    # Cross-entropy loss (ignore padding = EOT token)
-    # Reshape for cross_entropy
+    # Cross-entropy loss with EOT upweighting
+    # Target sequence: [NO_TIMESTAMPS, ...text_tokens..., EOT, EOT, EOT, ...]
+    # First EOT per sequence = real stop signal (upweight 5x)
+    # Subsequent EOTs = padding (mask out)
     batch, seq_len, vocab = logits.shape
     logits_flat = logits.reshape(-1, vocab)
     targets_flat = tokens_out.reshape(-1)
 
-    # Mask: don't penalize predictions where target is EOT (padding)
-    mask = (targets_flat != EOT).astype(mx.float32)
+    # Build per-position weights: 1.0 for text, 5.0 for first EOT, 0.0 for padding EOTs
+    is_eot = (tokens_out == EOT).astype(mx.float32)  # (batch, seq_len)
+    # Cumulative sum along seq axis: first EOT position has cumsum=1, rest >1
+    eot_cumsum = mx.cumsum(is_eot, axis=1)
+    first_eot = (eot_cumsum == 1.0) & (is_eot == 1.0)  # (batch, seq_len)
+    padding = (eot_cumsum > 1.0)  # everything after first EOT
+
+    eot_weight = 5.0
+    weights = mx.ones_like(is_eot)  # start with 1.0 for all text tokens
+    weights = mx.where(first_eot, eot_weight, weights)  # 5.0 on first EOT
+    weights = mx.where(padding, 0.0, weights)  # 0.0 on padding
+    weights_flat = weights.reshape(-1)
 
     loss = nn.losses.cross_entropy(logits_flat, targets_flat, reduction="none")
-    loss = (loss * mask).sum() / mx.maximum(mask.sum(), mx.array(1.0))
+    loss = (loss * weights_flat).sum() / mx.maximum(weights_flat.sum(), mx.array(1.0))
 
     return loss
 
@@ -150,9 +162,9 @@ def main():
     parser = argparse.ArgumentParser(description="Fine-tune Whisper on Dothraki")
     parser.add_argument("--model", default="tiny", choices=["tiny", "base"],
                         help="Base Whisper model")
-    parser.add_argument("--epochs", type=int, default=10)
+    parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--batch-size", type=int, default=8)
-    parser.add_argument("--lr", type=float, default=1e-4)
+    parser.add_argument("--lr", type=float, default=5e-5)
     parser.add_argument("--val-ratio", type=float, default=0.2)
     args = parser.parse_args()
 
