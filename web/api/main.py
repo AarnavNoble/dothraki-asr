@@ -94,7 +94,9 @@ def get_demo_clips():
     clips = [entry for entry in manifest if entry["id"] in DEMO_CLIP_IDS]
     # Also add raw audio files as demo clips
     raw_clips = []
-    for p in sorted(RAW_DIR.glob("*.wav")):
+    for p in sorted(RAW_DIR.glob("*")):
+        if p.suffix.lower() not in (".wav", ".mp3", ".flac", ".ogg", ".m4a"):
+            continue
         raw_clips.append(
             {
                 "id": f"raw_{p.stem}",
@@ -106,7 +108,8 @@ def get_demo_clips():
         )
     for clip in clips:
         clip["category"] = "synthetic"
-    return {"clips": clips + raw_clips[:2]}
+    # Real clips first so they appear at the top
+    return {"clips": raw_clips + clips}
 
 
 @app.get("/api/audio/{category}/{filename}")
@@ -128,7 +131,15 @@ def get_audio(category: str, filename: str):
     except ValueError:
         raise HTTPException(status_code=403, detail="Access denied")
 
-    return FileResponse(audio_path, media_type="audio/wav")
+    media_types = {
+        ".wav": "audio/wav",
+        ".mp3": "audio/mpeg",
+        ".flac": "audio/flac",
+        ".ogg": "audio/ogg",
+        ".m4a": "audio/mp4",
+    }
+    media_type = media_types.get(audio_path.suffix.lower(), "audio/wav")
+    return FileResponse(audio_path, media_type=media_type)
 
 
 @app.post("/api/transcribe")
