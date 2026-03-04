@@ -135,7 +135,13 @@ class Pipeline:
 
         if self.strategy in strategies_needing_finetune:
             from pipeline.asr.finetuned import FinetunedDecoder
-            self._finetuned_decoder = FinetunedDecoder()
+            from pipeline.config import finetune_model_dir
+            # Use fine-tuned model for the requested whisper size if available
+            ft_dir = finetune_model_dir(whisper_model)
+            if ft_dir.exists():
+                self._finetuned_decoder = FinetunedDecoder(model_size=whisper_model)
+            else:
+                self._finetuned_decoder = FinetunedDecoder()  # falls back to tiny
 
     def run(
         self,

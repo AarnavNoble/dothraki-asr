@@ -160,10 +160,12 @@ def evaluate(model, val_entries, tokenizer, synthetic_dir, batch_size):
 
 def main():
     parser = argparse.ArgumentParser(description="Fine-tune Whisper on Dothraki")
-    parser.add_argument("--model", default="tiny", choices=["tiny", "base"],
+    parser.add_argument("--model", default="tiny",
+                        choices=["tiny", "base", "small", "medium"],
                         help="Base Whisper model")
     parser.add_argument("--epochs", type=int, default=20)
-    parser.add_argument("--batch-size", type=int, default=8)
+    parser.add_argument("--batch-size", type=int, default=None,
+                        help="Batch size (default: 8 for tiny/base, 4 for small, 2 for medium)")
     parser.add_argument("--lr", type=float, default=5e-5)
     parser.add_argument("--val-ratio", type=float, default=0.2)
     args = parser.parse_args()
@@ -175,7 +177,14 @@ def main():
     repo_map = {
         "tiny": "mlx-community/whisper-tiny-mlx",
         "base": "mlx-community/whisper-base-mlx",
+        "small": "mlx-community/whisper-small-mlx",
+        "medium": "mlx-community/whisper-medium-mlx",
     }
+
+    # Default batch sizes per model to avoid OOM on larger models
+    default_batch_sizes = {"tiny": 8, "base": 8, "small": 4, "medium": 2}
+    if args.batch_size is None:
+        args.batch_size = default_batch_sizes[args.model]
 
     print(f"Loading whisper-{args.model}...")
     model = load_model(repo_map[args.model])
@@ -209,7 +218,8 @@ def main():
     print(f"Dataset: {len(train_entries)} train, {len(val_entries)} val", flush=True)
 
     # Optimizer with cosine decay
-    n_steps = (len(train_entries) // args.batch_size) * args.epochs
+    steps_per_epoch = max(1, len(train_entries) // args.batch_size)
+    n_steps = steps_per_epoch * args.epochs
     warmup_steps = min(100, n_steps // 10)
     schedule = opt.cosine_decay(args.lr, n_steps, 1e-6)
     optimizer = opt.AdamW(learning_rate=schedule)

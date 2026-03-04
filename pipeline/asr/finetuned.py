@@ -13,7 +13,7 @@ from pathlib import Path
 
 import mlx.core as mx
 
-from pipeline.config import FINETUNE_MODEL_DIR
+from pipeline.config import FINETUNE_MODEL_DIR, finetune_model_dir
 
 # Whisper special tokens
 SOT = 50258
@@ -33,8 +33,13 @@ class FinetuneResult:
 class FinetunedDecoder:
     """Greedy decoder using fine-tuned Whisper weights for Dothraki."""
 
-    def __init__(self, model_dir: str | Path | None = None):
-        self._model_dir = Path(model_dir) if model_dir else FINETUNE_MODEL_DIR
+    def __init__(self, model_dir: str | Path | None = None, model_size: str | None = None):
+        if model_dir:
+            self._model_dir = Path(model_dir)
+        elif model_size:
+            self._model_dir = finetune_model_dir(model_size)
+        else:
+            self._model_dir = FINETUNE_MODEL_DIR
         self._model = None
         self._tokenizer = None
 

@@ -24,6 +24,11 @@ SYNTHETIC_DIR = DATA_DIR / "synthetic"
 MODELS_DIR = ROOT_DIR / "models"
 FINETUNE_MODEL_DIR = MODELS_DIR / "whisper-tiny-dothraki"
 
+
+def finetune_model_dir(model_size: str = "tiny") -> Path:
+    """Return the fine-tuned model directory for a given Whisper size."""
+    return MODELS_DIR / f"whisper-{model_size}-dothraki"
+
 # Audio settings
 SAMPLE_RATE = 16000  # Whisper expects 16kHz
 AUDIO_FORMAT = "wav"
