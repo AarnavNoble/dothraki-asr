@@ -1,5 +1,8 @@
 """
-Synthesize Dothraki audio from IPA transcriptions using espeak-ng.
+[LEGACY] Synthesize Dothraki audio from IPA transcriptions using espeak-ng.
+
+NOTE: This is the legacy formant-based synthesizer. It produces robotic output.
+Use synthesize_xtts.py instead for natural, voice-cloned audio via XTTS v2.
 
 Takes the parsed dialogue entries and generates WAV audio files
 for each entry using espeak-ng's IPA input mode.

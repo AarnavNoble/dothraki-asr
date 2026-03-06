@@ -9,6 +9,7 @@ import StrategySelector from "@/components/StrategySelector";
 import Waveform from "@/components/Waveform";
 import TranscribeButton from "@/components/TranscribeButton";
 import Results from "@/components/Results";
+import SpeakDothraki from "@/components/SpeakDothraki";
 import About from "@/components/About";
 import { PipelineResult } from "@/lib/types";
 
@@ -100,6 +101,22 @@ export default function Home() {
       <Hero />
 
       <main className="max-w-4xl mx-auto px-4 pb-16 space-y-10">
+        <motion.section
+          variants={sectionReveal}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          className="glass-panel p-6"
+        >
+          <h2 className="font-serif text-xl text-gold mb-4 gold-accent-bar">
+            Speak Dothraki
+          </h2>
+          <p className="text-warm-muted text-sm mb-4">
+            Type English and hear it spoken in Dothraki with Khal Drogo&apos;s voice
+          </p>
+          <SpeakDothraki />
+        </motion.section>
+
         <motion.section
           variants={sectionReveal}
           initial="hidden"
